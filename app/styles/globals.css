@@ -1,0 +1,371 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ─── Light (default) ──────────────────────────────────── */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Primary = laurel-700 for legibility on white */
+  --primary: #059f00;
+  /* Secondary = warm terracotta accent from the brand mark */
+  --secondary: #c8ff01;
+  /* Accent sits one step brighter for CTA hover/focus states */
+  --accent: #0ad300;
+  --paper: #f5f1e8;
+
+  /* Background tile pattern — very pale laurel wash */
+  --bg-tile-1: #e5ffe0; /* laurel-50 */
+  --bg-tile-2: #ffffff;
+  --bg-size: 300px;
+}
+
+/* ─── Dark (driven by .dark on <html>) ────────────────── */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+
+  /* Primary = laurel-400 for visibility on near-black */
+  --primary: #15ff00;
+  --secondary: #c8ff01;
+  /* Keep the warm-lime accent — the user's chosen dark accent */
+  --accent: #c8ff01;
+  --paper: #141414;
+
+  /* Background tile pattern — deep laurel shadow */
+  --bg-tile-1: #141a13; /* laurel-950 lifted toward neutral */
+  --bg-tile-2: #0a0a0a;
+  --bg-size: 300px;
+}
+
+/* ─── Tailwind bridge ──────────────────────────────────── */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-paper: var(--paper);
+
+  /* ─── Japanese-laurel palette exposed to Tailwind ───── */
+  --color-laurel-50: #e5ffe0;
+  --color-laurel-100: #c4ffbb;
+  --color-laurel-200: #8eff80;
+  --color-laurel-300: #4aff37;
+  --color-laurel-400: #15ff00;
+  --color-laurel-500: #11ff00;
+  --color-laurel-600: #0ad300;
+  --color-laurel-700: #059f00;
+  --color-laurel-800: #037b00;
+  --color-laurel-900: #006600;
+  --color-laurel-950: #003b02;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* ─── Base ──────────────────────────────────────────────── */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+/* ==================================================================
+   ANIMATED BACKGROUND
+   ================================================================== */
+.animated-bg {
+  --s: var(--bg-size);
+  --c1: var(--bg-tile-1);
+  --c2: var(--bg-tile-2);
+
+  --_g: #0000 90deg, var(--c1) 0;
+
+  background:
+    conic-gradient(from 90deg at 2px 2px, var(--_g)),
+    conic-gradient(from 90deg at 1px 1px, var(--_g)), var(--c2);
+
+  background-size:
+    var(--s) var(--s),
+    calc(var(--s) / 5) calc(var(--s) / 5);
+
+  animation: bg-pulse 12s linear infinite;
+}
+
+.animated-bg:hover {
+  animation-play-state: paused;
+}
+
+@keyframes bg-slide {
+  from {
+    background-position:
+      0 0,
+      0 0;
+  }
+  to {
+    background-position:
+      var(--s) var(--s),
+      calc(var(--s) / 5) calc(var(--s) / 5);
+  }
+}
+
+@keyframes bg-pulse {
+  0%,
+  100% {
+    background-size:
+      var(--s) var(--s),
+      calc(var(--s) / 5) calc(var(--s) / 5);
+  }
+  50% {
+    background-size:
+      calc(var(--s) * 1.1) calc(var(--s) * 1.1),
+      calc(var(--s) / 5) calc(var(--s) / 5);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animated-bg {
+    animation: none;
+  }
+}
+
+/* ==================================================================
+   ALERT COMPONENTS
+   ================================================================== */
+@layer components {
+  .alert-item {
+    animation-fill-mode: both;
+  }
+
+  .alert-enter {
+    animation: alert-slide-in 0.35s cubic-bezier(0.21, 1.02, 0.73, 1) both;
+  }
+
+  @keyframes alert-slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(100%) scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+    }
+  }
+
+  .alert-leave {
+    animation: alert-shimmer-out 0.4s cubic-bezier(0.4, 0, 1, 1) both;
+  }
+
+  @keyframes alert-shimmer-out {
+    0% {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+      filter: blur(0);
+    }
+    40% {
+      opacity: 0.7;
+      transform: translateX(0) scale(1.02);
+      filter: blur(1px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(40%) scale(0.9);
+      filter: blur(8px);
+    }
+  }
+
+  .alert-item::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.4) 50%,
+      transparent 100%
+    );
+    transform: translateX(-100%);
+    animation: alert-shimmer-sweep 1.8s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  .alert-leave::before {
+    animation: none;
+  }
+
+  @keyframes alert-shimmer-sweep {
+    0% {
+      transform: translateX(-100%);
+    }
+    60%,
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .alert-progress {
+    animation-name: alert-progress-shrink;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    background: currentColor;
+    opacity: 0.4;
+  }
+
+  @keyframes alert-progress-shrink {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0%;
+    }
+  }
+
+  /* ─── Variants — color-coded ───────────────────────────── */
+  .alert-success {
+    background-color: hsl(142 76% 96%);
+    border-color: hsl(142 71% 45%);
+    color: hsl(142 76% 20%);
+  }
+  .dark .alert-success {
+    background-color: hsl(142 50% 12%);
+    border-color: hsl(142 71% 45%);
+    color: hsl(142 76% 85%);
+  }
+
+  .alert-error {
+    background-color: hsl(0 86% 97%);
+    border-color: hsl(0 84% 60%);
+    color: hsl(0 74% 25%);
+  }
+  .dark .alert-error {
+    background-color: hsl(0 50% 12%);
+    border-color: hsl(0 84% 60%);
+    color: hsl(0 86% 90%);
+  }
+
+  .alert-info {
+    background-color: hsl(217 91% 97%);
+    border-color: hsl(217 91% 60%);
+    color: hsl(217 91% 25%);
+  }
+  .dark .alert-info {
+    background-color: hsl(217 50% 12%);
+    border-color: hsl(217 91% 60%);
+    color: hsl(217 91% 90%);
+  }
+
+  .alert-warning {
+    background-color: hsl(38 92% 96%);
+    border-color: hsl(38 92% 50%);
+    color: hsl(38 74% 25%);
+  }
+  .dark .alert-warning {
+    background-color: hsl(38 50% 12%);
+    border-color: hsl(38 92% 50%);
+    color: hsl(38 92% 88%);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .alert-enter,
+    .alert-leave,
+    .alert-item::before,
+    .alert-progress {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+    }
+  }
+}
+
+/* ==================================================================
+   LASER / ROTATING-GRADIENT BUTTONS
+   ================================================================== */
+.laser-btn {
+  isolation: isolate;
+}
+
+.laser-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.laser-ring::before {
+  content: '';
+  position: absolute;
+  inset: -100%;
+  animation: laser-spin 4s linear infinite;
+}
+
+/* ─── Orange variant — warm beam ──────────────────────── */
+.laser-btn[data-variant='orange'] .laser-ring::before {
+  background: conic-gradient(from 0deg, #ffaf02 20deg, transparent 120deg);
+}
+
+/* ─── Cyan variant — cool beam ────────────────────────── */
+.laser-btn[data-variant='cyan'] .laser-ring::before {
+  background: conic-gradient(from 0deg, #15ff00 20deg, transparent 120deg);
+}
+
+/* ─── Laser variant — multi-color beam ────────────────── */
+.laser-btn[data-variant='laser'] .laser-ring::before {
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    #ad282d 40deg,
+    #0ad300 80deg,
+    #15ff00 120deg,
+    transparent 160deg,
+    transparent 360deg
+  );
+}
+
+.laser-btn[data-variant='laser'] .laser-ring::after {
+  content: '';
+  position: absolute;
+  inset: -100%;
+  background: conic-gradient(
+    from 180deg,
+    transparent 0deg,
+    #22d3ee 40deg,
+    #a855f7 80deg,
+    #f472b6 120deg,
+    transparent 160deg,
+    transparent 360deg
+  );
+  filter: blur(10px);
+  opacity: 0.5;
+  mix-blend-mode: screen;
+  animation: laser-spin 4s linear infinite;
+}
+
+@keyframes laser-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.laser-btn:hover .laser-ring::before {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .laser-ring::before,
+  .laser-ring::after {
+    animation: none;
+  }
+}
+
+.laser-btn:has(input:focus) .laser-ring::before {
+  animation-duration: 2s;
+}

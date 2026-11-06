@@ -1,0 +1,71 @@
+.imageMask {
+  /* color → grayscale on inactivity, done via filter in the component */
+  mask-image: linear-gradient(to bottom, black 0%, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    black 80%,
+    transparent 100%
+  );
+}
+
+.dotGrid {
+  background-image: radial-gradient(
+    circle,
+    rgba(120, 120, 120, 0.25) 1px,
+    transparent 1px
+  );
+  background-size: 24px 24px;
+}
+
+/* RTL-safe underline that draws from the start */
+.drawLine {
+  transform-origin: left center;
+}
+:global([dir='rtl']) .drawLine {
+  transform-origin: right center;
+}
+
+/* ProcessSection.module.css */
+:global(body[data-custom-cursor='true']) {
+  cursor: none;
+}
+:global(body[data-custom-cursor='true']) a,
+:global(body[data-custom-cursor='true']) button {
+  cursor: none;
+}
+
+.imageMask {
+  mask-image: linear-gradient(to bottom, black 0%, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    black 80%,
+    transparent 100%
+  );
+}
+
+.dotGrid {
+  background-image: radial-gradient(
+    circle,
+    rgba(120, 120, 120, 0.25) 1px,
+    transparent 1px
+  );
+  background-size: 24px 24px;
+}
+
+.drawLine {
+  transform-origin: left center;
+}
+:global([dir='rtl']) .drawLine {
+  transform-origin: right center;
+}
+
+/* Hide system cursor while the band is active */
+:global(body[data-custom-cursor='true']) {
+  cursor: none;
+}
+:global(body[data-custom-cursor='true']) a,
+:global(body[data-custom-cursor='true']) button {
+  cursor: none;
+}

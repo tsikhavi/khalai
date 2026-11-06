@@ -1,0 +1,2532 @@
+{
+  "Meta": {
+    "title": "Khalai",
+    "description": "Created by sautis app"
+  },
+  "NotFound": {
+    "eyebrow": "404 · Lost",
+    "title": "This page wandered off.",
+    "body": "The link you followed may be broken, or the page may have moved. It happens. Here are the ways back.",
+    "back": "Go back",
+    "home": "Back to home",
+    "contact": "Contact the studio",
+    "orExplore": "Or explore",
+    "nav": {
+      "studio": "About the studio",
+      "projects": "Recent work",
+      "pricing": "Pricing",
+      "blog": "The journal",
+      "marketing": "Marketing services",
+      "experiences": "Experiences"
+    },
+    "mark": "Khalai Studio",
+    "svgAria": "A lost character wandering through a night market",
+    "hint": "It's dark out there. Let's head somewhere familiar."
+  },
+  "Kitchen": {
+    "kicker": "Dark kitchen · Nairobi",
+    "title": "Cooked here, delivered everywhere.",
+    "body": "A professional kitchen with no dining room. Every dish is prepared for delivery — packed, sealed, and out the door in under 12 minutes. Order through any app, or straight from this page.",
+    "hero": {
+      "order": "Order now",
+      "menu": "See the menu"
+    },
+    "howItWorks": {
+      "title": "How a dark kitchen works",
+      "body": "No storefront, no waiters, no tables. Just a kitchen, a menu, a payment, and a rider. Every step is optimised for food that arrives hot.",
+      "steps": [
+        {
+          "title": "You order",
+          "body": "Through Glovo, Uber Eats, Bolt Food, or directly from this page via WhatsApp."
+        },
+        {
+          "title": "You pay",
+          "body": "M-Pesa STK Push fires instantly. Card, WhatsApp, or cash on delivery also work."
+        },
+        {
+          "title": "We cook",
+          "body": "Order lands in the kitchen screen. Twelve minutes later, it's sealed and bagged."
+        },
+        {
+          "title": "Rider arrives",
+          "body": "Bolt, Uber, or our own rider picks it up and delivers within 25–40 minutes."
+        }
+      ]
+    },
+    "menu": {
+      "title": "The menu",
+      "body": "Small, focused, and built for travel. Every dish is designed to arrive in the same condition it left the kitchen.",
+      "categories": {
+        "mains": "Mains",
+        "bowls": "Bowls",
+        "sides": "Sides",
+        "drinks": "Drinks"
+      },
+      "viewFull": "View the full menu"
+    },
+    "payment": {
+      "title": "Pay by M-Pesa, in seconds",
+      "body": "The default payment is M-Pesa. No card form, no waiting. STK Push fires the moment you confirm, and the kitchen is notified when it clears.",
+      "steps": [
+        "You confirm the order in the checkout screen",
+        "M-Pesa STK Push arrives on your phone",
+        "You enter your PIN — 4 seconds",
+        "Kitchen receives the confirmed payment and starts cooking",
+        "A receipt is sent via SMS and email"
+      ],
+      "note": "Card, WhatsApp Pay, and cash on delivery also accepted."
+    },
+    "delivery": {
+      "title": "Rider delivery across Nairobi",
+      "body": "We work with Bolt Food, Uber Eats, Glovo, and our own riders. Whichever gets to you first is the one that delivers. Delivery fees and wait times are shown at checkout.",
+      "partners": [
+        {"name": "Bolt Food", "note": "Fastest in Westlands and Kilimani"},
+        {"name": "Uber Eats", "note": "Widest coverage across Nairobi"},
+        {"name": "Glovo", "note": "Best for bulk and corporate orders"},
+        {"name": "In-house", "note": "For subscriptions and weekly meal plans"}
+      ],
+      "radius": "Delivering within 8km of the kitchen. Subscriptions available beyond."
+    },
+    "subscriptions": {
+      "title": "Weekly meal plans",
+      "body": "For teams, offices, and households that want the same menu every week. Pay once, we cook, riders deliver on schedule.",
+      "tiers": [
+        {
+          "name": "5 meals",
+          "price": "KES 4,500 / week",
+          "body": "One meal a day, Monday to Friday."
+        },
+        {
+          "name": "10 meals",
+          "price": "KES 8,500 / week",
+          "body": "Two meals a day, Monday to Friday."
+        },
+        {
+          "name": "20 meals",
+          "price": "KES 16,000 / week",
+          "body": "Office or family. Custom menu weekly."
+        }
+      ],
+      "cta": "Start a plan"
+    },
+    "faq": {
+      "title": "Questions",
+      "items": [
+        {
+          "q": "Where is the kitchen located?",
+          "a": "In Industrial Area, Nairobi. The exact address is not public — deliveries go through riders, and pickups are available on request."
+        },
+        {
+          "q": "How long does delivery take?",
+          "a": "25–40 minutes within the delivery radius. Rider networks are fastest in Westlands, Kilimani, Lavington, and Karen."
+        },
+        {
+          "q": "Can I pay with M-Pesa?",
+          "a": "Yes. M-Pesa is the default payment method. STK Push fires the moment you confirm the order."
+        },
+        {
+          "q": "Do you deliver outside Nairobi?",
+          "a": "Not yet. The radius is 8km from the kitchen. Subscriptions can be arranged beyond if you order weekly."
+        },
+        {
+          "q": "Do you do corporate orders?",
+          "a": "Yes. Weekly meal plans for offices start at 20 meals. Contact us for a custom plan."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Hungry? Order in two taps.",
+      "body": "M-Pesa in 4 seconds. Rider on the way in 12. At your door in 30.",
+      "primary": "Order via WhatsApp",
+      "secondary": "See the menu"
+    }
+  },
+  "Photography": {
+    "kicker": "Photography · Kenya",
+    "title": "Light, held still.",
+    "body": "Editorial, safari, and nature photography for brands, magazines, and individuals. Shot on location across Kenya — Nairobi, the Mara, Tsavo, the coast — and delivered as print-ready files, web-optimised exports, or film.",
+    "hero": {
+      "scroll": "Scroll to view the collection"
+    },
+    "filters": {
+      "all": "All",
+      "editorial": "Editorial",
+      "safari": "Safari",
+      "nature": "Nature"
+    },
+    "gallery": {
+      "title": "Selected work",
+      "body": "Hover any image to see it in full colour and detail. Click through to the full series.",
+      "view": "View series",
+      "empty": "No images in this category yet."
+    },
+    "series": {
+      "title": "Series & commissions",
+      "body": "Long-form work — a safari expedition, a fashion editorial, a nature study. Each is shot over days, edited over weeks, and delivered as a complete set.",
+      "commissions": "Commissions",
+      "exhibitions": "Exhibitions",
+      "print": "Print editions"
+    },
+    "process": {
+      "title": "How a shoot works",
+      "body": "From first brief to final delivery — the same sequence, every project.",
+      "steps": [
+        {
+          "title": "Brief",
+          "body": "Agree the story, the locations, the number of looks, and the deliverables."
+        },
+        {
+          "title": "Recces",
+          "body": "Location scouting, permits, and light readings at the hours that matter."
+        },
+        {
+          "title": "Shoot",
+          "body": "One or two days on location. Models, talent, and crew booked in advance."
+        },
+        {
+          "title": "Edit",
+          "body": "Full edit in Capture One and Lightroom. Retouching to taste, not to mask."
+        },
+        {
+          "title": "Deliver",
+          "body": "Web-sized exports, full-resolution originals, print files if needed. All in one folder."
+        }
+      ]
+    },
+    "services": {
+      "title": "What's on offer",
+      "body": "Photography and film for individuals, brands, and publications.",
+      "items": [
+        {
+          "title": "Editorial",
+          "body": "Portraits and fashion for magazines, brands, and cultural publications."
+        },
+        {
+          "title": "Safari",
+          "body": "Expeditions across the Mara, Tsavo, Amboseli, and the northern conservancies."
+        },
+        {
+          "title": "Nature",
+          "body": "Landscapes, flora, and wildlife — studied over days, not moments."
+        },
+        {
+          "title": "Film",
+          "body": "Short-form video for brands and campaigns. Directed, shot, edited."
+        },
+        {
+          "title": "Print",
+          "body": "Archival giclée prints, signed and editioned. Delivered with a certificate."
+        },
+        {
+          "title": "Commissions",
+          "body": "Product, interiors, food, and architectural photography for brands."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to commission a shoot?",
+      "body": "Send a brief, a reference, or just a few lines about what you're imagining. I'll come back with a plan, a timeline, and a quote.",
+      "primary": "Start a project",
+      "secondary": "See the gallery"
+    }
+  },
+
+  "Music": {
+    "kicker": "Music · Kenya & beyond",
+    "title": "Sound is architecture.",
+    "body": "Score, mixing, mastering, and production for TV, radio, and independent artists. Every cue is built to sit inside a picture, not next to it — mixed to broadcast spec, cleared for air, delivered on time.",
+    "hero": {
+      "playAll": "Play all",
+      "nowPlaying": "Now playing",
+      "paused": "Paused"
+    },
+    "player": {
+      "ariaLabel": "Audio player",
+      "play": "Play",
+      "pause": "Pause",
+      "next": "Next",
+      "prev": "Previous",
+      "volume": "Volume",
+      "mute": "Mute",
+      "unmute": "Unmute",
+      "noTrack": "Select a track to play",
+      "unsupported": "Your browser does not support audio playback."
+    },
+    "credits": {
+      "title": "Selected credits",
+      "body": "Broadcast work across Kenyan television, radio, and independent releases. Available on request: cue sheets, sync licences, and delivery paperwork for each project.",
+      "columns": {
+        "year": "Year",
+        "project": "Project",
+        "network": "Network",
+        "role": "Role"
+      },
+      "rows": [
+        {
+          "year": "2026",
+          "project": "Nairobi Nights — title theme",
+          "network": "KTN",
+          "role": "Composer, mix"
+        },
+        {
+          "year": "2025",
+          "project": "The Market Show — score",
+          "network": "Citizen TV",
+          "role": "Composer"
+        },
+        {
+          "year": "2025",
+          "project": "Safari Drive — ad campaign",
+          "network": "Capital FM",
+          "role": "Sound design, mix"
+        },
+        {
+          "year": "2024",
+          "project": "Maji — documentary series",
+          "network": "K24",
+          "role": "Composer, sound design"
+        },
+        {
+          "year": "2024",
+          "project": "Kisumu Nights — station ident",
+          "network": "Radio Maisha",
+          "role": "Composer"
+        },
+        {
+          "year": "2023",
+          "project": "Eastlands — series theme",
+          "network": "NTV",
+          "role": "Composer, master"
+        },
+        {
+          "year": "2023",
+          "project": "After Hours — radio ident",
+          "network": "Homeboyz Radio",
+          "role": "Composer"
+        },
+        {
+          "year": "2022",
+          "project": "Mavuno — brand anthem",
+          "network": "Independent",
+          "role": "Producer"
+        }
+      ]
+    },
+    "discography": {
+      "title": "Discography",
+      "body": "Full-length records and EPs produced at the studio. Streaming links, credits, and liner notes for each.",
+      "columns": {
+        "year": "Year",
+        "title": "Title",
+        "artist": "Artist",
+        "role": "Role"
+      },
+      "rows": [
+        {
+          "year": "2026",
+          "title": "Nairobi After Dark",
+          "artist": "Khalai & friends",
+          "role": "Producer, mixer"
+        },
+        {
+          "year": "2025",
+          "title": "Safari EP",
+          "artist": "Various",
+          "role": "Producer, mastering"
+        },
+        {
+          "year": "2024",
+          "title": "Chama — Original Score",
+          "artist": "Khalai Studio",
+          "role": "Composer"
+        },
+        {
+          "year": "2023",
+          "title": "Eastlands EP",
+          "artist": "Wils",
+          "role": "Producer"
+        }
+      ]
+    },
+    "process": {
+      "title": "How a score gets made",
+      "body": "Every project starts with the picture, not the track. Here's the sequence from first brief to delivery paperwork.",
+      "steps": [
+        {
+          "title": "Brief & spotting",
+          "body": "Watch the cut, mark the cues, agree the mood and the key moments that need hits."
+        },
+        {
+          "title": "Sketch",
+          "body": "Rough ideas bounced at low quality — the point is speed and direction, not polish."
+        },
+        {
+          "title": "Compose & record",
+          "body": "Full arrangements, live instruments where needed, everything tracked in the DAW."
+        },
+        {
+          "title": "Mix",
+          "body": "Mixed to broadcast spec (EBU R128 / -23 LUFS for TV, -14 LUFS for streaming)."
+        },
+        {
+          "title": "Deliver",
+          "body": "Stems, instrumentals, broadcast versions, cue sheet, sync paperwork. All in one folder."
+        }
+      ]
+    },
+    "equipment": {
+      "title": "Room & rig",
+      "body": "A treated room in Nairobi, monitored on Genelec 8030Cs with a matching sub. The outboard is minimal on purpose — the value is in the ears, not the gear list."
+    },
+    "testimonials": {
+      "title": "What directors and producers say",
+      "items": [
+        {
+          "quote": "He delivered the theme a week early, with stems, instrumentals, and every file we needed for clearance. We've used nobody else since.",
+          "author": "Producer, KTN",
+          "role": "Series lead"
+        },
+        {
+          "quote": "The mix translated on phone speakers, on the car, and on the broadcast chain. That is not easy in this market.",
+          "author": "Audio lead, Citizen TV",
+          "role": "Post-production"
+        },
+        {
+          "quote": "Called on a Thursday for a radio ident. Delivered Monday morning. It's been on air for two years.",
+          "author": "Programme director, Radio Maisha",
+          "role": "Station identity"
+        }
+      ]
+    },
+    "services": {
+      "title": "What's on offer",
+      "body": "The work is not one thing. These are the engagement types most projects fall into.",
+      "items": [
+        {
+          "title": "TV & film scoring",
+          "body": "Episode score, series theme, end credit music. Delivered to broadcast spec with stems."
+        },
+        {
+          "title": "Radio idents & stings",
+          "body": "Station identity, show intros, jingles. 10, 30, and 60-second versions delivered."
+        },
+        {
+          "title": "Ad campaigns",
+          "body": "Sound design, music, mix for TV and radio spots. Broadcast and social versions."
+        },
+        {
+          "title": "Artist production",
+          "body": "Beat-making, engineering, mixing and mastering for independent artists."
+        },
+        {
+          "title": "Podcast & audiobook",
+          "body": "Full-service audio production. Intro, outro, episode mixes to streaming spec."
+        },
+        {
+          "title": "Sync licensing",
+          "body": "Catalogue access for local and international productions. Clearance paperwork handled."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Need a score, an ident, or a mix?",
+      "body": "Send a brief, a rough cut, or a reference track. I'll come back with an honest read on what it needs, how long, and what it costs.",
+      "primary": "Send a brief",
+      "secondary": "Hear recent work"
+    }
+  },
+
+  "Systems": {
+    "kicker": "Systems",
+    "title": "Behind the surface.",
+    "body": "Every tap of a button is a conversation between many machines. This is what that conversation looks like — explained in plain language, for engineers and for everyone else.",
+    "request": {
+      "title": "What happens when you tap a button",
+      "body": "Four steps that happen in less than a second. If any step is slow, the whole experience feels slow — that's why we tune each one.",
+      "steps": [
+        {"label": "Request", "hint": "Your phone sends a message"},
+        {"label": "Balancer", "hint": "It picks a free server"},
+        {"label": "Server", "hint": "It runs the business logic"},
+        {"label": "Database", "hint": "It reads or saves the truth"}
+      ]
+    },
+    "database": {
+      "title": "The database is the filing cabinet",
+      "body": "Every customer, order, and payment lives here. It's the only place the truth is stored — the interface is just how you look at it.",
+      "rows": [
+        {"label": "customer_id", "value": "kh_4821"},
+        {"label": "name", "value": "\"Jane W.\""},
+        {"label": "balance_kes", "value": "12400"},
+        {"label": "last_order", "value": "2026-10-22"}
+      ]
+    },
+    "integration": {
+      "title": "We connect to the world",
+      "body": "Real integrations require contracts, retries, and failure handling. We build them once, well, so future integrations take hours instead of weeks.",
+      "systems": [
+        {"name": "M-Pesa", "role": "Payments"},
+        {"name": "Stripe", "role": "Card payments"},
+        {"name": "WhatsApp", "role": "Customer messaging"},
+        {"name": "SMS", "role": "Verification + alerts"},
+        {"name": "ERP", "role": "Inventory + accounting"},
+        {"name": "Satellite", "role": "Crop yield data"},
+        {"name": "Weather", "role": "Forecasts"}
+      ]
+    },
+    "queue": {
+      "title": "Some work runs in the background",
+      "body": "Sending an SMS, processing a payout, or generating an invoice doesn't need to block the customer. We put those jobs in a queue that processes them a few seconds later.",
+      "jobs": [
+        "send_whatsapp_confirmation",
+        "generate_pdf_invoice",
+        "sync_mpesa_statement",
+        "notify_farmer_delivery",
+        "settle_stripe_payout"
+      ]
+    },
+    "loadBalancing": {
+      "title": "One line in, many hands working",
+      "body": "When traffic spikes, one server can't keep up. A load balancer spreads requests across many servers so the shop keeps opening, even on the busiest day.",
+      "servers": ["Server A", "Server B", "Server C", "Server D", "Server E"]
+    },
+    "devops": {
+      "title": "From commit to production",
+      "body": "We don't push code to a live site and hope. Every change goes through a sequence that catches mistakes early and makes deploying boring.",
+      "stages": [
+        {"name": "Commit", "hint": "A developer saves a change"},
+        {"name": "Build", "hint": "It's compiled and checked"},
+        {"name": "Test", "hint": "Automated checks pass"},
+        {"name": "Preview", "hint": "A live URL to click through"},
+        {"name": "Deploy", "hint": "Ship to production, monitored"}
+      ]
+    },
+    "monitoring": {
+      "title": "We see problems before you do",
+      "body": "Every live system reports its health — response time, error rate, queue depth. When something drifts, we're alerted before customers feel it.",
+      "metrics": [
+        {"label": "API response", "value": "142 ms", "status": "healthy"},
+        {"label": "Error rate", "value": "0.02%", "status": "healthy"},
+        {"label": "Queue depth", "value": "38", "status": "warn"},
+        {"label": "Payouts settled", "value": "1,204", "status": "healthy"}
+      ]
+    },
+    "fintech": {
+      "title": "Fintech is not just payments",
+      "body": "Money moves require a whole layer of trust: identity, compliance, reconciliation, audit trails. We build the rails so you never wonder where a shilling went.",
+      "features": [
+        {
+          "name": "Idempotent payments",
+          "hint": "A retry never double-charges."
+        },
+        {
+          "name": "KYC + AML",
+          "hint": "Every customer is verified, every payment traceable."
+        },
+        {
+          "name": "Daily reconciliation",
+          "hint": "Banks, telcos, and ledgers always agree."
+        },
+        {"name": "Audit trails", "hint": "Every action, who did it, and when."},
+        {
+          "name": "Encrypted at rest",
+          "hint": "PII and balances, encrypted and access-controlled."
+        },
+        {"name": "Multi-rail payouts", "hint": "M-Pesa, bank, card — one API."}
+      ]
+    },
+    "agrotech": {
+      "title": "Agrotech, from soil to shelf",
+      "body": "A farmer in Nakuru, a warehouse in Nairobi, and a customer in Mombasa — one flow. Every layer answers a real question a farmer or buyer would ask.",
+      "layers": [
+        {
+          "name": "Soil & sensors",
+          "hint": "Moisture, temperature, and yield data collected on the field."
+        },
+        {
+          "name": "Farmer app",
+          "hint": "Simple tools — works offline, syncs when there's signal."
+        },
+        {
+          "name": "Logistics",
+          "hint": "Pickups, cold chain, and delivery in one schedule."
+        },
+        {
+          "name": "Marketplace",
+          "hint": "Buyers bid, farmers commit, prices stay transparent."
+        },
+        {"name": "Payments", "hint": "M-Pesa to the farmer's phone, same day."},
+        {
+          "name": "Reporting",
+          "hint": "Yield, price, and delivery history — evidence, not guesswork."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Building something with systems in it?",
+      "body": "Payments, integrations, infrastructure — these are the parts users never see but always feel. Talk to us about the layer under the surface.",
+      "contact": "Contact the studio"
+    }
+  },
+
+  "Showcase": {
+    "kicker": "Showcase",
+    "title": "Three ways to see the work.",
+    "body": "Three experiences built for the same story — vertical, horizontal, and typographic. Use the switcher at the bottom to move between them. More will be added as they ship.",
+    "open": "Open experience",
+    "switcherLabel": "Switch between experiences",
+    "backToShowcase": "Back to showcase",
+    "experiences": {
+      "creativity": {
+        "title": "Creativity",
+        "body": "A vertical scroll journey through how a piece is made — lines, grids, type, colour, code."
+      },
+      "horizontal": {
+        "title": "Horizontal",
+        "body": "A horizontal scroll essay that treats the page like a table of contents you walk sideways."
+      },
+      "typography": {
+        "title": "Typography",
+        "body": "A living type specimen — scale, weights, families, and the rhythm of reading itself."
+      },
+      "systems": {
+        "title": "Systems",
+        "body": "The layer under the surface — backends, integrations, DevOps, payments, and the chains that connect a farm to a customer."
+      },
+      "music": {
+        "title": "Music",
+        "body": "Score, mixing, and production for TV, radio, and independent artists — from a treated room in Nairobi to broadcast deliverables."
+      },
+      "photography": {
+        "title": "Photography",
+        "body": "Editorial, safari, and nature photography — grayscale thumbnails that bloom into colour on hover."
+      },
+      "kitchen": {
+        "title": "Kitchen",
+        "body": "A dark kitchen for Nairobi — M-Pesa in four seconds, a rider at your door in thirty."
+      }
+    }
+  },
+
+  "Typography": {
+    "kicker": "Typography",
+    "title": "Type is attitude.",
+    "body": "Fifteen demonstrations of what typography can do — each section proves a different technique by using it. Scroll through. Hover. Move your mouse.",
+    "scrolly": {
+      "title": "Scroll-driven",
+      "words": [
+        "Scroll changes everything.",
+        "Words arrive.",
+        "Words leave.",
+        "Rhythm is built by motion."
+      ]
+    },
+    "masked": {
+      "title": "Background clip: text — a moving gradient or image shines through the letters.",
+      "shimmer": "Shimmering.",
+      "image": "Wearing texture."
+    },
+    "typewriter": {
+      "title": "Typewriter",
+      "phrase": "const typography = 'attitude';"
+    },
+    "kinetic": {
+      "title": "Kinetic loop",
+      "words": [
+        "Paper",
+        "Ink",
+        "Terracotta",
+        "Nairobi",
+        "By hand",
+        "For the long run"
+      ]
+    },
+    "variable": {
+      "title": "Variable font",
+      "sample": "Weight follows you.",
+      "hint": "Move your mouse — horizontal changes weight, vertical changes spacing."
+    },
+    "shadow": {
+      "title": "Dancing shadow",
+      "sample": "Shadow"
+    },
+    "burst": {
+      "title": "Letter burst",
+      "word": "Khalai",
+      "hint": "Hover each letter — they explode."
+    },
+    "melt": {
+      "title": "Melt",
+      "sample": "Melting."
+    },
+    "spin": {
+      "title": "3D spin",
+      "sample": "Rotate"
+    },
+    "wave": {
+      "title": "Wave",
+      "sample": "Wavy typography."
+    },
+    "join": {
+      "title": "Join",
+      "left": "CON",
+      "right": "JOINED"
+    },
+    "gooey": {
+      "title": "Gooey marquee",
+      "phrase": "MELTING THROUGH"
+    },
+    "frame": {
+      "title": "Frame rotation",
+      "caption": "Hover the frame — the image comes alive.",
+      "image": "/images/typography-frame.jpg"
+    },
+    "editor": {
+      "title": "Editor",
+      "caption": "An editor isn't just text — it's rhythm, breathing room, and a blinking cursor that means: go."
+    },
+    "glitch": {"title": "Glitch", "sample": "BROKEN"},
+    "splitFlap": {"title": "Split-flap", "sample": "NAIROBI"},
+    "magnetic": {"title": "Magnetic", "sample": "PULL"},
+    "spotlight": {"title": "Spotlight", "sample": "LIGHT"},
+    "stagger": {"title": "Stagger", "sample": "WAVE"},
+    "typeCycle": {
+      "title": "Type cycle",
+      "phrases": ["Hire the studio.", "Ship the product.", "Own the result."]
+    },
+    "bounce": {"title": "Bounce", "sample": "DROP"},
+    "inkBleed": {"title": "Ink bleed", "sample": "SOFTEN"},
+    "zoomThrough": {"title": "Zoom-through", "sample": "PUSH"},
+    "reflection": {"title": "Reflection", "sample": "STILL"},
+    "outlineFill": {"title": "Outline", "sample": "AWAKEN"},
+    "stretch": {"title": "Stretch", "sample": "PULL"},
+    "slice": {"title": "Slice", "sample": "CUT"},
+    "colorFill": {"title": "Scroll color fill", "sample": "GROW"}
+  },
+
+  "Marketing": {
+    "kicker": "Marketing online",
+    "title": "Get found, everywhere your customers look.",
+    "body": "SEO, social media, AI answer engines, local search, and paid ads. The craft is real — but you don't need to know the vocabulary to benefit from it. Here's what we do, how long it takes, and what it costs — for SMEs and for brands.",
+    "noJargon": "Plain language. No jargon. Ask us anything — we're happy to explain.",
+    "cta": {
+      "talk": "Talk to us first",
+      "read": "Or read what we do",
+      "title": "Not sure what you need?",
+      "body": "Send us a few lines about your business. We'll come back with a plain-language plan — no commitment, no sales call.",
+      "contact": "Contact the studio",
+      "whatsapp": "WhatsApp"
+    },
+     "services": {
+      "title": "What we do",
+      "subtitle": "Six services, each with a real timeline and two honest price ranges — SME and Brand.",
+      "timeLabel": "Time",
+      "breakdownLabel": "What's included",
+      "view": "See details",
+
+      "seo": {
+        "plain": "SEO — get found on Google",
+        "short": "Search Engine Optimisation",
+        "detail": "We make sure Google can read, trust, and rank your site. Titles, page speed, structure, and content that answers real searches.",
+        "time": "3–6 months for meaningful movement",
+        "costSme": "KES 15,000 – 45,000 / month",
+        "costBrand": "$800 – $3,500 / month",
+        "breakdown": [
+          { "label": "Technical audit", "value": "included" },
+          { "label": "On-page optimisation", "value": "included" },
+          { "label": "Keyword research", "value": "included" },
+          { "label": "Content briefs", "value": "SME: 2/mo · Brand: 6/mo" },
+          { "label": "Link building", "value": "Brand only" },
+          { "label": "Reporting", "value": "SME: monthly · Brand: weekly" }
+        ],
+        "brands": [
+          { "name": "Mavuno", "note": "Organic traffic +180% in 5 months" },
+          { "name": "Sokoni", "note": "Ranked #1 for \"online market Kenya\"" }
+        ],
+        "example": {
+          "caption": "Before/after search position for a local retailer."
+        },
+        "opportunities": {
+          "title": "Common missed opportunities we find",
+          "rows": [
+            { "item": "Page titles", "status": "missing", "note": "Default \"Home | Site\" titles lose clicks." },
+            { "item": "Meta descriptions", "status": "missing", "note": "Zero control over the SERP snippet." },
+            { "item": "H1 tag", "status": "weak", "note": "The main heading is an image, not text." },
+            { "item": "Image alt text", "status": "missing", "note": "Invisible to search and screen readers." },
+            { "item": "Sitemap.xml", "status": "missing", "note": "Google has to guess what to crawl." },
+            { "item": "Structured data", "status": "missing", "note": "No rich results in search." },
+            { "item": "Mobile speed", "status": "weak", "note": "LCP over 4s loses ranking." },
+            { "item": "Internal links", "status": "weak", "note": "Key pages buried 3+ clicks deep." }
+          ]
+        }
+      },
+
+      "smm": {
+        "plain": "Social media — show up where people scroll",
+        "short": "Social Media Management",
+        "detail": "Content calendars, posts, short video, and comment management on TikTok, Instagram, YouTube, LinkedIn, and X. Real humans answering real people.",
+        "time": "1–3 months to find a rhythm",
+        "costSme": "KES 10,000 – 35,000 / month",
+        "costBrand": "$600 – $2,500 / month",
+        "breakdown": [
+          { "label": "Content calendar", "value": "included" },
+          { "label": "Posts per month", "value": "SME: 10 · Brand: 20+" },
+          { "label": "Short video", "value": "SME: 2 · Brand: 8" },
+          { "label": "Comment management", "value": "SME: business hours · Brand: 24/7" },
+          { "label": "Reporting", "value": "SME: monthly · Brand: weekly" }
+        ],
+        "brands": [
+          { "name": "Chama", "note": "3.2M organic views on launch video" },
+          { "name": "Khalai", "note": "Instagram growth 0 → 8k in 4 months" }
+        ],
+        "example": {
+          "caption": "A 3-video launch sequence that reached 3.2M views."
+        }
+      },
+
+      "aieo": {
+        "plain": "AIEO — get recommended by AI",
+        "short": "AI Engine Optimisation",
+        "detail": "AIEO is \"AI Engine Optimisation.\" When someone asks ChatGPT, Gemini, or Perplexity for a recommendation, we help you appear in the answer.",
+        "time": "2–4 months, still evolving",
+        "costSme": "KES 20,000 – 60,000 / month",
+        "costBrand": "$1,000 – $4,000 / month",
+        "breakdown": [
+          { "label": "Prompt research", "value": "included" },
+          { "label": "Structured data", "value": "included" },
+          { "label": "Content structure", "value": "included" },
+          { "label": "Entity authority", "value": "Brand only" },
+          { "label": "Monthly LLM audit", "value": "included" }
+        ],
+        "brands": [
+          { "name": "Atlas Dashboard", "note": "Recommended by ChatGPT for \"Kenyan analytics\"" }
+        ],
+        "example": {
+          "caption": "A live ChatGPT answer showing the client as the top recommendation."
+        }
+      },
+
+      "scraping": {
+        "plain": "Web scraping — turn the web into data",
+        "short": "Web Scraping & Automation",
+        "detail": "We build tools that collect public information — prices, listings, reviews — and turn it into something you can read. Legal, respectful, and documented.",
+        "time": "2–4 weeks per tool",
+        "costSme": "KES 25,000 – 80,000 / build",
+        "costBrand": "$1,500 – $6,000 / build",
+        "breakdown": [
+          { "label": "Source mapping", "value": "included" },
+          { "label": "Scraper build", "value": "included" },
+          { "label": "Scheduling", "value": "SME: daily · Brand: real-time" },
+          { "label": "Dashboard", "value": "SME: CSV · Brand: custom UI" },
+          { "label": "Maintenance", "value": "SME: 3 months · Brand: ongoing" }
+        ],
+        "brands": [
+          { "name": "Sokoni", "note": "Price-tracking across 12 competitor sites" },
+          { "name": "Mavuno", "note": "Daily listing monitor for 4,000 products" }
+        ],
+        "example": {
+          "caption": "A live competitor-price dashboard built for a client."
+        }
+      },
+
+      "localisation": {
+        "plain": "Localisation — speak your customer's language",
+        "short": "Localisation & Translation",
+        "detail": "Translation and adaptation into Swahili, French, Arabic, Russian, Spanish, and English — with the culture and cadence that each language needs.",
+        "time": "2–6 weeks per language",
+        "costSme": "KES 15,000 – 40,000 / language",
+        "costBrand": "$800 – $3,000 / language",
+        "breakdown": [
+          { "label": "Translation", "value": "included" },
+          { "label": "Cultural adaptation", "value": "included" },
+          { "label": "hreflang setup", "value": "included" },
+          { "label": "Per-language SEO", "value": "Brand only" },
+          { "label": "Native proofread", "value": "included" }
+        ],
+        "brands": [
+          { "name": "Chama", "note": "Swahili + English + French live" },
+          { "name": "Khalai", "note": "6 locales with hreflang, RTL support" }
+        ],
+        "example": {
+          "caption": "The same homepage in English, Swahili, and Arabic (RTL)."
+        }
+      },
+
+      "ads": {
+        "plain": "Paid ads — buy attention deliberately",
+        "short": "Paid Advertising",
+        "detail": "Google, Meta, TikTok, and YouTube ads managed end-to-end. Clear reporting. You own every account and every dollar of the spend.",
+        "time": "Immediate, tune over 2–4 weeks",
+        "costSme": "15–20% of spend · min KES 10,000 / month",
+        "costBrand": "15–20% of spend · min $500 / month",
+        "breakdown": [
+          { "label": "Campaign setup", "value": "included" },
+          { "label": "Creative (images)", "value": "included" },
+          { "label": "Creative (video)", "value": "Brand only" },
+          { "label": "A/B testing", "value": "included" },
+          { "label": "Reporting", "value": "SME: monthly · Brand: weekly" },
+          { "label": "Management fee", "value": "15–20% of spend" }
+        ],
+        "brands": [
+          { "name": "Mavuno", "note": "ROAS 4.2 on Meta in 3 months" },
+          { "name": "Sokoni", "note": "Cost per lead down 62%" }
+        ],
+        "example": {
+          "caption": "A Meta ad creative that reached 4.2 ROAS."
+        }
+      },
+
+      "leads": {
+        "plain": "Leads dashboard — see where enquiries come from",
+        "short": "Lead Tracking & Analytics",
+        "detail": "Every enquiry tells you something — which page, which service, which click. We install a small tracking layer so you see exactly where your business comes from, without third-party analytics.",
+        "time": "1–2 weeks setup, ongoing insight",
+        "costSme": "KES 20,000 – 50,000 / build",
+        "costBrand": "$1,500 – $4,000 / build",
+        "breakdown": [
+          { "label": "Tracking layer", "value": "included" },
+          { "label": "Lead dashboard", "value": "included" },
+          { "label": "CSV export", "value": "included" },
+          { "label": "Per-source breakdown", "value": "included" },
+          { "label": "Weekly digest email", "value": "Brand only" },
+          { "label": "Custom reporting", "value": "Brand only" }
+        ],
+        "brands": [
+          { "name": "Khalai", "note": "Every lead traced to a marketing page" },
+          { "name": "Mavuno", "note": "CSV exports feeding a CRM" }
+        ],
+        "example": {
+          "caption": "A live leads dashboard: daily volume, per-service split, source breakdown."
+        }
+      }
+    }
+  ,
+    "platforms": {
+      "title": "How long each platform takes",
+      "subtitle": "Organic growth is slow and compounding. Paid is fast and stops when you stop. Most healthy strategies mix both.",
+      "col": {
+        "platform": "Platform",
+        "organic": "Organic (free)",
+        "paid": "Paid (ads)",
+        "note": "Note"
+      },
+      "google": {
+        "organic": "3–6 months to page one",
+        "paid": "Same day, if the ad is right",
+        "note": "Search has the highest buying intent. Worth the wait."
+      },
+      "tiktok": {
+        "organic": "1–4 weeks for a first hit",
+        "paid": "Same day, cheap reach",
+        "note": "Fastest organic wins. Loses velocity without consistency."
+      },
+      "youtube": {
+        "organic": "3–6 months for a series",
+        "paid": "Same day, best for brand",
+        "note": "Rewards depth. Long-form converts better than shorts."
+      },
+      "meta": {
+        "organic": "2–4 months to build reach",
+        "paid": "Same day, best ROI for many",
+        "note": "Facebook + Instagram together. Targeting is still the best."
+      },
+      "x": {
+        "organic": "1–2 months if you post daily",
+        "paid": "Same day, niche audiences",
+        "note": "Smaller but sharper. Best for B2B and tech."
+      },
+      "firefox": {
+        "organic": "N/A (not a discovery channel)",
+        "paid": "Not applicable",
+        "note": "Not a marketing channel. Listed for completeness only."
+      },
+      "local": {
+        "organic": "2–8 weeks for a map listing",
+        "paid": "Same day, high local intent",
+        "note": "Google Business Profile is the highest-leverage free move."
+      },
+      "footnote": "Timelines assume consistent effort. Stop halfway and the clock resets."
+    },
+    "tracks": {
+      "title": "Two price tracks, one standard of work",
+      "subtitle": "Whether you're a salon owner going online for the first time or a funded brand scaling internationally, the work is honest. The scope changes.",
+      "selector": {
+        "sme": "SMEs & local businesses",
+        "brand": "Brands & funded startups"
+      }
+    },
+    "fundingSme": {
+      "title": "SME marketing budgets (real ranges)",
+      "subtitle": "Based on real Kenyan engagements — not aspirational decks. Every range includes strategy, execution, and reporting.",
+      "test": {
+        "name": "Test",
+        "range": "KES 15,000 – 30,000 / month",
+        "body": "One channel, one goal. Prove the concept works before scaling.",
+        "includes": [
+          "One platform (Google or Facebook)",
+          "Basic SEO + Google Business Profile",
+          "Monthly reporting",
+          "One strategy call"
+        ]
+      },
+      "grow": {
+        "name": "Grow",
+        "range": "KES 30,000 – 75,000 / month",
+        "body": "Two to three channels running together. The realistic sweet spot for most Kenyan SMEs.",
+        "includes": [
+          "Two platforms + SEO",
+          "Social media management (10 posts/month)",
+          "Short video (2 per month)",
+          "Bi-weekly reporting",
+          "Local SEO + Google Maps"
+        ]
+      },
+      "scale": {
+        "name": "Scale",
+        "range": "KES 75,000 – 150,000 / month",
+        "body": "Full-funnel across every platform. For established SMEs with proven product-market fit.",
+        "includes": [
+          "Full platform mix",
+          "Ads management (Google + Meta)",
+          "Content + video production",
+          "Localisation into Swahili",
+          "Weekly reporting",
+          "Dedicated strategist"
+        ]
+      },
+      "custom": {
+        "title": "Custom SME funding",
+        "body": "Below KES 15,000/month? Talk to us. We've built plans around KES 5,000/month for early-stage local businesses — the scope is smaller, the honesty is the same."
+      }
+    },
+    "fundingBrand": {
+      "title": "Brand marketing budgets",
+      "subtitle": "Honest ranges for funded startups and established brands — no invented numbers.",
+      "test": {
+        "name": "Test",
+        "range": "$1,000 – $3,000 / month",
+        "body": "One channel, one goal. Prove the concept works before scaling.",
+        "includes": [
+          "One platform (Google or Meta)",
+          "Basic SEO setup",
+          "Monthly reporting",
+          "One strategy call"
+        ]
+      },
+      "grow": {
+        "name": "Grow",
+        "range": "$3,000 – $8,000 / month",
+        "body": "Two to three channels running together. The realistic sweet spot for most growing businesses.",
+        "includes": [
+          "Two platforms + SEO",
+          "Social media management",
+          "Content production",
+          "Bi-weekly reporting",
+          "Local + AIEO basics"
+        ]
+      },
+      "scale": {
+        "name": "Scale",
+        "range": "$8,000 – $20,000+ / month",
+        "body": "Full-funnel across every platform. Suitable for brands with proven product-market fit and budget to spend aggressively.",
+        "includes": [
+          "Full platform mix",
+          "Paid ads management",
+          "Content + video production",
+          "Localisation",
+          "Weekly reporting",
+          "Dedicated strategist"
+        ]
+      },
+      "custom": {
+        "title": "Custom brand funding",
+        "body": "If your budget doesn't match these ranges — or if you're not sure where to start — talk to us. We've built plans around $500/month and around $50,000/month. The right number is the one that gets you results without burning your runway."
+      }
+    },
+    "serviceDetail": {
+      "back": "Back to marketing",
+      "time": "Typical time",
+      "sme": "SME budget",
+      "brand": "Brand budget",
+      "breakdownTitle": "Where the money goes",
+      "breakdownBody": "Every line, in plain language — nothing hidden behind a sales call.",
+      "exampleTitle": "A live example",
+      "exampleBody": "Real work, not stock screenshots. See what this actually looks like.",
+      "brandsTitle": "Brands we've done this for",
+      "brandsBody": "Selected clients who have shipped with this service.",
+      "opportunitiesBody": "What most sites miss — and what we find first when we audit a new client.",
+      "sampleLabel": "Common findings",
+      "scanner": {
+        "placeholder": "yourbusiness.co.ke",
+        "button": "Scan my site",
+        "helper": "Free, no signup. Takes 10 seconds.",
+        "resultsTitle": "What we found",
+        "error": "Could not scan this URL.",
+        "status": {
+          "missing": "Missing",
+          "weak": "Weak",
+          "present": "OK"
+        }
+      },
+      "cta": {
+        "title": "Want the full report?",
+        "body": "We'll scan your site, competitor pages, and search demand — then send a clear breakdown in 2 days.",
+        "button": "Request an audit"
+      }
+    },
+    "leadsPreview": {
+      "banner": "...",
+      "stats": { "total": "...", "open": "...", "topService": "...", "topSource": "..." },
+      "charts": { "daily": "...", "byService": "...", "bySource": "..." },
+      "table": { "when": "...", "name": "...", "subject": "...", "service": "...", "source": "...", "status": "...", "empty": "..." },
+      "statuses": { "open": "...", "replied": "..." },
+      "csv": { "title": "...", "body": "..." },
+      "services": { "seo": "...", "scraping": "...", "ads": "...", "smm": "...", "direct": "..." },
+      "sources": { "marketing-service": "...", "pricing-launch": "...", "pricing-studio": "...", "direct": "..." }
+    }
+  
+  },
+  "Pricing": {
+    "kicker": "Pricing",
+    "title": "Two tracks. One standard of work.",
+    "body": "Whether you're a market stall going online for the first time or a funded brand rebuilding your site, the craft is the same. The scope changes. The honesty doesn't.",
+    "mostChosen": "Most chosen",
+    "notIncluded": "Not included",
+    "trackSelector": {
+      "starter": "SMEs & starters",
+      "studio": "Studios & brands"
+    },
+    "starter": {
+      "title": "For SMEs, freelancers, and side-hustles",
+      "subtitle": "Real prices for real budgets — starting where most Kenyan businesses actually start.",
+      "note": "These prices are honest. If your budget is below the Launch tier, tell us anyway. We've built websites for KES 15,000 and we'll tell you what you can and can't get for that.",
+      "launch": {
+        "name": "Launch",
+        "price": "KES 35,000",
+        "usd": "≈ $270",
+        "cadence": "/ one-time",
+        "description": "A clean, fast, one-page website that puts your business on the map.",
+        "features": [
+          "Single-page website",
+          "Mobile-first design",
+          "Google Business Profile setup",
+          "Contact form + WhatsApp button",
+          "Basic SEO (titles, meta, sitemap)",
+          "Domain + hosting setup",
+          "Delivered in 2 weeks"
+        ],
+        "notIncluded": [
+          "CMS (you send us changes)",
+          "Blog or multiple pages",
+          "Social media management",
+          "Paid ads"
+        ],
+        "cta": "Start small"
+      },
+      "grow": {
+        "name": "Grow",
+        "price": "KES 85,000",
+        "usd": "≈ $650",
+        "cadence": "/ one-time",
+        "description": "A small multi-page site with a CMS, so you can update it yourself.",
+        "features": [
+          "Up to 6 pages",
+          "Custom design",
+          "CMS for content editing",
+          "Full SEO setup",
+          "Google Analytics + Search Console",
+          "WhatsApp + email capture",
+          "Delivered in 3–4 weeks"
+        ],
+        "cta": "Get growing"
+      },
+      "care": {
+        "name": "Care plan",
+        "price": "KES 4,500",
+        "usd": "≈ $35",
+        "cadence": "/ month",
+        "description": "Ongoing updates, backups, and small fixes — so your site keeps working.",
+        "features": [
+          "Monthly content updates",
+          "Backups + uptime monitoring",
+          "Small design changes",
+          "Security patches",
+          "1 hour of dev time / month",
+          "WhatsApp support"
+        ],
+        "cta": "Add a care plan"
+      }
+    },
+    "studio": {
+      "title": "For funded startups and established brands",
+      "subtitle": "Full-engagement projects with design systems, marketing, and ongoing partnership.",
+      "brand": {
+        "name": "Brand",
+        "price": "$12,000",
+        "cadence": "/ project",
+        "description": "A full brand site with a design system in code.",
+        "features": [
+          "Full site, up to 10 pages",
+          "Design system in code",
+          "CMS + editable content",
+          "Technical + on-page SEO",
+          "Analytics + monthly reporting",
+          "Two weeks of post-launch support"
+        ],
+        "cta": "Book a call"
+      },
+      "custom": {
+        "name": "Custom build",
+        "price": "From $25,000",
+        "cadence": "/ project",
+        "description": "Multi-language, multi-market, or unusually complex — scoped per engagement.",
+        "features": [
+          "Multi-language (2–6 locales)",
+          "Custom integrations (CRM, ERP, payments)",
+          "Advanced SEO + AIEO",
+          "Design system + documentation",
+          "Full QA + accessibility audit",
+          "Handoff + team training"
+        ],
+        "cta": "Scope a project"
+      },
+      "partner": {
+        "name": "Partner",
+        "price": "$3,500",
+        "cadence": "/ month",
+        "description": "Continuous design, engineering, and marketing on retainer.",
+        "features": [
+          "Continuous design + build",
+          "Marketing + SEO + social",
+          "Priority support",
+          "Quarterly strategy reviews",
+          "Cancel anytime"
+        ],
+        "cta": "Talk to us"
+      }
+    },
+    "upgrade": {
+      "title": "You can start small and grow into it",
+      "body": "Most of our long-term clients started with a Launch project. Here's the honest path most of them took.",
+      "steps": [
+        {
+          "title": "Launch",
+          "body": "A clean one-pager gets you online, indexed, and reachable on WhatsApp."
+        },
+        {
+          "title": "Grow",
+          "body": "Once traffic comes in, a proper multi-page site + CMS keeps customers engaged."
+        },
+        {
+          "title": "Care plan",
+          "body": "Ongoing updates keep the site fresh, fast, and safe — without you thinking about it."
+        },
+        {
+          "title": "Brand / Partner",
+          "body": "When the business outgrows the site, we rebuild it properly with a full design system."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions from real clients",
+      "items": [
+        {
+          "q": "Why is the Launch tier so much cheaper than Brand?",
+          "a": "Because the work is genuinely different. Launch is a focused one-pager with a fixed design system we've refined over dozens of builds. Brand is a bespoke system created specifically for your business — it takes weeks, not days."
+        },
+        {
+          "q": "Can I pay in instalments?",
+          "a": "Yes. For Launch and Grow, 50% upfront, 50% at launch. For larger projects, we split into three or four milestones."
+        },
+        {
+          "q": "Do I own everything?",
+          "a": "Yes — every domain, hosting account, analytics account, and code repository is in your name from day one. If you ever leave, you take everything with you."
+        },
+        {
+          "q": "What if I don't have content ready?",
+          "a": "We can write it with you — copywriting is included in Grow and above. For Launch, we'll help you structure what you have."
+        },
+        {
+          "q": "Is hosting extra?",
+          "a": "Hosting for Launch sites runs about KES 500–1,000/month (Vercel or similar). We set it up on your account so you own it."
+        },
+        {
+          "q": "Can I upgrade later?",
+          "a": "Yes, and it's designed to be easy. We keep the design tokens and structure from your Launch site so upgrading to Grow or Brand is an addition, not a rebuild."
+        },
+        {
+          "q": "What payment methods?",
+          "a": "M-Pesa, bank transfer, card, or PayPal for international clients. All invoiced properly."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Not sure which fits?",
+      "body": "Send us three sentences about your business. We'll come back with a real recommendation — even if it's smaller than what you asked for.",
+      "contact": "Contact the studio",
+      "whatsapp": "WhatsApp"
+    }
+  },
+
+  "Process": {
+    "scrollHint": "Scroll to move",
+    "sections": {
+      "frontend": {
+        "kicker": "01 — Frontend",
+        "title": "Shape the surface.",
+        "body": "Components, states, motion. Everything a person touches is drawn first as boxes and lines, then given colour."
+      },
+      "api": {
+        "kicker": "02 — API",
+        "title": "Wire the seams.",
+        "body": "Endpoints, contracts, types. Every button that says 'save' has to say it to something."
+      },
+      "backend": {
+        "kicker": "03 — Backend",
+        "title": "Store the truth.",
+        "body": "Schema, queues, transactions. The invisible engine that keeps every promise the interface makes."
+      },
+      "presentation": {
+        "kicker": "04 — Presentation",
+        "title": "Present with intent.",
+        "body": "Typography, spacing, hierarchy. The same content reads differently when the rhythm is right. Every screen is a small editorial decision."
+      },
+      "legal": {
+        "kicker": "05 — Legal",
+        "title": "Protect what you build.",
+        "body": "Terms, privacy, GDPR, consent, licensing. Legal is not a checklist at the end — it shapes what you're allowed to ship and how."
+      },
+      "languages": {
+        "kicker": "06 — Languages",
+        "title": "Pick the right tool.",
+        "body": "TypeScript for the surface, Python for the data, Go for the daemon, SQL for the truth. Every language earns its place or it doesn't ship."
+      },
+      "practices": {
+        "kicker": "07 — Practices",
+        "title": "Ship with care.",
+        "body": "Tests, CI, previews, observability. Modern practice is not fashion — it's the difference between a demo and a product you can hand over."
+      },
+      "aiDev": {
+        "kicker": "08 — AI in dev",
+        "title": "Let the machine assist.",
+        "body": "Copilots draft, humans decide. AI speeds up the boring parts — scaffolding, tests, docs — so attention goes to the parts only a person can shape."
+      },
+      "aiDesign": {
+        "kicker": "09 — AI in design",
+        "title": "Idea to artefact, faster.",
+        "body": "Rough sketches become vector systems in minutes. AI doesn't decide taste; it removes the friction between taste and a real, shippable screen."
+      },
+      "refactoring": {
+        "kicker": "10 — Refactoring",
+        "title": "Leave it cleaner.",
+        "body": "Code is read more than it's written. Refactoring is not rewriting — it's the quiet discipline that keeps a codebase alive across years."
+      },
+      "projects": {
+        "kicker": "11 — Work",
+        "title": "Real projects.",
+        "body": "Selected builds from the studio.",
+        "view": "View project",
+        "continue": "Keep going"
+      },
+      "seo": {
+        "kicker": "11 — SEO",
+        "title": "Be found, on purpose.",
+        "body": "Search is not a mystery. It's structure, speed, content, and consistency — applied on purpose. Here's what we do."
+      }
+    }
+  },
+  "Payments": {
+    "title": "Payments",
+    "subtitle": "Your transactions and receipts.",
+    "newPayment": "New payment",
+    "newPaymentTitle": "New payment",
+    "newPaymentSubtitle": "Pick a provider and enter the amount.",
+    "subscriptions": "Subscriptions",
+    "subscriptionsTitle": "Subscriptions",
+    "subscriptionsSubtitle": "Manage recurring payments.",
+    "payoutsTitle": "Payouts",
+    "payoutsSubtitle": "Manage where your money goes.",
+    "empty": "Nothing here yet.",
+    "viewReceipt": "View",
+    "columns": {
+      "id": "ID",
+      "date": "Date",
+      "description": "Description",
+      "provider": "Provider",
+      "amount": "Amount",
+      "status": "Status",
+      "receipt": "Receipt"
+    },
+    "providers": {
+      "mpesa": "M-Pesa",
+      "card": "Visa / Mastercard",
+      "paypal": "PayPal",
+      "crypto": "Crypto (USDC)"
+    },
+    "fields": {
+      "amount": "Amount",
+      "description": "Description",
+      "mpesaPhone": "M-Pesa phone number"
+    },
+    "placeholders": {
+      "phone": "+254 700 000 000"
+    },
+    "actions": {
+      "pay": "Pay",
+      "paying": "Processing…",
+      "cancel": "Cancel subscription"
+    },
+    "messages": {
+      "initiated": "Payment initiated. Check your phone.",
+      "cancelled": "Subscription cancelled.",
+      "comingSoon": "Coming soon"
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again."
+    },
+    "detail": {
+      "title": "Payment detail",
+      "back": "Back to payments",
+      "pending": "Waiting for the provider to confirm. Refresh in a moment.",
+      "failed": "This payment failed. You can try again."
+    },
+    "receipt": {
+      "title": "Receipt",
+      "number": "Receipt number",
+      "issued": "Issued",
+      "download": "Download PDF"
+    },
+    "payouts": {
+      "methods": "Payout methods",
+      "addMethod": "Add payout method",
+      "history": "Payout history",
+      "noMethods": "No payout method added",
+      "paypalEmail": "Paypal Email",
+      "label": "Reason",
+      "optional": "optional",
+      "walletAddress": "Wallet Address",
+      "phoneNumber": "Phone Number",
+      "provider": "Provider"
+    }
+  },
+  "Profile": {
+    "metaTitle": "Your profile — Khalai",
+    "metaDescription": "Manage your account details.",
+    "title": "Your profile",
+    "subtitle": "Update how you appear across the site.",
+    "sections": {
+      "basics": "Basics",
+      "bio": "About you"
+    },
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "emailLocked": "Email cannot be changed here. Contact support if you need to update it.",
+      "phone": "Phone",
+      "phoneOptional": "optional",
+      "age": "Age",
+      "bio": "Bio",
+      "bioOptional": "optional",
+      "bioHint": "A short introduction. This appears next to your messages."
+    },
+    "placeholders": {
+      "name": "Jane Doe",
+      "email": "you@example.com",
+      "phone": "+254 700 000 000",
+      "age": "25",
+      "bio": "A sentence or two about you."
+    },
+    "actions": {
+      "save": "Save changes",
+      "saving": "Saving…",
+      "saved": "Profile updated.",
+      "reset": "Reset"
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again.",
+      "nameRequired": "Name is required.",
+      "nameShort": "At least 2 characters.",
+      "phoneInvalid": "Enter a valid phone number.",
+      "ageRequired": "Age is required.",
+      "ageInvalid": "Age must be a number.",
+      "ageMin": "You must be at least 18.",
+      "ageMax": "Enter a valid age.",
+      "bioTooLong": "Keep it under 500 characters."
+    }
+  },
+  "Dashboard": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "payments": "Payments",
+      "analytics": "Analytics",
+      "users": "Users",
+      "reports": "Reports",
+      "messages": "Messages",
+      "adminInbox": "Admin Inbox",
+      "email": "Email",
+      "settings": "Settings",
+      "profile": "Profile",
+      "activity": "Activity",
+      "leads": "Leads"
+    },
+    "breadcrumbs": {
+      "home": "Dashboard",
+      "ariaLabel": "Breadcrumb",
+      "profile": "Profile",
+      "payments": "Payments",
+      "new": "New",
+      "payouts": "Payouts",
+      "subscriptions": "Subscriptions",
+      "inbox": "Inbox",
+      "admin": "Admin"
+    },
+    "brand": "Khalai",
+    "footer": "khalai.com",
+    "sidebar": {
+      "expand": "Expand sidebar",
+      "collapse": "Collapse sidebar"
+    },
+    "userMenu": {
+      "guest": "Guest",
+      "profile": "Profile",
+      "settings": "Settings",
+      "adminInbox": "Admin Inbox",
+      "myMessages": "My Messages",
+      "logout": "Log out",
+      "loggingOut": "Logging out…"
+    }
+  },
+
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "blog": "Blog",
+    "projects": "Projects",
+    "contact": "Contact",
+    "language": "Language",
+    "signIn": "Sign In",
+    "register": "Register",
+    "brand": "Khalai Studio",
+    "market": "Marketing",
+
+    "mega": {
+      "open": "More",
+      "close": "Close",
+      "hint": "See the full menu",
+      "openAria": "Open detailed menu",
+      "closeAria": "Close detailed menu",
+      "navigate": "Navigate",
+      "experiences": "Experiences",
+      "marketing": "Marketing",
+      "studio": "Studio",
+      "allMarketing": "All marketing",
+      "studioTagline": "A studio in Nairobi",
+      "studioMarkPrimary": "Khalai",
+      "studioMarkSecondary": "Studio"
+    },
+    "mobile": {
+      "open": "More",
+      "close": "Close"
+    },
+
+    "experiences": {
+      "creativity": "Creativity",
+      "horizontal": "Horizontal",
+      "typography": "Typography",
+      "systems": "Systems",
+      "music": "Music",
+      "photography": "Photography",
+      "kitchen": "Kitchen"
+    },
+
+    "marketing": {
+      "seo": "SEO",
+      "smm": "Social media",
+      "aieo": "AIEO",
+      "scraping": "Web scraping",
+      "localisation": "Localisation",
+      "ads": "Paid ads",
+      "leads": "Leads"
+    },
+
+    "utility": {
+      "contact": "Contact",
+      "pricing": "Pricing",
+      "start": "Start a project",
+      "support": "Support",
+      "payments": "Payments",
+      "terms": "Terms",
+      "privacy": "Privacy"
+    }
+  },
+  "AdminProjects": {
+    "title": "Manage Projects",
+    "subtitle": "{count} projects in the database",
+    "newProject": "New Project",
+    "createTitle": "Create Project",
+    "editTitle": "Edit Project",
+    "backToList": "Back to projects",
+    "empty": "No projects yet. Create your first one!",
+    "searchPlaceholder": "Search projects…",
+    "published": "Published",
+    "draft": "Draft",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "saving": "Saving…",
+    "deleting": "Deleting…",
+    "saveChanges": "Save changes",
+    "createProject": "Create project",
+    "confirmDeleteTitle": "Delete this project?",
+    "confirmDeleteBody": "This action cannot be undone.",
+    "columns": {
+      "project": "Project",
+      "category": "Category",
+      "status": "Status",
+      "updated": "Updated",
+      "actions": "Actions"
+    },
+    "fields": {
+      "title": "Title",
+      "slug": "Slug",
+      "description": "Short description",
+      "content": "Long content (markdown)",
+      "category": "Category",
+      "tags": "Tags",
+      "tagsHint": "Comma-separated, e.g. react, tailwind, nestjs",
+      "thumbnail": "Thumbnail URL",
+      "url": "Live URL",
+      "repo": "Repo URL",
+      "featured": "Featured",
+      "published": "Published",
+      "year": "Year",
+      "order": "Display order"
+    },
+    "categories": {
+      "all": "All",
+      "fullstack": "Fullstack",
+      "frontend": "Frontend",
+      "ai": "AI",
+      "seo": "SEO",
+      "aieo": "AIEO"
+    }
+  },
+  "Method": {
+    "metaTitle": "The Khalai method — Khalai Studio",
+    "metaDescription": "Guides, a grid, a typeface, one colour. The five-step process behind every project.",
+    "hero": {
+      "eyebrow": "The method",
+      "titleLens": "From a line to a |button|.",
+      "subtitle": "Five steps. Same order, every time. It's the reason the tenth change is faster than the first.",
+      "scrollHint": "Scroll to walk through it"
+    },
+    "cards": {
+      "eyebrow": "At a glance",
+      "title": "The method on one page.",
+      "items": {
+        "guides": {
+          "title": "Guides first",
+          "body": "Every project starts with two vertical lines and two horizontal ones. Before colour, before type, before code. The skeleton decides everything that follows."
+        },
+        "grid": {
+          "title": "A grid to hold it",
+          "body": "Twelve columns, consistent gutters, one maximum width. The grid is what makes the page feel calm at every screen size — and what makes the tenth change faster than the first."
+        },
+        "restraint": {
+          "title": "Restraint",
+          "body": "One typeface. Three colours. An accent that appears rarely. The beauty of the site comes from what is left out, not from what is added."
+        },
+        "ownership": {
+          "title": "Ownership",
+          "body": "One person holds the method from start to finish. No handoffs, no communication errors, no lost intent. You talk to the person who designs and builds."
+        }
+      }
+    },
+    "steps": {
+      "eyebrow": "The order",
+      "title": "Five steps, in this order, every time.",
+      "lines": {
+        "title": "Lines first",
+        "body": "Before anything is styled, I lay out the guides. Two vertical edges for the content, two horizontal rules for the top of the headline and the baseline of the navigation. Everything after this either fits inside them or moves for a deliberate reason."
+      },
+      "grid": {
+        "title": "A grid to hold it",
+        "body": "Twelve columns, consistent gutters, a maximum content width. The grid is the reason the site feels calm at every screen size. It is a promise about where things sit, and every element that comes later keeps that promise or explains why not."
+      },
+      "type": {
+        "title": "Type, chosen for the job",
+        "body": "One typeface, maybe two. Sizes and line breaks tuned line by line. Weight contrast used only where it earns its place. Type is the tone of voice — it carries more of the design than any image ever will."
+      },
+      "colour": {
+        "title": "One colour that earns its place",
+        "body": "Paper, ink, one accent. In Khalai's case, a terracotta borrowed from Kenyan sunsets. It appears rarely and means something each time it does. A palette is a suggestion. A commitment is a decision."
+      },
+      "code": {
+        "title": "Hand-written code",
+        "body": "What I draw, I build. No page builders, no plugin stacks. Readable code that compiles in five years and does not need an upgrade. The discipline of the layout carries through to the discipline of the components."
+      }
+    },
+    "grid": {
+      "eyebrow": "02 · Grid",
+      "title": "A grid that holds the page together.",
+      "body": "Twelve columns. Consistent gutters. A single maximum width. Watch the sample blocks snap into place — that's not decoration, it's the reason nothing on this site ever feels slightly off.",
+      "caption": "Every block on the site sits on one of these twelve columns. When something doesn't, it's because the exception is the point."
+    },
+    "type": {
+      "eyebrow": "03 · Type",
+      "title": "One typeface. Every size it needs to be.",
+      "body": "Six sizes, one family. Each one chosen for a specific job. The type scale below is the actual scale the site uses — nothing is made up for this demo.",
+      "caption": "Six sizes. One typeface. That's the entire typographic system."
+    },
+    "colour": {
+      "eyebrow": "04 · Colour",
+      "title": "Three colours. No more.",
+      "body": "Paper, ink, accent. The accent — a Kenyan terracotta — appears only when something deserves emphasis. The rest is deliberately quiet.",
+      "caption": "The three colours behind every page on this site.",
+      "paper": "Paper",
+      "ink": "Ink",
+      "accent": "Accent"
+    },
+    "code": {
+      "eyebrow": "05 · Code",
+      "title": "The components write themselves.",
+      "body": "By the time I open the code editor, everything is decided. The code below is the actual component behind the capabilities section on the landing page — no abstractions added for the demo.",
+      "caption": "Every component on this site was written by hand, following the same five-step method."
+    },
+    "cta": {
+      "title": "The method works. Let's apply it.",
+      "body": "A short conversation, an honest assessment, and a written quote at a fixed price. If the method doesn't fit your project, I'll tell you that too.",
+      "primary": "Start a project",
+      "secondary": "Talk it through"
+    }
+  },
+  "Mpesa": {
+    "metaTitle": "M-Pesa-first design — Khalai Studio",
+    "metaDescription": "How I design and build checkout flows for Kenyan businesses. M-Pesa as the default, not the fallback.",
+    "partners": {
+      "eyebrow": "Global partners",
+      "title": "Local first. Global when it earns it.",
+      "subtitle": "M-Pesa is the default. When a customer's card, wallet, or currency is required, these integrations slot in behind the same checkout flow — no second interface, no second set of rules.",
+      "items": {
+        "visa": {
+          "name": "Visa & Mastercard",
+          "body": "For customers who prefer card. The checkout collects M-Pesa first, card second — the layout reflects what your users actually reach for."
+        },
+        "stripe": {
+          "name": "Stripe",
+          "body": "For subscription billing, invoices, and markets outside Kenya. Same UX as the M-Pesa flow, different rail underneath."
+        },
+        "flutter": {
+          "name": "Flutterwave",
+          "body": "For cross-border payments across East and West Africa. Local rails, one integration."
+        },
+        "paypal": {
+          "name": "PayPal",
+          "body": "For customers abroad. Useful for services sold to the diaspora or to international clients."
+        }
+      }
+    },
+    "future": {
+      "eyebrow": "What's coming",
+      "title": "Four things worth building for next.",
+      "subtitle": "Local-first design isn't a snapshot. It's a moving target. These are the features that will feel obvious in two years.",
+      "items": {
+        "agents": {
+          "title": "Agent networks, digitised",
+          "body": "The M-Pesa agent is the original fintech. Digitising the agent relationship — balances, float, disputes — is still underbuilt."
+        },
+        "voice": {
+          "title": "Voice-first checkouts",
+          "body": "For users who can't read a form but can speak. A voice checkout that captures name, amount, and PIN by speech is closer than it looks."
+        },
+        "offline": {
+          "title": "Offline-first payments",
+          "body": "Low-connectivity payments that queue on the device and settle when the network returns. Rural areas and matatus still need this."
+        },
+        "credit": {
+          "title": "Embedded credit",
+          "body": "Buy-now-pay-later built on M-Pesa history, not credit scores. The data exists. The flow doesn't yet."
+        }
+      }
+    },
+    "hero": {
+      "eyebrow": "Payments · Kenya",
+      "titleLens": "M-Pesa isn't a payment option. It's |the| payment method.",
+      "subtitle": "Half of Kenya pays by phone. If your checkout treats M-Pesa as a fallback behind a card form, you've already lost. Here's how I build for the flow your users actually use.",
+      "primary": "Start a project",
+      "secondary": "Talk it through"
+    },
+    "why": {
+      "eyebrow": "Why it matters",
+      "title": "Three reasons M-Pesa deserves first-class treatment.",
+      "subtitle": "Not because it's trendy. Because it's what your users are already holding in their hands.",
+      "points": {
+        "default": {
+          "title": "It is the default",
+          "body": "Over 90% of Kenyan adults use M-Pesa. When it's the primary payment method, the phone number field becomes the most important input on the page — and everything else adjusts."
+        },
+        "mobile": {
+          "title": "It lives on the phone",
+          "body": "The user is holding the device that will complete the payment. Every step of the flow should assume that — the input mode, the copy, the confirmation, the receipt."
+        },
+        "trust": {
+          "title": "Trust is earned in seconds",
+          "body": "A payment page that doesn't look native to Kenyan users reads as suspicious. A page that speaks M-Pesa's language reads as familiar. The difference is subtle and it decides conversions."
+        }
+      }
+    },
+    "principles": {
+      "eyebrow": "The method",
+      "title": "Four principles I don't compromise on.",
+      "steps": {
+        "ask": {
+          "title": "Ask only for what you need",
+          "body": "The phone number. The amount. That's it. Every additional field on a payment page is friction you're choosing to introduce."
+        },
+        "frame": {
+          "title": "Frame the action in M-Pesa's language",
+          "body": "\"Enter your PIN\" — not \"complete transaction\". \"Check your phone for the M-Pesa prompt\" — not \"awaiting payment confirmation\". Speak to what the user is doing."
+        },
+        "confirm": {
+          "title": "Confirm unambiguously",
+          "body": "State the amount, the recipient, and the next step. \"KES 2,500 paid to Mavuno Ltd. A receipt is on its way to your email.\" Not \"Success\"."
+        },
+        "recover": {
+          "title": "Recover from failure with dignity",
+          "body": "Every error message names what happened and what to do next. \"M-Pesa could not be reached. Try again in a moment.\" Not \"Error 403\"."
+        }
+      }
+    },
+    "anatomy": {
+      "eyebrow": "Anatomy",
+      "title": "What a good M-Pesa checkout says at each step.",
+      "subtitle": "Left column is the concept. Right column is the actual copy.",
+      "good": "The copy",
+      "bad": "The moment",
+      "rows": {
+        "phone": {
+          "label": "Entering the phone",
+          "value": "Phone number field labelled \"M-Pesa phone\", with +254 pre-filled and tel keyboard on mobile."
+        },
+        "amount": {
+          "label": "Showing the amount",
+          "value": "Button reads \"Pay KES 2,500\", not \"Continue\". Currency, amount, and verb are all explicit."
+        },
+        "action": {
+          "label": "Prompting the PIN",
+          "value": "\"Check your phone for the M-Pesa prompt. Enter your PIN to confirm.\""
+        },
+        "wait": {
+          "label": "While it processes",
+          "value": "\"Confirming your payment — this takes about 10 seconds.\""
+        },
+        "done": {
+          "label": "When it succeeds",
+          "value": "\"KES 2,500 paid to Mavuno Ltd. A receipt is on its way to your email.\""
+        },
+        "fail": {
+          "label": "When it fails",
+          "value": "\"M-Pesa could not be reached. Try again in a moment, or use a different payment method.\""
+        }
+      }
+    },
+    "proof": {
+      "eyebrow": "In practice",
+      "title": "The numbers behind M-Pesa-first design.",
+      "subtitle": "Design choices that look small and produce returns that don't.",
+      "stats": {
+        "flows": {
+          "value": "12",
+          "label": "Payment flows shipped"
+        },
+        "uptime": {
+          "value": "99.95%",
+          "label": "Checkout uptime"
+        },
+        "countries": {
+          "value": "3",
+          "label": "Countries served"
+        }
+      }
+    },
+    "cta": {
+      "title": "Building something for Kenyan customers?",
+      "body": "A short conversation, an honest assessment, and a written quote at a fixed price. No surprises, no handoffs.",
+      "primary": "Start a project",
+      "secondary": "Talk it through"
+    }
+  },
+  "Site": {
+    "tagline": "Design and software from Nairobi.",
+    "description": "One person, both sides: design and code. Websites, shops, and custom software built by hand for Kenyan businesses.",
+    "location": "Nairobi, Kenya"
+  },
+
+  "Studio": {
+    "footer": {
+      "copyright": "© {year} {name}. Built by hand in {location}.",
+      "location": "Nairobi, Kenya"
+    },
+    "hero": {
+      "location": "Nairobi · Kenya",
+      "eyebrow": "Design and code studio",
+      "wordmark": "Khalai Studio",
+      "wordmarkPrimary": "Khalai",
+      "wordmarkSecondary": "Studio",
+      "titleLens": "Take a closer |look|.",
+      "subtitle": "Design and software studio from Kenya. One person, both sides: design and code.",
+      "startProject": "Start a project",
+      "readJournal": "Read the journal"
+    },
+    "selectedWork": {
+      "eyebrow": "Selected work",
+      "viewProject": "View project",
+      "projects": {
+        "mavuno": {
+          "title": "Mavuno",
+          "category": "Agritech · 2025"
+        },
+        "sokoni": {
+          "title": "Sokoni",
+          "category": "E-commerce · 2025"
+        },
+        "chama": {
+          "title": "Chama Ledger",
+          "category": "Fintech · 2024"
+        }
+      }
+    },
+    "journalPreview": {
+      "eyebrow": "From the journal",
+      "title": "Notes on craft, code, and Kenya.",
+      "allPosts": "All posts"
+    },
+    "stats": {
+      "projects": "Projects shipped",
+      "uptime": "Average uptime",
+      "clients": "Happy clients",
+      "countries": "Countries served"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "Everything from design to deployment.",
+      "titleWords": {
+        "prefix": "Everything from",
+        "lens": "design",
+        "suffix": "to deployment."
+      },
+      "subtitle": "The full stack, end to end. One person, one responsibility.",
+      "cloud": {
+        "title": "Cloud",
+        "body": "AWS, GCP, Azure, or Hetzner. Picked by cost, latency, and where your users actually are."
+      },
+      "cicd": {
+        "title": "CI/CD",
+        "body": "Ship every merge. GitHub Actions, GitLab CI, ArgoCD — pipelines that run themselves."
+      },
+      "kubernetes": {
+        "title": "Kubernetes",
+        "body": "From a single-node k3s to a production cluster. Right-sized for the problem."
+      },
+      "observability": {
+        "title": "Observability",
+        "body": "Prometheus, Grafana, Loki, OpenTelemetry. Know what broke before your users do."
+      },
+      "security": {
+        "title": "Security",
+        "body": "Least privilege, encrypted secrets, audited dependencies."
+      },
+      "blockchain": {
+        "title": "Blockchain",
+        "body": "Solidity, Foundry, Hardhat. Auditable contracts, no hype."
+      }
+    },
+    "manifesto": {
+      "eyebrow": "The method",
+      "title": "From a line to a button.",
+      "line": {
+        "title": "A line.",
+        "body": "Every project starts with guides. Where things belong is measured, not guessed."
+      },
+      "grid": {
+        "title": "A grid.",
+        "body": "Columns, gaps, a surface. The scaffolding everything lines up with later."
+      },
+      "layout": {
+        "title": "A layout.",
+        "body": "Lines become surfaces: navigation, headline, image, button. Order first, ornament later."
+      },
+      "typeface": {
+        "title": "A typeface.",
+        "body": "Type is attitude. Size, width and line breaks are tuned to every single line."
+      },
+      "colour": {
+        "title": "A colour.",
+        "body": "Paper, ink, one terracotta. A brand needs no more when it fits."
+      },
+      "codeLine": {
+        "title": "A line of code.",
+        "body": "What I draw, I also build. By hand, readable, no page builder."
+      }
+    },
+    "stack": {
+      "eyebrow": "Stack",
+      "title": "Boring tools, used well.",
+      "subtitle": "No framework of the week. Just things that will still compile in five years.",
+      "groups": {
+        "cloud": "Cloud",
+        "containers": "Containers",
+        "iac": "Infrastructure as Code",
+        "cicd": "CI/CD",
+        "backend": "Backend",
+        "frontend": "Frontend",
+        "data": "Data",
+        "blockchain": "Blockchain",
+        "obs": "Observability"
+      }
+    },
+    "services": {
+      "eyebrow": "What I do",
+      "title": "Everything your business needs online.",
+      "websites": {
+        "title": "Websites",
+        "body": "Hand-coded, from the first pixel."
+      },
+      "shops": {
+        "title": "Online shops",
+        "body": "Sell without worrying about the technology."
+      },
+      "software": {
+        "title": "Custom software",
+        "body": "Software that follows your process, not the other way around."
+      },
+      "brand": {
+        "title": "Brand & logo",
+        "body": "A mark that stays."
+      },
+      "photography": {
+        "title": "Photography & content",
+        "body": "Pictures that belong to your presence."
+      },
+      "hosting": {
+        "title": "Hosting & email",
+        "body": "It just runs. And if not, you call me."
+      }
+    },
+    "values": {
+      "eyebrow": "How I work",
+      "title": {
+        "prefix": "Four things I",
+        "lens": "refuse",
+        "suffix": "to compromise on."
+      },
+      "craft": {
+        "title": "Craft",
+        "body": "Every element is measured. Nothing ships that I would not put my name on."
+      },
+      "speed": {
+        "title": "Speed",
+        "body": "Fast to load, fast to build. Performance is a feature, not an afterthought."
+      },
+      "clarity": {
+        "title": "Clarity",
+        "body": "Plain language, plain code. You will always know what you are paying for."
+      },
+      "ownership": {
+        "title": "Ownership",
+        "body": "You talk to the person who designs and builds. No account managers, no handoffs."
+      }
+    },
+    "contactCta": {
+      "title": "Tell me about your project.",
+      "body": "A conversation with no strings attached, then an honest assessment. You know what it costs and how long it takes. In writing, at a fixed price.",
+      "primary": "Start a project",
+      "location": "Nairobi, Kenya"
+    }
+  },
+  "Newsletter": {
+    "placeholder": "subscribe to our newsletter",
+    "subscribe": "Subscribe",
+    "sending": "Sending…",
+    "subscribed": "You're subscribed!",
+    "checkInbox": "Check your inbox to confirm your subscription.",
+    "errorGeneric": "Something went wrong.",
+    "signedInAs": "Signed in as {name}",
+    "emailAriaLabel": "Email address"
+  },
+
+  "Home": {
+    "eyebrow": "Khalai DevOps Studio",
+    "title": "Ship faster. Scale smarter. Sleep better.",
+    "subtitle": "We design, build, and operate cloud-native platforms, blockchain infrastructure, and fullstack products — from Nairobi to the world.",
+    "trustLine": "Trusted by teams in Kenya · Uganda · Rwanda · Tanzania",
+
+    "stats": {
+      "projects": "Projects shipped",
+      "uptime": "Average uptime",
+      "clients": "Happy clients",
+      "countries": "Countries served"
+    },
+
+    "capabilities": {
+      "title": "What we do",
+      "subtitle": "End-to-end engineering across the stack that actually runs in production.",
+      "cloud": {
+        "title": "Cloud Infrastructure",
+        "body": "AWS, GCP, and self-hosted environments designed for resilience, cost-efficiency, and data residency."
+      },
+      "cicd": {
+        "title": "CI/CD Pipelines",
+        "body": "Automated build, test, and deploy pipelines with zero-downtime rollouts and instant rollback."
+      },
+      "kubernetes": {
+        "title": "Kubernetes Ops",
+        "body": "Production-grade k8s and k3s clusters, GitOps with ArgoCD, autoscaling, and multi-region failover."
+      },
+      "observability": {
+        "title": "Observability",
+        "body": "Prometheus, Grafana, Loki, and OpenTelemetry — know what's happening before your users do."
+      },
+      "security": {
+        "title": "Security & Compliance",
+        "body": "Hardened images, secrets management, RBAC, KYC/AML integration, and full audit trails."
+      },
+      "blockchain": {
+        "title": "Blockchain Solutions",
+        "body": "Smart contracts, indexers, and permissioned ledgers — from DeFi to land registries."
+      }
+    },
+
+    "adaptability": {
+      "title": "Adaptable by design",
+      "subtitle": "We work with the stack that fits your team, not the other way around.",
+      "groups": {
+        "cloud": "Cloud",
+        "containers": "Containers",
+        "iac": "Infrastructure as Code",
+        "cicd": "CI/CD",
+        "backend": "Backend",
+        "frontend": "Frontend",
+        "data": "Data",
+        "blockchain": "Blockchain",
+        "obs": "Observability"
+      }
+    },
+
+    "values": {
+      "title": "How we work",
+      "subtitle": "Four principles that shape every project we ship.",
+      "craft": {
+        "title": "Craft",
+        "body": "We sweat the details — from pixel alignment to API ergonomics."
+      },
+      "speed": {
+        "title": "Speed",
+        "body": "Ship in weeks, not quarters. Momentum compounds."
+      },
+      "clarity": {
+        "title": "Clarity",
+        "body": "Clear docs, clear interfaces, clear communication."
+      },
+      "ownership": {
+        "title": "Ownership",
+        "body": "We treat every project like it's our own — because it is."
+      }
+    },
+
+    "cta": {
+      "title": "Let's build something resilient.",
+      "body": "Whether you're migrating to Kubernetes, launching a blockchain product, or scaling a SaaS — we can help.",
+      "primary": "Start a project",
+      "secondary": "See our work",
+      "note": "Reply within 24 hours · No obligation"
+    }
+  },
+
+  "About": {
+    "title": "One person. Design and code.",
+    "subtitle": "Khalai is a one-person design and software studio in Nairobi. I build things that ship, and stay shipped.",
+    "eyebrow": "About the studio",
+    "locationLine": "Nairobi, Kenya · Working with teams across East Africa and beyond",
+
+    "storyTitle": "Why one person",
+    "story": "Handing work between a designer and a developer costs more than it saves. Every handoff loses intent — a corner radius becomes a rounding error, a spacing rhythm becomes an approximation. Khalai is one person doing both: design and code from the same mind, at the same moment. It is slower to say yes. It is faster to ship.",
+
+    "introTitle": "A word from me",
+    "intro": "I grew up in Nairobi. I learned to build software on a laptop with a bad battery and a mobile connection that dropped every ten minutes. That taught me to write things that work under real constraints — low bandwidth, small screens, occasional power. If it runs here, it runs anywhere.",
+    "signature": "Wils, founder of Khalai",
+
+    "valuesTitle": "Four things I refuse to compromise on",
+    "values": {
+      "craft": {
+        "title": "Craft",
+        "body": "Every corner is measured. Nothing ships that I would not put my own name on."
+      },
+      "clarity": {
+        "title": "Clarity",
+        "body": "Plain language, plain code. You will always know what you are paying for and why."
+      },
+      "care": {
+        "title": "Care",
+        "body": "The boring details — the loading state, the error message, the empty screen — get the same attention as the hero."
+      },
+      "candour": {
+        "title": "Candour",
+        "body": "If an idea will not work, I will tell you before we start. Not after you have paid for it."
+      }
+    },
+
+    "method": {
+      "title": "How a project moves from idea to live",
+      "body": "Five steps. Same order, every time. It is the reason the tenth change is faster than the first.",
+      "steps": {
+        "line": {
+          "title": "Lines first",
+          "body": "Before anything is styled, I lay out the guides. Where content sits, where whitespace sits. The skeleton is decided on paper."
+        },
+        "grid": {
+          "title": "A grid to hold it",
+          "body": "Columns, gaps, a container width. The grid is the reason the site feels calm at every screen size."
+        },
+        "type": {
+          "title": "Type, chosen for the job",
+          "body": "One typeface, maybe two. Sizes and line breaks tuned line-by-line. Type is the tone of voice."
+        },
+        "colour": {
+          "title": "One colour that earns its place",
+          "body": "Paper, ink, one accent. In Khalai's case, a terracotta borrowed from Kenyan sunsets. It appears rarely and means something each time."
+        },
+        "code": {
+          "title": "Hand-written code",
+          "body": "What I draw, I build. No page builders, no plugin stacks. Readable code that compiles in five years and does not need an upgrade."
+        }
+      }
+    },
+
+    "stats": {
+      "years": "Years building",
+      "projects": "Projects shipped",
+      "clients": "Long-term clients",
+      "countries": "Countries served"
+    },
+
+    "cta": {
+      "title": "Sound like a fit?",
+      "body": "A short conversation, an honest assessment, and a written quote with a fixed price. No surprises.",
+      "primary": "Start a project",
+      "secondary": "See recent work"
+    }
+  },
+  "Projects": {
+    "metaTitle": "Projects — Khalai",
+    "metaDescription": "Fullstack apps, frontend, AI, SEO, and AIEO work we've shipped.",
+    "title": "Our Projects",
+    "subtitle": "A selection of the things we've built — from fullstack platforms to AI-powered tools.",
+    "viewProject": "View project",
+    "noImage": "No preview",
+    "featured": "Featured",
+    "empty": "No projects match your filters yet.",
+    "search": "Search",
+    "searchPlaceholder": "Search projects…",
+    "prev": "Previous",
+    "next": "Next",
+    "errorTitle": "Couldn't load projects",
+    "errorBody": "Please try again in a moment.",
+    "retry": "Try again",
+    "categories": {
+      "all": "All",
+      "fullstack": "Fullstack",
+      "frontend": "Frontend",
+      "ai": "AI",
+      "seo": "SEO",
+      "aieo": "AIEO",
+      "backToProjects": "Back to projects",
+      "visitLive": "Visit live site",
+      "viewCode": "View code"
+    },
+    "eyebrow": "Selected work",
+    "cta": {
+      "title": "Something here look like yours?",
+      "body": "Bring us the problem. We will tell you whether we are the right studio for it, and what it would cost.",
+      "primary": "Start a project",
+      "secondary": "See the journal",
+      "contactUs": "Contact us"
+    },
+    "detailCta": {
+      "title": "Ready to build something similar?",
+      "body": "Every project here started with a short conversation. Yours can too.",
+      "primary": "Start a project"
+    }
+  },
+
+  "Errors": {
+    "eyebrow": "Something went wrong",
+    "title": "The page couldn't load.",
+    "body": "This is usually temporary — a service didn't respond, or a connection dropped. You can try again, go back home, or reach me directly.",
+    "retry": "Try again",
+    "home": "Back to home",
+    "stillBrokenTitle": "Still broken?",
+    "stillBrokenBody": "If this keeps happening, please tell me what page you were on. I usually fix things within a business day.",
+    "orExplore": "Or explore elsewhere",
+    "nav": {
+      "studio": "About the studio",
+      "projects": "Recent work",
+      "pricing": "Pricing",
+      "marketing": "Marketing services",
+      "blog": "The journal",
+      "contact": "Contact"
+    }
+  },
+
+  "Contact": {
+    "metaTitle": "Contact — Khalai Studio",
+    "metaDescription": "Tell us about your project. Nairobi-based design and software studio. Replies within one business day.",
+    "eyebrow": "Get in touch",
+    "title": "Let's talk.",
+    "subtitle": "Whether you are a business in Nairobi, a founder in Lagos, or a company in Berlin looking for a hand-built alternative to a page builder — we should talk. No pitch, no pressure. Just a short conversation and an honest answer.",
+    "locationLine": "Nairobi, Kenya · Remote worldwide · GMT+3",
+    "contactEmail": "hello@khalai.studio",
+    "contactWhatsapp": "254700000000",
+    "contactPhone": "+254700000000",
+
+    "trust": {
+      "item1": "Replies within 1 business day",
+      "item2": "Free 30-minute consultation",
+      "item3": "Fixed-price quotes",
+      "item4": "Remote-friendly, worldwide"
+    },
+
+    "form": {
+      "name": "Your name",
+      "email": "Email",
+      "company": "Company",
+      "subject": "Subject",
+      "message": "Tell us about your project",
+      "send": "Send message",
+      "sending": "Sending…",
+      "success": "Message received.",
+      "successBody": "Thank you. We will reply to your email within one business day.",
+      "errorGeneric": "Something went wrong. Please try again, or email hello@khalai.studio.",
+      "optional": "optional",
+      "namePlaceholder": "Jane Doe",
+      "emailPlaceholder": "jane@example.com",
+      "companyPlaceholder": "Acme Ltd.",
+      "subjectPlaceholder": "New website for my shop",
+      "acceptTermsPrefix": "I agree to the",
+      "acceptTermsLink": "Terms of Service",
+      "acceptTermsAnd": "and",
+      "acceptPrivacyLink": "Privacy Policy",
+      "acceptTermsError": "Please accept the Terms and Privacy Policy before sending.",
+      "formFootnote": "We record which page you came from to understand our marketing — see the Privacy Policy for details and how to opt out.",
+      "messagePlaceholder": "Tell us about the project — what you want to build, your timeline, and your budget range if you have one. No detail is too small."
+    },
+
+    "methods": {
+      "title": "Or reach us another way",
+      "subtitle": "Some conversations are easier on WhatsApp. Others need email. Pick whichever fits.",
+      "email": {
+        "title": "Email",
+        "body": "Best for detailed briefs, documents, and anything you'd like a written record of.",
+        "cta": "Send an email"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "body": "Fastest for quick questions and local clients. Usually answered within the hour during business hours.",
+        "cta": "Open WhatsApp",
+        "prefill": "Hi Khalai — I'd like to talk about a project."
+      },
+      "call": {
+        "title": "Phone",
+        "body": "Available Monday–Friday, 9:00–18:00 East Africa Time (GMT+3).",
+        "cta": "Call now"
+      }
+    },
+
+    "faq": {
+      "title": "Frequently asked",
+      "subtitle": "The questions we get most often, answered honestly.",
+      "reach": {
+        "q": "How quickly do you reply?",
+        "a": "Within one business day. If you use WhatsApp, usually within the hour during Nairobi business hours."
+      },
+      "timezone": {
+        "q": "I'm in a different timezone. Can we still work together?",
+        "a": "Yes. Most of our clients are outside Kenya. We schedule calls to overlap with your working hours and reply to emails across a wide window."
+      },
+      "budget": {
+        "q": "I don't know my budget yet. Is that a problem?",
+        "a": "Not at all. Bring us the problem and the outcome you want. We will help you understand what it costs, and why, before you commit to anything."
+      },
+      "payment": {
+        "q": "How do payments work?",
+        "a": "Typically 40% to start, 60% on delivery. For larger projects we split into milestones. We accept M-Pesa, bank transfer, and card payments."
+      },
+      "remote": {
+        "q": "Do you work with clients outside Kenya?",
+        "a": "Yes — most of our work is remote. We have shipped projects for clients in Uganda, Rwanda, Tanzania, the UK, and Germany."
+      }
+    },
+
+    "cta": {
+      "title": "Prefer a guided start?",
+      "body": "Answer a few questions about your project and get a written quote within two business days.",
+      "primary": "Start a project",
+      "secondary": "See recent work"
+    }
+  },
+  "Auth": {
+    "legal": "By continuing, you agree to our terms and privacy policy.",
+    "support": "Need help? Contact us.",
+    "hero": {
+      "eyebrow": "Welcome back",
+      "title": "One person. Design and code.",
+      "body": "Khalai is a one-person studio in Nairobi. When you sign in, you're talking to the person who designs and builds your work — no handoffs, no middle layer.",
+      "footer": "Nairobi, Kenya · GMT+3 · Replies within one business day",
+      "registerEyebrow": "New here",
+      "registerTitle": "Start something with Khalai.",
+      "registerBody": "Create an account to track projects, message the studio directly, and see your work come to life in one place.",
+      "registerFooter": "Free to create · No card required",
+      "forgotEyebrow": "Forgot password",
+      "forgotTitle": "It happens.",
+      "forgotBody": "Enter the email you signed up with and we'll send you a link to reset it. The link expires in an hour, and you can request a new one any time.",
+      "forgotFooter": "Nairobi, Kenya · GMT+3"
+    },
+    "forgot": {
+      "metaTitle": "Forgot password — Khalai",
+      "metaDescription": "Reset your Khalai account password.",
+      "title": "Forgot your password?",
+      "subtitle": "Enter your email and we'll send you a link to reset it.",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "send": "Send reset link",
+      "sending": "Sending…",
+      "backToLogin": "Back to sign in",
+      "checkTitle": "Check your inbox",
+      "checkBody": "If an account exists for that email, we've sent a link to reset your password. The link expires in one hour.",
+      "tryAgain": "Send to a different email",
+      "errorGeneric": "Something went wrong. Please try again."
+    },
+    "login": {
+      "metaTitle": "Sign in — Khalai",
+      "metaDescription": "Sign in to your Khalai account.",
+      "title": "Welcome back",
+      "subtitle": "Sign in to continue where you left off.",
+      "identifier": "Email or phone",
+      "identifierPlaceholder": "you@example.com or +254 700 000 000",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "signIn": "Sign in",
+      "signingIn": "Signing in…",
+      "orContinue": "or continue with",
+      "noAccount": "Don't have an account?",
+      "signUp": "Create one",
+      "oauthApple": "Sign in with Apple",
+      "oauthGoogle": "Sign in with Google",
+      "oauthMeta": "Sign in with Meta",
+      "validationError": "Please fix the highlighted fields.",
+      "welcomeBack": "Welcome back.",
+      "loginFailed": "Sign in failed.",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password"
+    },
+    "register": {
+      "metaTitle": "Create account — Khalai",
+      "metaDescription": "Create a Khalai account to start a project.",
+      "title": "Create your account",
+      "subtitle": "Two minutes. No card required.",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "phoneOptional": "optional",
+      "stepOf": "Step {current} of {total}",
+      "back": "Back",
+      "continue": "Continue",
+      "review": "Review",
+      "edit": "Edit",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "age": "Age",
+      "bio": "Bio",
+      "bioOptional": "optional",
+      "password": "Password",
+      "passwordHint": "At least 6 characters, one uppercase letter, one number.",
+      "confirmPassword": "Confirm password",
+      "createAccount": "Create account",
+      "creatingAccount": "Creating account…",
+      "orContinue": "or continue with",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "oauthApple": "Sign up with Apple",
+      "oauthGoogle": "Sign up with Google",
+      "oauthMeta": "Sign up with Meta",
+      "validationError": "Please fix the highlighted fields.",
+      "welcome": "Welcome to Khalai.",
+      "registrationFailed": "Registration failed.",
+      "creatingNotice": "Creating your account…",
+      "stepOfPrefix": "Step",
+      "stepOfSeparator": "of",
+      "acceptTermsPrefix": "I agree to the",
+      "acceptTermsLink": "Terms of Service",
+      "acceptTermsAnd": "and",
+      "acceptPrivacyLink": "Privacy Policy",
+      "acceptTermsError": "Please accept the Terms and Privacy Policy to continue."
+    }
+  },
+  "Blog": {
+    "metaTitle": "Journal — Khalai Studio",
+    "metaDescription": "Notes on craft, code, and running a small design and software studio from Nairobi.",
+    "eyebrow": "The journal",
+    "indexTitle": "Notes on craft, code, and Kenya.",
+    "indexSubtitle": "Occasional writing on design systems, building software by hand, and running a small studio from Nairobi.",
+    "relatedTitle": "Related reading",
+    "all": "All",
+    "allPosts": "All posts",
+    "empty": "Nothing here yet. Check back soon.",
+    "backToJournal": "← Journal",
+    "alsoAvailableIn": "Also available in:",
+    "readOriginal": "Read the original",
+    "availableInEnglishOnly": "This article is available in English only."
+  },
+  "Legal": {
+    "terms": {
+      "metaTitle": "Terms of Service — Khalai Studio",
+      "metaDescription": "Terms governing the use of Khalai Studio's website, products, and services.",
+      "lastUpdated": "Last updated: 15 October 2026",
+      "title": "Terms of Service"
+    },
+    "privacy": {
+      "metaTitle": "Privacy Policy — Khalai Studio",
+      "metaDescription": "How Khalai Studio collects, uses, and protects your personal data.",
+      "lastUpdated": "Last updated: 15 October 2026",
+      "title": "Privacy Policy"
+    },
+    "byContinuing": "By continuing, you agree to our",
+    "termsLink": "terms",
+    "and": "and",
+    "privacyLink": "privacy policy",
+    "needHelp": "Need help?",
+    "contactUs": "Contact us"
+  },
+  "Cookies": {
+    "title": "A note about cookies",
+    "body": "We use essential cookies to keep the site working — your login, your theme, and form safety. That is it. No tracking cookies, no ads. When you submit an enquiry, the page you came from is recorded with your message — this is explained in our privacy policy.",
+    "privacyLink": "Read our privacy policy",
+    "acceptAll": "Accept all",
+    "rejectNonEssential": "Essential only",
+    "customize": "Customize",
+    "hideDetails": "Hide details",
+    "savePreferences": "Save preferences",
+    "essential": {
+      "title": "Essential",
+      "body": "Required for the site to function. Login, security, theme preference. These cannot be disabled."
+    },
+    "analytics": {
+      "title": "Analytics",
+      "body": "Anonymous usage statistics to help us improve the site. We currently do not use any."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "body": "Personalised content and ads. We currently do not use any."
+    }
+  }
+}

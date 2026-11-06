@@ -1,0 +1,78 @@
+---
+title: 'Designing for M-Pesa first'
+excerpt:
+  'When half your users pay with their phones, the checkout flow is the product.'
+date: '2026-09-12'
+category: 'Design'
+cover: '/images/journal/mpesa.png'
+tags: ['payments', 'design', 'kenya']
+---
+
+M-Pesa isn't a payment method in Kenya. It's **the** payment method. If your
+checkout treats it as a secondary option behind a credit card form, you've
+already lost.
+
+## What this changes
+
+- The phone number field is the most important input on the page.
+- Confirmation copy needs to speak in M-Pesa's language — "enter your PIN", not
+  "complete transaction".
+- Error states must be unambiguous. A failed payment with no clear reason is a
+  support ticket waiting to happen.
+
+<CallToAction
+  href="/mpesa"
+  title="See how I build M-Pesa-first checkouts"
+  body="Four design principles, applied to the phone input, the confirmation, and the error states that keep users from calling support."
+  label="Read the principles"
+/>
+
+## What I do about it
+
+Every e-commerce flow I build starts with the M-Pesa happy path, drawn on paper,
+before a single component exists. The card form comes second. That order is not
+negotiable.
+
+The reason is simple: the field placement, the button copy, the confirmation
+screen, the error handling — they all cascade from the primary payment method.
+If M-Pesa is the primary method, everything adjusts. If it's secondary, the
+whole flow is subtly wrong, and users notice even if they can't articulate why.
+
+## The phone number input
+
+It needs to accept `+254`, `07`, `01`, and the local formats without spaces. It
+needs `inputmode="tel"` so phones bring up the dialer keyboard. It needs to
+remember the country code so a returning customer types seven digits, not
+twelve.
+
+```tsx
+<input
+  type="tel"
+  inputMode="tel"
+  autoComplete="tel"
+  placeholder="+254 700 000 000"
+  className="..."
+/>
+```
+
+Small things. But they add up to a checkout that feels like it was built for
+Kenya, not adapted from somewhere else.
+
+Confirmation copy "Enter your PIN" — not "complete transaction". "Check your
+phone for the M-Pesa prompt" — not "awaiting payment confirmation". The user is
+holding their phone. Speak to what they're doing, not to what the system calls
+it.
+
+Error states Every failure needs a human explanation. "M-Pesa could not be
+reached. Try again in a moment." "Your PIN was incorrect. You have two attempts
+left." "Your balance is insufficient for this order."
+
+Not "Error 403". Not "Transaction failed". The user will call support if they
+can't tell what to do next, and every support call is time you don't get back.
+
+<CallToAction
+  href="/start"
+  title="Ready to build it right?"
+  body="A short conversation, an honest assessment, and a written quote at a fixed price. No surprises, no handoffs."
+  label="Start a project"
+/>

@@ -1,0 +1,114 @@
+---
+title: 'Diseñar para M-Pesa primero'
+excerpt:
+  'Cuando la mitad de tus usuarios paga con el teléfono, el flujo de pago es el
+  producto.'
+date: '2026-09-12'
+category: 'Diseño'
+cover: '/images/journal/mpesa.jpg'
+---
+
+M-Pesa no es un método de pago en Kenia. Es **el** método de pago. Si tu
+checkout lo trata como una opción secundaria detrás de un formulario de tarjeta,
+ya has perdido.
+
+## Qué cambia esto
+
+- El campo del número de teléfono es el input más importante de la página.
+- El texto de confirmación debe hablar el idioma de M-Pesa — "introduce tu PIN",
+  no "completar transacción".
+- Los estados de error tienen que ser inequívocos. Un pago fallido sin una razón
+  clara es un ticket de soporte esperando a suceder.
+
+## Qué hago al respecto
+
+Cada flujo de comercio electrónico que construyo empieza con el camino feliz de
+M-Pesa, dibujado en papel, antes de que exista un solo componente. El formulario
+de tarjeta viene después. Ese orden no es negociable.
+
+---
+
+## `content/journal/designing-for-m-pesa.es.mdx` — Spanish
+
+````mdx
+---
+title: 'Diseñar para M-Pesa primero'
+excerpt:
+  'Cuando la mitad de tus usuarios paga con el teléfono, el flujo de pago es el
+  producto.'
+date: '2026-09-12'
+category: 'Diseño'
+cover: '/images/journal/mpesa.jpg'
+tags: ['pagos', 'diseño', 'kenia']
+---
+
+M-Pesa no es un método de pago en Kenia. Es **el** método de pago. Si tu
+checkout lo trata como una opción secundaria detrás de un formulario de tarjeta,
+ya has perdido.
+
+## Qué cambia esto
+
+- El campo del número de teléfono es el input más importante de la página.
+- El texto de confirmación debe hablar el idioma de M-Pesa — "introduce tu PIN",
+  no "completar transacción".
+- Los estados de error tienen que ser inequívocos. Un pago fallido sin una razón
+  clara es un ticket de soporte esperando a suceder.
+
+<CallToAction
+  href="/mpesa"
+  title="Mira cómo construyo checkouts con M-Pesa primero"
+  body="Cuatro principios de diseño, aplicados al campo del teléfono, a la confirmación y a los estados de error que evitan que los usuarios llamen a soporte."
+  label="Leer los principios"
+/>
+
+## Qué hago al respecto
+
+Cada flujo de comercio electrónico que construyo empieza con el camino feliz de
+M-Pesa, dibujado en papel, antes de que exista un solo componente. El formulario
+de tarjeta viene después. Ese orden no es negociable.
+
+La razón es simple: la colocación de los campos, el texto del botón, la pantalla
+de confirmación, el manejo de errores — todo cae en cascada desde el método de
+pago principal. Si M-Pesa es el principal, todo se ajusta. Si es secundario,
+todo el flujo está sutilmente mal, y los usuarios lo notan aunque no puedan
+articular por qué.
+
+## El campo del número de teléfono
+
+Tiene que aceptar `+254`, `07`, `01`, y los formatos locales sin espacios.
+Necesita `inputmode="tel"` para que los teléfonos muestren el teclado
+telefónico. Tiene que recordar el código de país para que un cliente que regresa
+escriba siete dígitos, no doce.
+
+```tsx
+<input
+  type="tel"
+  inputMode="tel"
+  autoComplete="tel"
+  placeholder="+254 700 000 000"
+  className="..."
+/>
+```
+````
+
+Cosas pequeñas. Pero suman a un checkout que se siente construido para Kenia, no
+adaptado de otro lugar.
+
+El texto de confirmación "Introduce tu PIN" — no "completar transacción".
+"Revisa tu teléfono para el aviso de M-Pesa" — no "esperando confirmación de
+pago". El usuario tiene el teléfono en la mano. Habla de lo que está haciendo,
+no de cómo lo llama el sistema.
+
+Los estados de error Cada fallo necesita una explicación humana. "No se pudo
+contactar con M-Pesa. Inténtalo de nuevo en un momento." "Tu PIN fue incorrecto.
+Te quedan dos intentos." "Tu saldo es insuficiente para este pedido."
+
+No "Error 403". No "Transacción fallida". El usuario llamará a soporte si no
+puede saber qué hacer después, y cada llamada es tiempo que no recuperas.
+
+<CallToAction
+  href="/start"
+  title="¿Listo para construirlo bien?"
+  body="Una conversación corta, una evaluación honesta y un presupuesto por escrito a precio fijo. Sin sorpresas, sin traspasos."
+  label="Iniciar un proyecto"
+/>

@@ -1,0 +1,1933 @@
+{
+  "Meta": {
+    "title": "Khalai",
+    "description": "Imeundwa na sautis app"
+  },
+
+  "Pricing": {
+    "kicker": "Bei",
+    "title": "Njia mbili. Kiwango kimoja cha kazi.",
+    "body": "Iwe wewe ni mfanyabiashara wa soko anayeanza mtandaoni kwa mara ya kwanza au chapa iliyofadhiliwa inayojenga upya tovuti yako, ufundi ni ule ule. Wigo hubadilika. Uaminifu haubadiliki.",
+    "mostChosen": "Inayochaguliwa zaidi",
+    "notIncluded": "Haijajumuishwa",
+    "trackSelector": {
+      "starter": "Biashara ndogo na waanziaji",
+      "studio": "Studio na chapa"
+    },
+    "starter": {
+      "title": "Kwa biashara ndogo, wafanyakazi huru, na shughuli za pembeni",
+      "subtitle": "Bei halisi kwa bajeti halisi — kuanzia pale biashara nyingi za Kenya zinapoanza.",
+      "note": "Bei hizi ni za uaminifu. Ikiwa bajeti yako iko chini ya kiwango cha Launch, tuambie hata hivyo. Tumejenga tovuti kwa KES 15,000 na tutakuambia unachoweza na usichoweza kupata kwa hiyo.",
+      "launch": {
+        "name": "Launch",
+        "price": "KES 35,000",
+        "usd": "≈ $270",
+        "cadence": "/ mara moja",
+        "description": "Tovuti safi, ya haraka, ya ukurasa mmoja inayoweka biashara yako kwenye ramani.",
+        "features": [
+          "Tovuti ya ukurasa mmoja",
+          "Muundo wa kwanza wa simu",
+          "Usanidi wa Google Business Profile",
+          "Fomu ya mawasiliano + kitufe cha WhatsApp",
+          "SEO ya msingi (vichwa, meta, sitemap)",
+          "Usanidi wa domain + upangishaji",
+          "Inawasilishwa kwa wiki 2"
+        ],
+        "notIncluded": [
+          "CMS (unatutumia mabadiliko)",
+          "Blogu au kurasa nyingi",
+          "Usimamizi wa mitandao ya kijamii",
+          "Matangazo ya kulipia"
+        ],
+        "cta": "Anza kidogo"
+      },
+      "grow": {
+        "name": "Grow",
+        "price": "KES 85,000",
+        "usd": "≈ $650",
+        "cadence": "/ mara moja",
+        "description": "Tovuti ndogo ya kurasa nyingi na CMS, ili uweze kuisasisha mwenyewe.",
+        "features": [
+          "Hadi kurasa 6",
+          "Muundo maalum",
+          "CMS ya kuhariri maudhui",
+          "Usanidi kamili wa SEO",
+          "Google Analytics + Search Console",
+          "WhatsApp + ukusanyaji wa barua pepe",
+          "Inawasilishwa kwa wiki 3–4"
+        ],
+        "cta": "Anza kukua"
+      },
+      "care": {
+        "name": "Mpango wa malezi",
+        "price": "KES 4,500",
+        "usd": "≈ $35",
+        "cadence": "/ mwezi",
+        "description": "Masasisho endelevu, nakala rudufu, na marekebisho madogo — ili tovuti yako iendelee kufanya kazi.",
+        "features": [
+          "Masasisho ya maudhui ya kila mwezi",
+          "Nakala rudufu + ufuatiliaji wa muda wa kufanya kazi",
+          "Mabadiliko madogo ya muundo",
+          "Viraka vya usalama",
+          "Saa 1 ya muda wa uendelezaji / mwezi",
+          "Msaada wa WhatsApp"
+        ],
+        "cta": "Ongeza mpango wa malezi"
+      }
+    },
+    "studio": {
+      "title": "Kwa startups zilizofadhiliwa na chapa zilizoimarika",
+      "subtitle": "Miradi kamili ya ushirikiano na mifumo ya muundo, masoko, na ushirikiano endelevu.",
+      "brand": {
+        "name": "Brand",
+        "price": "$12,000",
+        "cadence": "/ mradi",
+        "description": "Tovuti kamili ya chapa na mfumo wa muundo katika msimbo.",
+        "features": [
+          "Tovuti kamili, hadi kurasa 10",
+          "Mfumo wa muundo katika msimbo",
+          "CMS + maudhui yanayoweza kuhaririwa",
+          "SEO ya kiufundi + ya ukurasa",
+          "Uchanganuzi + ripoti ya kila mwezi",
+          "Wiki mbili za msaada baada ya kuzindua"
+        ],
+        "cta": "Weka simu"
+      },
+      "custom": {
+        "name": "Ujenzi maalum",
+        "price": "Kuanzia $25,000",
+        "cadence": "/ mradi",
+        "description": "Lugha nyingi, masoko mengi, au ugumu usio wa kawaida — wigo kwa kila ushirikiano.",
+        "features": [
+          "Lugha nyingi (2–6 maeneo)",
+          "Muunganisho maalum (CRM, ERP, malipo)",
+          "SEO ya juu + AIEO",
+          "Mfumo wa muundo + nyaraka",
+          "QA kamili + ukaguzi wa ufikivu",
+          "Makabidhiano + mafunzo ya timu"
+        ],
+        "cta": "Panga wigo wa mradi"
+      },
+      "partner": {
+        "name": "Partner",
+        "price": "$3,500",
+        "cadence": "/ mwezi",
+        "description": "Muundo, uhandisi, na masoko endelevu kwa mkataba.",
+        "features": [
+          "Muundo + ujenzi endelevu",
+          "Masoko + SEO + mitandao ya kijamii",
+          "Msaada wa kipaumbele",
+          "Mapitio ya mkakati ya kila robo mwaka",
+          "Ghairi wakati wowote"
+        ],
+        "cta": "Zungumza nasi"
+      }
+    },
+    "upgrade": {
+      "title": "Unaweza kuanza kidogo na kukua ndani yake",
+      "body": "Wateja wetu wengi wa muda mrefu walianza na mradi wa Launch. Hii ndiyo njia ya uaminifu ambayo wengi wao waliichukua.",
+      "steps": [
+        {
+          "title": "Launch",
+          "body": "Ukurasa mmoja safi unakupatia mtandaoni, umeorodheshwa, na unafikika kwenye WhatsApp."
+        },
+        {
+          "title": "Grow",
+          "body": "Mara trafiki inapoingia, tovuti sahihi ya kurasa nyingi + CMS huwafanya wateja washiriki."
+        },
+        {
+          "title": "Mpango wa malezi",
+          "body": "Masasisho endelevu huifanya tovuti kuwa mpya, ya haraka, na salama — bila wewe kufikiria."
+        },
+        {
+          "title": "Brand / Partner",
+          "body": "Biashara inapozidi tovuti, tunaijenga upya ipasavyo na mfumo kamili wa muundo."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Maswali kutoka kwa wateja halisi",
+      "items": [
+        {
+          "q": "Kwa nini kiwango cha Launch ni cha bei nafuu sana kuliko Brand?",
+          "a": "Kwa sababu kazi ni tofauti kwa kweli. Launch ni ukurasa mmoja uliozingatia mfumo wa muundo tuliouboresha katika ujenzi kadhaa. Brand ni mfumo maalum ulioundwa mahsusi kwa biashara yako — inachukua wiki, sio siku."
+        },
+        {
+          "q": "Naweza kulipa kwa awamu?",
+          "a": "Ndiyo. Kwa Launch na Grow, 50% mapema, 50% wakati wa kuzindua. Kwa miradi mikubwa, tunagawanya katika hatua tatu au nne."
+        },
+        {
+          "q": "Ninamiliki kila kitu?",
+          "a": "Ndiyo — kila domain, akaunti ya upangishaji, akaunti ya uchanganuzi, na hazina ya msimbo iko kwa jina lako tangu siku ya kwanza. Ukiondoka, unachukua kila kitu."
+        },
+        {
+          "q": "Je, ikiwa sina maudhui tayari?",
+          "a": "Tunaweza kuyaandika nawe — uandishi umejumuishwa katika Grow na zaidi. Kwa Launch, tutakusaidia kupanga ulivyo navyo."
+        },
+        {
+          "q": "Upangishaji ni wa ziada?",
+          "a": "Upangishaji wa tovuti za Launch ni takriban KES 500–1,000/mwezi (Vercel au sawa). Tunausanidi kwenye akaunti yako ili uumiliki."
+        },
+        {
+          "q": "Naweza kupandisha kiwango baadaye?",
+          "a": "Ndiyo, na imeundwa kuwa rahisi. Tunahifadhi alama za muundo na muundo kutoka tovuti yako ya Launch ili kupandisha hadi Grow au Brand kuwe nyongeza, sio ujenzi upya."
+        },
+        {
+          "q": "Njia gani za malipo?",
+          "a": "M-Pesa, uhamisho wa benki, kadi, au PayPal kwa wateja wa kimataifa. Yote yanafakturiwa ipasavyo."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Huna uhakika ni ipi inafaa?",
+      "body": "Tutumie sentensi tatu kuhusu biashara yako. Tutakurudishia pendekezo halisi — hata kama ni dogo kuliko ulichoomba.",
+      "contact": "Wasiliana na studio",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  
+  "Showcase": {
+    "kicker": "Maonyesho",
+    "title": "Njia tatu za kuona kazi.",
+    "body": "Uzoefu tatu uliojengwa kwa hadithi moja — wima, mlalo, na uchapishaji wa herufi. Tumia kibadilishaji chini ili kuhamia kati yao. Zaidi vitaongezwa vinapowasilishwa.",
+    "open": "Fungua uzoefu",
+    "switcherLabel": "Badilisha kati ya uzoefu",
+    "backToShowcase": "Rudi kwenye maonyesho",
+    "experiences": {
+      "creativity": {
+        "title": "Ubunifu",
+        "body": "Safari ya kusogeza kwa wima kupitia jinsi kipande kinavyoundwa — mistari, gridi, herufi, rangi, msimbo."
+      },
+      "horizontal": {
+        "title": "Mlalo",
+        "body": "Insha ya kusogeza kwa mlalo inayochukulia ukurasa kama jedwali la yaliyomo unaotembea kando."
+      },
+      "typography": {
+        "title": "Uchapishaji wa herufi",
+        "body": "Sampuli hai ya herufi — ukubwa, uzito, familia, na mdundo wa kusoma wenyewe."
+      },
+      "systems": {
+        "title": "Mifumo",
+        "body": "Tabaka lililo chini ya uso — backends, miunganisho, DevOps, malipo, na minyororo inayounganisha shamba na mteja."
+      },
+      "music": {
+        "title": "Muziki",
+        "body": "Ala, uchanganyaji, na uzalishaji kwa TV, redio, na wasanii huru — kutoka chumba kilichotibiwa Nairobi hadi mawasilisho ya matangazo."
+      },
+      "photography": {
+        "title": "Upigaji picha",
+        "body": "Upigaji picha wa uhariri, safari, na asili — vijipicha vya kijivu vinavyochipuka kuwa rangi unapopitisha kipanya."
+      },
+      "kitchen": {
+        "title": "Jikoni",
+        "body": "Jiko jeusi kwa Nairobi — M-Pesa kwa sekunde nne, mwendesha baiskeli mlangoni kwako kwa thelathini."
+      }
+    }
+  },
+
+  "NotFound": {
+    "eyebrow": "404 · Imepotea",
+    "title": "Ukurasa huu ulitangatanga.",
+    "body": "Kiungo ulichofuata kinaweza kuwa kimevunjika, au ukurasa umahamishwa. Inatokea. Hizi ndizo njia za kurudi.",
+    "back": "Rudi nyuma",
+    "home": "Rudi nyumbani",
+    "contact": "Wasiliana na studio",
+    "orExplore": "Au gundua",
+    "nav": {
+      "studio": "Kuhusu studio",
+      "projects": "Kazi za hivi karibuni",
+      "pricing": "Bei",
+      "blog": "Jarida",
+      "marketing": "Huduma za masoko",
+      "experiences": "Uzoefu"
+    },
+    "mark": "Khalai Studio",
+    "svgAria": "Mhusika aliyepotea akizunguka sokoni la usiku",
+    "hint": "Ni giza huko nje. Twende mahali panapojulikana."
+  },
+
+  "Profile": {
+    "metaTitle": "Wasifu wako — Khalai",
+    "metaDescription": "Dhibiti maelezo ya akaunti yako.",
+    "title": "Wasifu wako",
+    "subtitle": "Sasisha jinsi unavyoonekana kwenye tovuti.",
+    "sections": {
+      "basics": "Msingi",
+      "bio": "Kukuhusu"
+    },
+    "fields": {
+      "name": "Jina kamili",
+      "email": "Barua pepe",
+      "emailLocked": "Barua pepe haiwezi kubadilishwa hapa. Wasiliana nasi ikiwa unahitaji kuibadilisha.",
+      "phone": "Simu",
+      "phoneOptional": "si lazima",
+      "age": "Umri",
+      "bio": "Wasifu",
+      "bioOptional": "si lazima",
+      "bioHint": "Utangulizi mfupi. Hii inaonekana kando ya ujumbe wako."
+    },
+    "placeholders": {
+      "name": "Wanjiku Kamau",
+      "email": "wewe@example.com",
+      "phone": "+254 700 000 000",
+      "age": "25",
+      "bio": "Sentensi moja au mbili kukuhusu."
+    },
+    "actions": {
+      "save": "Hifadhi mabadiliko",
+      "saving": "Inahifadhi…",
+      "saved": "Wasifu umesasishwa.",
+      "reset": "Weka upya"
+    },
+    "errors": {
+      "generic": "Kitu kilienda vibaya. Jaribu tena.",
+      "nameRequired": "Jina linahitajika.",
+      "nameShort": "Angalau herufi 2.",
+      "phoneInvalid": "Weka namba ya simu sahihi.",
+      "ageRequired": "Umri unahitajika.",
+      "ageInvalid": "Umri lazima uwe namba.",
+      "ageMin": "Lazima uwe na miaka 18 au zaidi.",
+      "ageMax": "Weka umri sahihi.",
+      "bioTooLong": "Weka chini ya herufi 500."
+    }
+  },
+  "Dashboard": {
+    "nav": {
+      "dashboard": "Dashibodi",
+      "payments": "Malipo",
+      "analytics": "Uchanganuzi",
+      "users": "Watumiaji",
+      "reports": "Ripoti",
+      "messages": "Ujumbe",
+      "adminInbox": "Kikasha cha Msimamizi",
+      "email": "Barua pepe",
+      "settings": "Mipangilio",
+      "profile": "Wasifu",
+      "activity": "Shughuli",
+      "leads": "Wateja"
+    },
+    "breadcrumbs": {
+      "home": "Dashibodi",
+      "ariaLabel": "Njia ya urambazaji",
+      "profile": "Wasifu",
+      "payments": "Malipo",
+      "new": "Mpya",
+      "payouts": "Malipo ya kutolewa",
+      "subscriptions": "Usajili",
+      "inbox": "Kikasha",
+      "admin": "Msimamizi"
+    },
+    "brand": "Khalai",
+    "footer": "khalai.com",
+    "sidebar": {
+      "expand": "Panua pembeni",
+      "collapse": "Kunja pembeni"
+    },
+    "userMenu": {
+      "guest": "Mgeni",
+      "profile": "Wasifu",
+      "settings": "Mipangilio",
+      "adminInbox": "Kikasha cha Msimamizi",
+      "myMessages": "Ujumbe Wangu",
+      "logout": "Toka",
+      "loggingOut": "Inatoka…"
+    }
+  },
+  
+  "Nav": {
+    "home": "Nyumbani",
+    "about": "Kuhusu",
+    "blog": "Blogu",
+    "projects": "Miradi",
+    "contact": "Wasiliana",
+    "language": "Lugha",
+    "signIn": "Ingia",
+    "register": "Jisajili",
+    "brand": "Khalai Studio",
+    "market": "Masoko",
+
+    "mega": {
+      "open": "Zaidi",
+      "close": "Funga",
+      "hint": "Tazama menyu kamili",
+      "openAria": "Fungua menyu ya kina",
+      "closeAria": "Funga menyu ya kina",
+      "navigate": "Vinjari",
+      "experiences": "Uzoefu",
+      "marketing": "Masoko",
+      "studio": "Studio",
+      "allMarketing": "Masoko yote",
+      "studioTagline": "Studio mjini Nairobi",
+      "studioMarkPrimary": "Khalai",
+      "studioMarkSecondary": "Studio"
+    },
+    "mobile": {
+      "open": "Zaidi",
+      "close": "Funga"
+    },
+
+    "experiences": {
+      "creativity": "Ubunifu",
+      "horizontal": "Mlalo",
+      "typography": "Uchapishaji wa herufi",
+      "systems": "Mifumo",
+      "music": "Muziki",
+      "photography": "Upigaji picha",
+      "kitchen": "Jikoni"
+    },
+
+    "marketing": {
+      "seo": "SEO",
+      "smm": "Mitandao ya kijamii",
+      "aieo": "AIEO",
+      "scraping": "Uchimbaji wa wavuti",
+      "localisation": "Ujanibishaji",
+      "ads": "Matangazo ya kulipia",
+      "leads": "Wateja"
+    },
+
+    "utility": {
+      "contact": "Wasiliana",
+      "pricing": "Bei",
+      "start": "Anzisha mradi",
+      "support": "Msaada",
+      "payments": "Malipo",
+      "terms": "Masharti",
+      "privacy": "Faragha"
+    }
+  }
+,
+  "AdminProjects": {
+    "title": "Simamia Miradi",
+    "subtitle": "Miradi {count} kwenye hifadhidata",
+    "newProject": "Mradi Mpya",
+    "createTitle": "Unda Mradi",
+    "editTitle": "Hariri Mradi",
+    "backToList": "Rudi kwenye miradi",
+    "empty": "Hakuna miradi bado. Unda wa kwanza!",
+    "searchPlaceholder": "Tafuta miradi…",
+    "published": "Imechapishwa",
+    "draft": "Rasimu",
+    "view": "Tazama",
+    "edit": "Hariri",
+    "delete": "Futa",
+    "cancel": "Ghairi",
+    "saving": "Inahifadhi…",
+    "deleting": "Inafuta…",
+    "saveChanges": "Hifadhi mabadiliko",
+    "createProject": "Unda mradi",
+    "confirmDeleteTitle": "Futa mradi huu?",
+    "confirmDeleteBody": "Kitendo hiki hakiwezi kutenduliwa.",
+    "columns": {
+      "project": "Mradi",
+      "category": "Kategoria",
+      "status": "Hali",
+      "updated": "Imesasishwa",
+      "actions": "Vitendo"
+    },
+    "fields": {
+      "title": "Kichwa",
+      "slug": "Slug",
+      "description": "Maelezo mafupi",
+      "content": "Maudhui marefu (markdown)",
+      "category": "Kategoria",
+      "tags": "Lebo",
+      "tagsHint": "Zimetenganishwa kwa koma, mf. react, tailwind, nestjs",
+      "thumbnail": "URL ya picha ndogo",
+      "url": "URL ya moja kwa moja",
+      "repo": "URL ya repo",
+      "featured": "Imeangaziwa",
+      "published": "Imechapishwa",
+      "year": "Mwaka",
+      "order": "Mpangilio wa kuonyesha"
+    },
+    "categories": {
+      "all": "Zote",
+      "fullstack": "Fullstack",
+      "frontend": "Frontend",
+      "ai": "AI",
+      "seo": "SEO",
+      "aieo": "AIEO"
+    }
+  },
+  "Method": {
+    "metaTitle": "Mbinu ya Khalai — Khalai Studio",
+    "metaDescription": "Miongozo, gridi, aina ya maandishi, rangi moja. Mchakato wa hatua tano nyuma ya kila mradi.",
+    "hero": {
+      "eyebrow": "Mbinu",
+      "titleLens": "Kutoka mstari hadi |kitufe|.",
+      "subtitle": "Hatua tano. Mpangilio huo huo, kila wakati. Ndio sababu mabadiliko ya kumi ni ya haraka kuliko ya kwanza.",
+      "scrollHint": "Sogeza ili kuipitia"
+    },
+
+    "cards": {
+      "eyebrow": "Kwa muhtasari",
+      "title": "Mbinu kwa karatasi moja.",
+      "items": {
+        "guides": {
+          "title": "Miongozo kwanza",
+          "body": "Kila mradi huanza kwa mistari miwili ya wima na miwili ya mlalo. Kabla ya rangi, kabla ya aina ya maandishi, kabla ya msimbo. Mfupa hufafanua kila kitu kinachofuata."
+        },
+        "grid": {
+          "title": "Gridi inayoshikilia",
+          "body": "Safu kumi na mbili, mapengo thabiti, upana mmoja wa juu. Gridi ndio inayofanya ukurasa uhisi mtulivu kwenye kila kipimo cha skrini — na ndio inayofanya marekebisho ya kumi kuwa ya haraka."
+        },
+        "restraint": {
+          "title": "Kujizuia",
+          "body": "Aina moja ya maandishi. Rangi tatu. Aksenti inayoonekana mara chache. Uzuri wa tovuti unatokana na kile kinachoachwa nje, sio kile kinachoongezwa."
+        },
+        "ownership": {
+          "title": "Umiliki",
+          "body": "Mtu mmoja hushika mbinu kutoka mwanzo hadi mwisho. Hakuna upitishaji, hakuna makosa ya mawasiliano, hakuna nia inayopotea. Unazungumza na mtu anayeamua na kujenga."
+        }
+      }
+    },
+    "steps": {
+      "eyebrow": "Mpangilio",
+      "title": "Hatua tano, kwa mpangilio huu, kila wakati.",
+      "lines": {
+        "title": "Mistari kwanza",
+        "body": "Kabla ya kupamba chochote, naweka miongozo. Pembe mbili za wima za maudhui, mistari miwili ya mlalo kwa juu ya kichwa na msingi wa urambazaji. Kila kitu kinachofuata ama kinatoshea ndani yao au kinahama kwa sababu ya kusudi."
+      },
+      "grid": {
+        "title": "Gridi ya kuishikilia",
+        "body": "Safu kumi na mbili, mapengo thabiti, upana wa juu wa maudhui. Gridi ndio sababu tovuti inahisi utulivu kwenye kila ukubwa wa skrini. Ni ahadi kuhusu wapi vitu vinakaa, na kila kipengele kinachokuja baadaye kinatimiza ahadi hiyo au kinaeleza kwa nini sivyo."
+      },
+      "type": {
+        "title": "Aina ya maandishi iliyochaguliwa kwa kazi",
+        "body": "Aina moja, labda mbili. Ukubwa na mikato ya mistari imerekebishwa mstari kwa mstari. Tofauti ya uzito hutumika tu pale inapostahili. Aina ya maandishi ni sauti ya lugha — hubeba zaidi ya ubunifu kuliko picha yoyote."
+      },
+      "colour": {
+        "title": "Rangi moja inayostahili nafasi yake",
+        "body": "Karatasi, wino, aksenti moja. Kwa upande wa Khalai, terracotta iliyokopwa kutoka machweo ya Kenya. Inaonekana mara chache na inamaanisha kitu kila inapotokea. Palette ni pendekezo. Kujitolea ni uamuzi."
+      },
+      "code": {
+        "title": "Msimbo ulioandikwa kwa mkono",
+        "body": "Ninachochora, ninajenga. Hakuna wajenzi wa kurasa, hakuna stacki za plugins. Msimbo unaosomeka unaokamilika baada ya miaka mitano na hauhitaji kuboreshwa. Nidhamu ya mpangilio huendelea hadi kwenye nidhamu ya vipengele."
+      }
+    },
+    "grid": {
+      "eyebrow": "02 · Gridi",
+      "title": "Gridi inayoshikilia ukurasa pamoja.",
+      "body": "Safu kumi na mbili. Mapengo thabiti. Upana mmoja wa juu. Tazama vitalu vya mfano vikipata nafasi zao — hiyo sio mapambo, ndio sababu hakuna kitu kwenye tovuti hii kinachohisi kama kimeharibika kidogo.",
+      "caption": "Kila kitalu kwenye tovuti kinakaa kwenye moja ya safu hizi kumi na mbili. Kinapokaa tofauti, ni kwa sababu ubaguzi ni hoja."
+    },
+    "type": {
+      "eyebrow": "03 · Aina ya maandishi",
+      "title": "Aina moja. Kila ukubwa inaohitaji.",
+      "body": "Ukubwa sita, familia moja. Kila mmoja umechaguliwa kwa kazi maalum. Kiwango cha aina hapa chini ndicho kiwango halisi ambacho tovuti inatumia — hakuna kilichobuniwa kwa onyesho hili.",
+      "caption": "Ukubwa sita. Aina moja. Hiyo ndiyo mfumo wote wa aina ya maandishi."
+    },
+    "colour": {
+      "eyebrow": "04 · Rangi",
+      "title": "Rangi tatu. Hakuna zaidi.",
+      "body": "Karatasi, wino, aksenti. Aksenti — terracotta ya Kenya — inaonekana tu wakati kitu kinastahili msisitizo. Kilichobaki ni kimya kwa kusudi.",
+      "caption": "Rangi tatu nyuma ya kila ukurasa kwenye tovuti hii.",
+      "paper": "Karatasi",
+      "ink": "Wino",
+      "accent": "Aksenti"
+    },
+    "code": {
+      "eyebrow": "05 · Msimbo",
+      "title": "Vipengele hujiandika vyenyewe.",
+      "body": "Wakati nafungua kihariri cha msimbo, kila kitu kimeamuliwa. Msimbo hapa chini ni kipengele halisi nyuma ya sehemu ya uwezo kwenye ukurasa wa mwanzo — hakuna abstractions zilizoongezwa kwa onyesho.",
+      "caption": "Kila kipengele kwenye tovuti hii kiliandikwa kwa mkono, kikifuata mbinu hiyo hiyo ya hatua tano."
+    },
+    "cta": {
+      "title": "Mbinu inafanya kazi. Tuiitumie.",
+      "body": "Mazungumzo mafupi, tathmini ya uaminifu, na bei maalum iliyoandikwa. Kama mbinu haifai mradi wako, nitakuambia hivyo pia.",
+      "primary": "Anza mradi",
+      "secondary": "Zungumza nasi"
+    }
+  },
+  "Mpesa": {
+    "metaTitle": "Ubunifu wa M-Pesa kwanza — Khalai Studio",
+    "metaDescription": "Jinsi nabuni na najenga njia za malipo kwa biashara za Kenya. M-Pesa kama chaguo-msingi, sio mbadala.",
+    "partners": {
+      "eyebrow": "Washirika wa kimataifa",
+      "title": "Nchini kwanza. Kimataifa inapostahili.",
+      "subtitle": "M-Pesa ni chaguo-msingi. Wakati kadi, pochi, au sarafu ya mteja inahitajika, viungo hivi huingia nyuma ya mtiririko huo huo wa malipo — hakuna kiolesura cha pili, hakuna sheria za pili.",
+      "items": {
+        "visa": {
+          "name": "Visa na Mastercard",
+          "body": "Kwa wateja wanaopendelea kadi. Malipo hukusanya M-Pesa kwanza, kadi pili — mpangilio unaonyesha kile watumiaji wako wanachukua kwa kweli."
+        },
+        "stripe": {
+          "name": "Stripe",
+          "body": "Kwa malipo ya usajili, ankara, na masoko nje ya Kenya. UX sawa na mtiririko wa M-Pesa, reli tofauti chini."
+        },
+        "flutter": {
+          "name": "Flutterwave",
+          "body": "Kwa malipo ya kuvuka mipaka Afrika Mashariki na Magharibi. Reli za nchini, muunganisho mmoja."
+        },
+        "paypal": {
+          "name": "PayPal",
+          "body": "Kwa wateja wa nje. Inafaa kwa huduma zinazouzwa kwa diaspora au kwa wateja wa kimataifa."
+        }
+      }
+    },
+    "future": {
+      "eyebrow": "Kinachokuja",
+      "title": "Vitu vinne vinavyostahili kujengwa baadaye.",
+      "subtitle": "Ubunifu wa nchini kwanza sio picha ya wakati mmoja. Ni lengo linalotembea. Hizi ni vipengele vitakavyoonekana dhahiri baada ya miaka miwili.",
+      "items": {
+        "agents": {
+          "title": "Mitandao ya mawakala, kidijitali",
+          "body": "Wakala wa M-Pesa ni fintech ya asili. Kuweka uhusiano wa wakala kidijitali — salio, float, migogoro — bado hakujajengwa vya kutosha."
+        },
+        "voice": {
+          "title": "Malipo ya sauti kwanza",
+          "body": "Kwa watumiaji wasioweza kusoma fomu lakini wanaweza kuzungumza. Malipo ya sauti yanayonasa jina, kiasi, na PIN kwa kuzungumza yako karibu zaidi kuliko yanavyoonekana."
+        },
+        "offline": {
+          "title": "Malipo ya nje ya mtandao",
+          "body": "Malipo ya muunganisho mdogo yanayopanga kwenye kifaa na kulipwa mtandao unapopatikana. Maeneo ya vijijini na matatu bado yanahitaji hii."
+        },
+        "credit": {
+          "title": "Mikopo iliyopachikwa",
+          "body": "Nunua-sasa-lipa-baadaye iliyojengwa kwa historia ya M-Pesa, sio alama za mikopo. Data ipo. Mtiririko bado."
+        }
+      }
+    },
+    "hero": {
+      "eyebrow": "Malipo · Kenya",
+      "titleLens": "M-Pesa sio njia moja ya malipo. Ni |njia| ya malipo.",
+      "subtitle": "Nusu ya Kenya hulipa kwa simu. Ikiwa mtiririko wako wa malipo unachukulia M-Pesa kama mbadala nyuma ya fomu ya kadi, umeshapoteza. Hivi ndivyo najenga kwa mtiririko ambao watumiaji wako wanautumia.",
+      "primary": "Anza mradi",
+      "secondary": "Zungumza nasi"
+    },
+    "why": {
+      "eyebrow": "Kwa nini ni muhimu",
+      "title": "Sababu tatu M-Pesa inastahili matibabu ya daraja la kwanza.",
+      "subtitle": "Sio kwa sababu ni mtindo. Kwa sababu ni kile watumiaji wako wameshika mikononi mwao.",
+      "points": {
+        "default": {
+          "title": "Ni chaguo-msingi",
+          "body": "Zaidi ya 90% ya watu wazima wa Kenya hutumia M-Pesa. Inapokuwa njia kuu ya malipo, sehemu ya namba ya simu inakuwa sehemu muhimu zaidi kwenye ukurasa — na kila kitu kingine hubadilika."
+        },
+        "mobile": {
+          "title": "Inakaa kwenye simu",
+          "body": "Mtumiaji ameshika kifaa kitakachokamilisha malipo. Kila hatua ya mtiririko inapaswa kudhani hivyo — hali ya kuingiza, maandishi, uthibitisho, risiti."
+        },
+        "trust": {
+          "title": "Uaminifu hupatikana kwa sekunde",
+          "body": "Ukurasa wa malipo usioonekana wa asili kwa watumiaji wa Kenya husomeka kama wa kutiliwa shaka. Ukurasa unaozungumza lugha ya M-Pesa husomeka kama unaojulikana. Tofauti ni ndogo na inaamua ubadilishaji."
+        }
+      }
+    },
+    "principles": {
+      "eyebrow": "Mbinu",
+      "title": "Kanuni nne nisizoweza kuachilia.",
+      "steps": {
+        "ask": {
+          "title": "Uliza kile unachohitaji tu",
+          "body": "Namba ya simu. Kiasi. Ndivyo tu. Kila sehemu ya ziada kwenye ukurasa wa malipo ni msuguano unaochagua kuingiza."
+        },
+        "frame": {
+          "title": "Weka kitendo katika lugha ya M-Pesa",
+          "body": "\"Weka PIN yako\" — sio \"kamilisha muamala\". \"Angalia simu yako kwa kidokezo cha M-Pesa\" — sio \"inasubiri uthibitisho wa malipo\". Zungumza na kile mtumiaji anachofanya."
+        },
+        "confirm": {
+          "title": "Thibitisha bila utata",
+          "body": "Eleza kiasi, mpokeaji, na hatua inayofuata. \"KES 2,500 imelipwa kwa Mavuno Ltd. Risiti inakuja kwenye barua pepe yako.\" Sio \"Mafanikio\"."
+        },
+        "recover": {
+          "title": "Rudia kutoka kushindwa kwa heshima",
+          "body": "Kila ujumbe wa kosa hutaja kilichotokea na cha kufanya baadaye. \"M-Pesa haikufikiwa. Jaribu tena baada ya muda mfupi.\" Sio \"Kosa 403\"."
+        }
+      }
+    },
+    "anatomy": {
+      "eyebrow": "Muundo",
+      "title": "Malipo mazuri ya M-Pesa yanasema nini katika kila hatua.",
+      "subtitle": "Safu ya kushoto ni dhana. Safu ya kulia ni maandishi halisi.",
+      "good": "Maandishi",
+      "bad": "Wakati",
+      "rows": {
+        "phone": {
+          "label": "Kuingiza simu",
+          "value": "Sehemu ya namba ya simu iliyoandikwa \"Simu ya M-Pesa\", na +254 imejazwa awali na kibodi ya tel kwenye simu."
+        },
+        "amount": {
+          "label": "Kuonyesha kiasi",
+          "value": "Kitufe kinasomeka \"Lipa KES 2,500\", sio \"Endelea\". Sarafu, kiasi, na kitenzi vyote viko wazi."
+        },
+        "action": {
+          "label": "Kuchochea PIN",
+          "value": "\"Angalia simu yako kwa kidokezo cha M-Pesa. Weka PIN yako kuthibitisha.\""
+        },
+        "wait": {
+          "label": "Wakati inachakata",
+          "value": "\"Inathibitisha malipo yako — inachukua kama sekunde 10.\""
+        },
+        "done": {
+          "label": "Inapofanikiwa",
+          "value": "\"KES 2,500 imelipwa kwa Mavuno Ltd. Risiti inakuja kwenye barua pepe yako.\""
+        },
+        "fail": {
+          "label": "Inaposhindikana",
+          "value": "\"M-Pesa haikufikiwa. Jaribu tena baada ya muda mfupi, au tumia njia nyingine ya malipo.\""
+        }
+      }
+    },
+    "proof": {
+      "eyebrow": "Kwa vitendo",
+      "title": "Nambari nyuma ya ubunifu wa M-Pesa kwanza.",
+      "subtitle": "Chaguo za ubunifu zinazoonekana ndogo na kutoa faida zisizoonekana.",
+      "stats": {
+        "flows": {
+          "value": "12",
+          "label": "Njia za malipo zilizosafirishwa"
+        },
+        "uptime": {
+          "value": "99.95%",
+          "label": "Uptime wa malipo"
+        },
+        "countries": {
+          "value": "3",
+          "label": "Nchi zinazohudumiwa"
+        }
+      }
+    },
+    "cta": {
+      "title": "Unajenga kitu kwa wateja wa Kenya?",
+      "body": "Mazungumzo mafupi, tathmini ya uaminifu, na bei maalum iliyoandikwa. Hakuna mshangao, hakuna upitishaji.",
+      "primary": "Anza mradi",
+      "secondary": "Zungumza nasi"
+    }
+  },
+  "Site": {
+    "tagline": "Ubunifu na programu kutoka Nairobi.",
+    "description": "Mtu mmoja, pande zote mbili: ubunifu na msimbo. Tovuti, maduka, na programu maalum zilizojengwa kwa mkono kwa biashara za Kenya.",
+    "location": "Nairobi, Kenya"
+  },
+  
+  "Studio": {
+    "footer": {
+      "copyright": "© {year} {name}. Imejengwa kwa mkono huko {location}.",
+      "location": "Nairobi, Kenya"
+    },
+    "hero": {
+      "location": "Nairobi · Kenya",
+      "eyebrow": "Studio la ubunifu na msimbo",
+      "wordmark": "Khalai Studio",
+      "wordmarkPrimary": "Khalai",
+      "wordmarkSecondary": "Studio",
+      "titleLens": "Chukua |mtazamo| wa karibu.",
+      "subtitle": "Studio ya ubunifu na programu kutoka Kenya. Mtu mmoja, pande mbili: ubunifu na msimbo.",
+      "startProject": "Anzisha mradi",
+      "readJournal": "Soma jarida"
+    },
+    "selectedWork": {
+      "eyebrow": "Kazi teule",
+      "viewProject": "Tazama mradi",
+      "projects": {
+        "mavuno": {
+          "title": "Mavuno",
+          "category": "Teknolojia ya kilimo · 2025"
+        },
+        "sokoni": {
+          "title": "Sokoni",
+          "category": "Biashara mtandaoni · 2025"
+        },
+        "chama": {
+          "title": "Chama Ledger",
+          "category": "Fedha · 2024"
+        }
+      }
+    },
+    "journalPreview": {
+      "eyebrow": "Kutoka jaridani",
+      "title": "Maelezo kuhusu ufundi, msimbo, na Kenya.",
+      "allPosts": "Machapisho yote"
+    },
+    "stats": {
+      "projects": "Miradi iliyokamilika",
+      "uptime": "Wastani wa muda wa kufanya kazi",
+      "clients": "Wateja wenye furaha",
+      "countries": "Nchi zinazohudumiwa"
+    },
+    "capabilities": {
+      "eyebrow": "Uwezo",
+      "title": "Kila kitu kutoka ubunifu hadi usambazaji.",
+      "titleWords": {
+        "prefix": "Kila kitu kutoka",
+        "lens": "ubunifu",
+        "suffix": "hadi usambazaji."
+      },
+      "subtitle": "Mkusanyiko kamili, mwanzo hadi mwisho. Mtu mmoja, jukumu moja.",
+      "cloud": {
+        "title": "Wingu",
+        "body": "AWS, GCP, Azure, au Hetzner. Huchaguliwa kwa gharama, ucheleweshaji, na mahali watumiaji wako wapo."
+      },
+      "cicd": {
+        "title": "CI/CD",
+        "body": "Sambaza kila muunganisho. GitHub Actions, GitLab CI, ArgoCD — mifumo inayojitekeleza yenyewe."
+      },
+      "kubernetes": {
+        "title": "Kubernetes",
+        "body": "Kutoka k3s ya nodi moja hadi kundi la uzalishaji. Inalingana na tatizo."
+      },
+      "observability": {
+        "title": "Uangalizi",
+        "body": "Prometheus, Grafana, Loki, OpenTelemetry. Jua kilichovunjika kabla watumiaji wako hawajajua."
+      },
+      "security": {
+        "title": "Usalama",
+        "body": "Ruhusa ndogo zaidi, siri zilizosimbwa, vitegemezi vilivyokaguliwa."
+      },
+      "blockchain": {
+        "title": "Blockchain",
+        "body": "Solidity, Foundry, Hardhat. Mikataba inayoweza kukaguliwa, bila kelele."
+      }
+    },
+    "manifesto": {
+      "eyebrow": "Mbinu",
+      "title": "Kutoka mstari hadi kitufe.",
+      "line": {
+        "title": "Mstari.",
+        "body": "Kila mradi huanza na miongozo. Mahali vitu vinapaswa kuwa hupimwa, sio kukisiwa."
+      },
+      "grid": {
+        "title": "Gridi.",
+        "body": "Safu, mapengo, uso. Kiunzi ambacho kila kitu hupangwa nacho baadaye."
+      },
+      "layout": {
+        "title": "Mpangilio.",
+        "body": "Mistari huwa nyuso: urambazaji, kichwa, picha, kitufe. Mpangilio kwanza, mapambo baadaye."
+      },
+      "typeface": {
+        "title": "Fonti.",
+        "body": "Herufi ni mtazamo. Ukubwa, upana na mikato ya mistari hurekebishwa kwa kila mstari mmoja."
+      },
+      "colour": {
+        "title": "Rangi.",
+        "body": "Karatasi, wino, terracotta moja. Chapa haihitaji zaidi inapofaa."
+      },
+      "codeLine": {
+        "title": "Mstari wa msimbo.",
+        "body": "Ninachochora, ninakijenga pia. Kwa mkono, kinachosomeka, bila kijenzi cha kurasa."
+      }
+    },
+    "stack": {
+      "eyebrow": "Mkusanyiko",
+      "title": "Zana za kawaida, zinazotumika vizuri.",
+      "subtitle": "Hakuna mfumo wa wiki. Ni vitu ambavyo vitakusanywa vizuri baada ya miaka mitano.",
+      "groups": {
+        "cloud": "Wingu",
+        "containers": "Vyombo",
+        "iac": "Miundombinu kama Msimbo",
+        "cicd": "CI/CD",
+        "backend": "Nyuma",
+        "frontend": "Mbele",
+        "data": "Data",
+        "blockchain": "Blockchain",
+        "obs": "Uangalizi"
+      }
+    },
+    "services": {
+      "eyebrow": "Ninachofanya",
+      "title": "Kila kitu biashara yako inahitaji mtandaoni.",
+      "websites": {
+        "title": "Tovuti",
+        "body": "Zilizoandikwa kwa mkono, kutoka pikseli ya kwanza."
+      },
+      "shops": {
+        "title": "Maduka mtandaoni",
+        "body": "Uza bila kuwa na wasiwasi kuhusu teknolojia."
+      },
+      "software": {
+        "title": "Programu maalum",
+        "body": "Programu inayofuata mchakato wako, sio kinyume chake."
+      },
+      "brand": {
+        "title": "Chapa na nembo",
+        "body": "Alama inayodumu."
+      },
+      "photography": {
+        "title": "Upigaji picha na maudhui",
+        "body": "Picha zinazomilikiwa na uwepo wako."
+      },
+      "hosting": {
+        "title": "Upangishaji na barua pepe",
+        "body": "Inaendesha tu. Na kama sivyo, unanipigia simu."
+      }
+    },
+    "values": {
+      "eyebrow": "Jinsi ninavyofanya kazi",
+      "title": {
+        "prefix": "Mambo manne",
+        "lens": "ninayokataa",
+        "suffix": "kuyafanya maelewano."
+      },
+      "craft": {
+        "title": "Ufundi",
+        "body": "Kila kipengele kinapimwa. Hakuna kinachosafirishwa ambacho nisingeweka jina langu juu yake."
+      },
+      "speed": {
+        "title": "Kasi",
+        "body": "Haraka kupakia, haraka kujenga. Utendaji ni kipengele, sio mawazo ya baadaye."
+      },
+      "clarity": {
+        "title": "Uwazi",
+        "body": "Lugha rahisi, msimbo rahisi. Utajua kila wakati unalipia nini."
+      },
+      "ownership": {
+        "title": "Umiliki",
+        "body": "Unazungumza na mtu anayebuni na kujenga. Hakuna wasimamizi wa akaunti, hakuna makabidhiano."
+      }
+    },
+    "contactCta": {
+      "title": "Niambie kuhusu mradi wako.",
+      "body": "Mazungumzo bila masharti, kisha tathmini ya uaminifu. Unajua gharama na muda. Kwa maandishi, kwa bei maalum.",
+      "primary": "Anzisha mradi",
+      "location": "Nairobi, Kenya"
+    }
+  }
+,
+  "Newsletter": {
+    "placeholder": "jiunge na jarida letu",
+    "subscribe": "Jiunge",
+    "sending": "Inatuma…",
+    "subscribed": "Umejiunga!",
+    "checkInbox": "Angalia kikasha chako kuthibitisha usajili.",
+    "errorGeneric": "Kitu kilienda vibaya.",
+    "signedInAs": "Umeingia kama {name}",
+    "emailAriaLabel": "Barua pepe"
+  },
+  "Home": {
+    "eyebrow": "Khalai DevOps Studio",
+    "title": "Safirisha haraka. Kua kwa akili. Lala vizuri.",
+    "subtitle": "Tunabuni, tunajenga, na tunaendesha mifumo ya cloud-native, miundombinu ya blockchain, na bidhaa za fullstack — kutoka Nairobi hadi dunia.",
+    "trustLine": "Inaaminiwa na timu Kenya · Uganda · Rwanda · Tanzania",
+
+    "stats": {
+      "projects": "Miradi iliyosafirishwa",
+      "uptime": "Uptime wa wastani",
+      "clients": "Wateja wenye furaha",
+      "countries": "Nchi zinazohudumiwa"
+    },
+
+    "capabilities": {
+      "title": "Tunachofanya",
+      "subtitle": "Uhandisi wa mwanzo hadi mwisho kwenye stack inayofanya kazi kwa kweli kwenye production.",
+      "cloud": {
+        "title": "Miundombinu ya Cloud",
+        "body": "AWS, GCP, na mazingira ya kujihost yaliyoundwa kwa uthabiti, ufanisi wa gharama, na uhifadhi wa data nchini."
+      },
+      "cicd": {
+        "title": "Njia za CI/CD",
+        "body": "Njia za kujenga, kupima, na kupeleka kiotomatiki zenye uenezaji wa bila kukatika na kurudi papo hapo."
+      },
+      "kubernetes": {
+        "title": "Uendeshaji wa Kubernetes",
+        "body": "Makundi ya k8s na k3s ya kiwango cha production, GitOps na ArgoCD, autoscaling, na failover ya kanda nyingi."
+      },
+      "observability": {
+        "title": "Ufuatiliaji",
+        "body": "Prometheus, Grafana, Loki, na OpenTelemetry — jua kinachotokea kabla ya watumiaji wako."
+      },
+      "security": {
+        "title": "Usalama na Kufuata Sheria",
+        "body": "Picha zilizoimarishwa, usimamizi wa siri, RBAC, ujumuishaji wa KYC/AML, na rekodi kamili za ukaguzi."
+      },
+      "blockchain": {
+        "title": "Suluhisho za Blockchain",
+        "body": "Mikataba mahiri, indexers, na leja zenye ruhusa — kutoka DeFi hadi rejista za ardhi."
+      }
+    },
+
+    "adaptability": {
+      "title": "Inayobadilika kwa muundo",
+      "subtitle": "Tunafanya kazi na stack inayofaa timu yako, sio kinyume chake.",
+      "groups": {
+        "cloud": "Cloud",
+        "containers": "Containers",
+        "iac": "Miundombinu kama Msimbo",
+        "cicd": "CI/CD",
+        "backend": "Backend",
+        "frontend": "Frontend",
+        "data": "Data",
+        "blockchain": "Blockchain",
+        "obs": "Ufuatiliaji"
+      }
+    },
+
+    "values": {
+      "title": "Tunavyofanya kazi",
+      "subtitle": "Kanuni nne zinazounda kila mradi tunaosafirisha.",
+      "craft": {
+        "title": "Ufundi",
+        "body": "Tunajali maelezo — kutoka upangaji wa pikseli hadi ergonomics ya API."
+      },
+      "speed": {
+        "title": "Mwendo",
+        "body": "Safirisha kwa wiki, sio robo. Kasi inaongeza nguvu."
+      },
+      "clarity": {
+        "title": "Uwazi",
+        "body": "Nyaraka wazi, interfaces wazi, mawasiliano wazi."
+      },
+      "ownership": {
+        "title": "Umiliki",
+        "body": "Tunachukulia kila mradi kama wetu — kwa sababu ni wetu."
+      }
+    },
+
+    "cta": {
+      "title": "Tujenge kitu kinachostahimili.",
+      "body": "Iwe unahamia Kubernetes, unazindua bidhaa ya blockchain, au unakua SaaS — tunaweza kusaidia.",
+      "primary": "Anza mradi",
+      "secondary": "Ona kazi yetu",
+      "note": "Jibu ndani ya saa 24 · Hakuna wajibu"
+    }
+  },
+
+  "About": {
+    "title": "Mtu mmoja. Ubunifu na msimbo.",
+    "subtitle": "Khalai ni studio ya mtu mmoja ya ubunifu na programu mjini Nairobi. Najenga vitu vinavyosafirishwa, na kubaki vimesafirishwa.",
+    "eyebrow": "Kuhusu studio",
+    "locationLine": "Nairobi, Kenya · Nafanya kazi na timu Afrika Mashariki na kwingineko",
+
+    "storyTitle": "Kwa nini mtu mmoja",
+    "story": "Kupitisha kazi kati ya mbunifu na mtengenezaji wa programu hugharimu zaidi ya kunavyookoa. Kila upitishaji hupoteza nia — radius ya kona inakuwa kosa la kuzungusha, mdundo wa nafasi unakuwa makadirio. Khalai ni mtu mmoja anayefanya vyote: ubunifu na msimbo kutoka akili moja, kwa wakati mmoja. Ni polepole kusema ndio. Ni haraka kusafirisha.",
+
+    "introTitle": "Neno langu",
+    "intro": "Nilikulia Nairobi. Nilijifunza kutengeneza programu kwa kompyuta yenye betri mbovu na mtandao unaokatika kila dakika kumi. Hiyo ilinifundisha kuandika vitu vinavyofanya kazi chini ya vikwazo vya kweli — bandwidth ndogo, skrini ndogo, umeme unaokatika. Ikiwa inafanya kazi hapa, inafanya kazi popote.",
+    "signature": "Wils, mwanzilishi wa Khalai",
+
+    "valuesTitle": "Mambo manne nisiyoweza kuachilia",
+    "values": {
+      "craft": {
+        "title": "Ufundi",
+        "body": "Kila kona inapimwa. Hakuna kinachosafirishwa ambacho nisingeweka jina langu juu yake."
+      },
+      "clarity": {
+        "title": "Uwazi",
+        "body": "Lugha rahisi, msimbo rahisi. Utajua kila wakati unalipa nini na kwa nini."
+      },
+      "care": {
+        "title": "Uangalifu",
+        "body": "Maelezo yenye kuchosha — hali ya kupakia, ujumbe wa kosa, skrini tupu — hupata umakini sawa na hero."
+      },
+      "candour": {
+        "title": "Uwazi wa moyo",
+        "body": "Ikiwa wazo halitafanya kazi, nitakuambia kabla tuanze. Sio baada ya kulipa."
+      }
+    },
+
+    "method": {
+      "title": "Jinsi mradi husafiri kutoka wazo hadi hewani",
+      "body": "Hatua tano. Mpangilio huo huo, kila wakati. Ndio sababu mabadiliko ya kumi ni ya haraka kuliko ya kwanza.",
+      "steps": {
+        "line": {
+          "title": "Mistari kwanza",
+          "body": "Kabla ya kupamba chochote, naweka miongozo. Maudhui yanakaa wapi, nafasi tupu inakaa wapi. Mifupa inaamuliwa kwenye karatasi."
+        },
+        "grid": {
+          "title": "Gridi ya kuishikilia",
+          "body": "Safu, mapengo, upana wa chombo. Gridi ndio sababu tovuti inahisi utulivu kwenye kila ukubwa wa skrini."
+        },
+        "type": {
+          "title": "Aina ya maandishi, iliyochaguliwa kwa kazi",
+          "body": "Typeface moja, labda mbili. Ukubwa na mikato ya mistari imerekebishwa mstari kwa mstari. Aina ya maandishi ni sauti ya lugha."
+        },
+        "colour": {
+          "title": "Rangi moja inayostahili nafasi yake",
+          "body": "Karatasi, wino, aksenti moja. Kwa upande wa Khalai, terracotta iliyokopwa kutoka machweo ya Kenya. Inaonekana mara chache na inamaanisha kitu kila wakati."
+        },
+        "code": {
+          "title": "Msimbo ulioandikwa kwa mkono",
+          "body": "Ninachochora, ninajenga. Hakuna wajenzi wa kurasa, hakuna stacki za plugins. Msimbo unaosomeka unaokamilika baada ya miaka mitano na hauhitaji kuboreshwa."
+        }
+      }
+    },
+
+    "stats": {
+      "years": "Miaka ya kujenga",
+      "projects": "Miradi iliyosafirishwa",
+      "clients": "Wateja wa muda mrefu",
+      "countries": "Nchi zilizohudumiwa"
+    },
+
+    "cta": {
+      "title": "Inaonekana tunafaa?",
+      "body": "Mazungumzo mafupi, tathmini ya uaminifu, na bei iliyoandikwa kwa bei maalum. Hakuna mshangao.",
+      "primary": "Anza mradi",
+      "secondary": "Ona kazi za hivi karibuni"
+    }
+  },
+  "Projects": {
+    "metaTitle": "Miradi — Khalai",
+    "metaDescription": "Programu za fullstack, frontend, AI, SEO, na AIEO tulizosafirisha.",
+    "title": "Miradi Yetu",
+    "subtitle": "Uteuzi wa vitu tulivyojenga — kutoka majukwaa ya fullstack hadi zana zinazoendeshwa na AI.",
+    "viewProject": "Ona mradi",
+    "noImage": "Hakuna onyesho",
+    "featured": "Imeangaziwa",
+    "empty": "Hakuna miradi inayolingana na vichujio vyako bado.",
+    "search": "Tafuta",
+    "searchPlaceholder": "Tafuta miradi…",
+    "prev": "Iliyotangulia",
+    "next": "Ifuatayo",
+    "errorTitle": "Imeshindwa kupakia miradi",
+    "errorBody": "Tafadhali jaribu tena baada ya muda mfupi.",
+    "retry": "Jaribu tena",
+    "categories": {
+      "all": "Zote",
+      "fullstack": "Fullstack",
+      "frontend": "Frontend",
+      "ai": "AI",
+      "seo": "SEO",
+      "aieo": "AIEO",
+      "backToProjects": "Rudi kwenye miradi",
+      "visitLive": "Tembelea tovuti hai",
+      "viewCode": "Ona msimbo"
+    },
+    "eyebrow": "Kazi zilizochaguliwa",
+    "cta": {
+      "title": "Kuna kitu hapa kinachofanana na chako?",
+      "body": "Leta tatizo. Tutakuambia kama sisi ni studio sahihi kwa hilo, na gharama yake.",
+      "primary": "Anza mradi",
+      "secondary": "Ona blogu",
+      "contactUs": "Wasiliana nasi"
+    },
+    "detailCta": {
+      "title": "Uko tayari kujenga kitu kama hiki?",
+      "body": "Kila mradi hapa ulianza na mazungumzo mafupi. Wako unaweza pia.",
+      "primary": "Anza mradi"
+    }
+  },  
+  "Errors": {
+    "eyebrow": "Kuna jambo limeenda kombo",
+    "title": "Ukurasa haukuweza kupakia.",
+    "body": "Kwa kawaida hii ni ya muda — huduma haikujibu, au muunganisho ulikatika. Unaweza kujaribu tena, kurudi nyumbani, au kuwasiliana nami moja kwa moja.",
+    "retry": "Jaribu tena",
+    "home": "Rudi nyumbani",
+    "stillBrokenTitle": "Bado haifanyi kazi?",
+    "stillBrokenBody": "Ikiwa hii inaendelea kutokea, tafadhali niambie ulikuwa kwenye ukurasa gani. Kwa kawaida hurekebisha mambo ndani ya siku moja ya kazi.",
+    "orExplore": "Au gundua mahali pengine",
+    "nav": {
+      "studio": "Kuhusu studio",
+      "projects": "Kazi za hivi karibuni",
+      "pricing": "Bei",
+      "marketing": "Huduma za masoko",
+      "blog": "Jarida",
+      "contact": "Wasiliana"
+    }
+  },
+  "Contact": {
+    "metaTitle": "Mawasiliano — Khalai Studio",
+    "metaDescription": "Tuambie kuhusu mradi wako. Studio la ubunifu na programu mjini Nairobi. Majibu ndani ya siku moja ya kazi.",
+    "eyebrow": "Wasiliana nasi",
+    "title": "Tuzungumze.",
+    "subtitle": "Iwe wewe ni biashara mjini Nairobi, mwanzilishi mjini Lagos, au kampuni mjini Berlin inayotafuta mbadala uliojengwa kwa mkono badala ya kijenzi cha kurasa — tunapaswa kuzungumza. Bila hotuba, bila shinikizo. Mazungumzo mafupi tu na jibu la uaminifu.",
+    "locationLine": "Nairobi, Kenya · Kazi ya mbali kimataifa · GMT+3",
+    "contactEmail": "hello@khalai.studio",
+    "contactWhatsapp": "254700000000",
+    "contactPhone": "+254700000000",
+
+    "trust": {
+      "item1": "Majibu ndani ya siku 1 ya kazi",
+      "item2": "Ushauri wa bure wa dakika 30",
+      "item3": "Nukuu za bei maalum",
+      "item4": "Inafaa kwa kazi ya mbali, kimataifa"
+    },
+
+    "form": {
+      "name": "Jina lako",
+      "email": "Barua pepe",
+      "company": "Kampuni",
+      "subject": "Somo",
+      "message": "Tuambie kuhusu mradi wako",
+      "send": "Tuma ujumbe",
+      "sending": "Inatuma…",
+      "success": "Ujumbe umepokelewa.",
+      "successBody": "Asante. Tutajibu barua pepe yako ndani ya siku moja ya kazi.",
+      "errorGeneric": "Kuna jambo limeenda kombo. Tafadhali jaribu tena, au andika kwa hello@khalai.studio.",
+      "optional": "si lazima",
+      "namePlaceholder": "Jane Doe",
+      "emailPlaceholder": "jane@example.com",
+      "companyPlaceholder": "Acme Ltd.",
+      "subjectPlaceholder": "Tovuti mpya kwa duka langu",
+      "acceptTermsPrefix": "Nakubali",
+      "acceptTermsLink": "Masharti ya Huduma",
+      "acceptTermsAnd": "na",
+      "acceptPrivacyLink": "Sera ya Faragha",
+      "acceptTermsError": "Tafadhali kubali Masharti na Sera ya Faragha kabla ya kutuma.",
+      "formFootnote": "Tunarekodi ukurasa uliokuja nao ili kuelewa masoko yetu — tazama Sera ya Faragha kwa maelezo na jinsi ya kujiondoa.",
+      "messagePlaceholder": "Tuambie kuhusu mradi — unataka kujenga nini, muda wako, na kiwango cha bajeti ikiwa unayo. Hakuna maelezo madogo sana."
+    },
+
+    "methods": {
+      "title": "Au wasiliana nasi kwa njia nyingine",
+      "subtitle": "Mazungumzo mengine ni rahisi zaidi kupitia WhatsApp. Mengine yanahitaji barua pepe. Chagua inayokufaa.",
+      "email": {
+        "title": "Barua pepe",
+        "body": "Bora kwa maelezo ya kina, nyaraka, na kitu chochote unachotaka kiwe na kumbukumbu ya maandishi.",
+        "cta": "Tuma barua pepe"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "body": "Njia ya haraka zaidi kwa maswali mafupi na wateja wa ndani. Kwa kawaida hujibiwa ndani ya saa moja wakati wa saa za kazi.",
+        "cta": "Fungua WhatsApp",
+        "prefill": "Habari Khalai — ningependa kuzungumza kuhusu mradi."
+      },
+      "call": {
+        "title": "Simu",
+        "body": "Inapatikana Jumatatu–Ijumaa, 9:00–18:00 Saa za Afrika Mashariki (GMT+3).",
+        "cta": "Piga simu sasa"
+      }
+    },
+
+    "faq": {
+      "title": "Maswali yanayoulizwa mara kwa mara",
+      "subtitle": "Maswali tunayopokea zaidi, yakijibiwa kwa uaminifu.",
+      "reach": {
+        "q": "Mnajibu haraka kiasi gani?",
+        "a": "Ndani ya siku moja ya kazi. Ukitumia WhatsApp, kwa kawaida ndani ya saa moja wakati wa saa za kazi za Nairobi."
+      },
+      "timezone": {
+        "q": "Niko katika eneo tofauti la saa. Tunaweza bado kufanya kazi pamoja?",
+        "a": "Ndiyo. Wateja wetu wengi wako nje ya Kenya. Tunapanga simu zinazogusana na saa zako za kazi na tunajibu barua pepe katika kipindi kikubwa."
+      },
+      "budget": {
+        "q": "Bado sijui bajeti yangu. Ni tatizo?",
+        "a": "Hapana kabisa. Leta tatizo na matokeo unayoyataka. Tutakusaidia kuelewa ni gharama gani, na kwa nini, kabla ya kujitolea kwa chochote."
+      },
+      "payment": {
+        "q": "Malipo yanafanyaje kazi?",
+        "a": "Kwa kawaida 40% mwanzoni, 60% wakati wa kuwasilisha. Kwa miradi mikubwa tunagawanya katika hatua. Tunakubali M-Pesa, uhamisho wa benki, na malipo ya kadi."
+      },
+      "remote": {
+        "q": "Mnafanya kazi na wateja nje ya Kenya?",
+        "a": "Ndiyo — kazi yetu nyingi ni ya mbali. Tumewasilisha miradi kwa wateja Uganda, Rwanda, Tanzania, Uingereza, na Ujerumani."
+      }
+    },
+
+    "cta": {
+      "title": "Unapendelea kuanza kwa mwongozo?",
+      "body": "Jibu maswali machache kuhusu mradi wako na upate nukuu ya maandishi ndani ya siku mbili za kazi.",
+      "primary": "Anzisha mradi",
+      "secondary": "Tazama kazi za hivi karibuni"
+    }
+  },
+   "Auth": {
+      "legal": "Kwa kuendelea, unakubali masharti yetu na sera ya faragha.",
+      "support": "Unahitaji msaada? Wasiliana nasi.",
+      "hero": {
+        "eyebrow": "Karibu tena",
+        "title": "Mtu mmoja. Ubunifu na msimbo.",
+        "body": "Khalai ni studio ya mtu mmoja jijini Nairobi. Unapoingia, unazungumza na mtu anayebuni na kuunda kazi yako — hakuna kupeana kazi, hakuna tabaka la kati.",
+        "footer": "Nairobi, Kenya · GMT+3 · Majibu ndani ya siku moja ya kazi",
+        "registerEyebrow": "Mgeni hapa",
+        "registerTitle": "Anza kitu na Khalai.",
+        "registerBody": "Fungua akaunti ili kufuatilia miradi, kuwasiliana na studio moja kwa moja, na kuona kazi yako ikizaliwa mahali pamoja.",
+        "registerFooter": "Bure kufungua · Hakuna kadi inayohitajika",
+        "forgotEyebrow": "Umesahau neno la siri",
+        "forgotTitle": "Hutokea.",
+        "forgotBody": "Weka barua pepe uliyojisajili nayo na tutakutumia kiungo cha kuweka upya. Kiungo hiki kinaisha baada ya saa moja, na unaweza kuomba kingine wakati wowote.",
+        "forgotFooter": "Nairobi, Kenya · GMT+3"
+      },
+      "forgot": {
+        "metaTitle": "Umesahau neno la siri — Khalai",
+        "metaDescription": "Weka upya neno la siri la akaunti yako ya Khalai.",
+        "title": "Umesahau neno lako la siri?",
+        "subtitle": "Weka barua pepe yako na tutakutumia kiungo cha kuweka upya.",
+        "email": "Barua pepe",
+        "emailPlaceholder": "wewe@example.com",
+        "send": "Tuma kiungo cha kuweka upya",
+        "sending": "Inatuma…",
+        "backToLogin": "Rudi kuingia",
+        "checkTitle": "Angalia kikasha chako",
+        "checkBody": "Ikiwa akaunti ipo kwa barua pepe hiyo, tumetuma kiungo cha kuweka upya neno la siri. Kiungo kinaisha baada ya saa moja.",
+        "tryAgain": "Tuma kwa barua pepe nyingine",
+        "errorGeneric": "Hitilafu imetokea. Tafadhali jaribu tena."
+      },
+      "login": {
+        "metaTitle": "Ingia — Khalai",
+        "metaDescription": "Ingia kwenye akaunti yako ya Khalai.",
+        "title": "Karibu tena",
+        "subtitle": "Ingia ili kuendelea ulipoishia.",
+        "identifier": "Barua pepe au simu",
+        "identifierPlaceholder": "wewe@example.com au +254 700 000 000",
+        "password": "Neno la siri",
+        "forgotPassword": "Umesahau neno la siri?",
+        "signIn": "Ingia",
+        "signingIn": "Inaingia…",
+        "orContinue": "au endelea na",
+        "noAccount": "Huna akaunti?",
+        "signUp": "Fungua moja",
+        "oauthApple": "Ingia na Apple",
+        "oauthGoogle": "Ingia na Google",
+        "oauthMeta": "Ingia na Meta",
+        "validationError": "Tafadhali rekebisha sehemu zilizoangaziwa.",
+        "welcomeBack": "Karibu tena.",
+        "loginFailed": "Kuingia kumeshindikana.",
+        "showPassword": "Onyesha neno la siri",
+        "hidePassword": "Ficha neno la siri"
+      },
+      "register": {
+        "metaTitle": "Fungua akaunti — Khalai",
+        "metaDescription": "Fungua akaunti ya Khalai ili kuanza mradi.",
+        "title": "Fungua akaunti yako",
+        "subtitle": "Dakika mbili. Hakuna kadi inayohitajika.",
+        "name": "Jina kamili",
+        "email": "Barua pepe",
+        "phone": "Simu",
+        "phoneOptional": "hiari",
+        "stepOf": "Hatua {current} kati ya {total}",
+        "back": "Rudi",
+        "continue": "Endelea",
+        "review": "Kagua",
+        "edit": "Hariri",
+        "showPassword": "Onyesha neno la siri",
+        "hidePassword": "Ficha neno la siri",
+        "age": "Umri",
+        "bio": "Maelezo binafsi",
+        "bioOptional": "hiari",
+        "password": "Neno la siri",
+        "passwordHint": "Angalau herufi 6, herufi moja kubwa, namba moja.",
+        "confirmPassword": "Thibitisha neno la siri",
+        "createAccount": "Fungua akaunti",
+        "creatingAccount": "Inafungua akaunti…",
+        "orContinue": "au endelea na",
+        "haveAccount": "Tayari una akaunti?",
+        "signIn": "Ingia",
+        "oauthApple": "Jisajili na Apple",
+        "oauthGoogle": "Jisajili na Google",
+        "oauthMeta": "Jisajili na Meta",
+        "validationError": "Tafadhali rekebisha sehemu zilizoangaziwa.",
+        "welcome": "Karibu Khalai.",
+        "registrationFailed": "Usajili umeshindikana.",
+        "creatingNotice": "Inafungua akaunti yako…",
+        "stepOfPrefix": "Hatua",
+        "stepOfSeparator": "kati ya",
+        "acceptTermsPrefix": "Nakubali",
+        "acceptTermsLink": "Masharti ya Huduma",
+        "acceptTermsAnd": "na",
+        "acceptPrivacyLink": "Sera ya Faragha",
+        "acceptTermsError": "Tafadhali kubali Masharti na Sera ya Faragha ili kuendelea."
+      }
+    },
+  "Blog": {
+    "metaTitle": "Blogu — Khalai Studio",
+    "metaDescription": "Maandishi kuhusu ufundi, msimbo, na kuendesha studio ndogo ya ubunifu na programu kutoka Nairobi.",
+    "eyebrow": "Blogu",
+    "indexTitle": "Maandishi kuhusu ufundi, msimbo, na Kenya.",
+    "indexSubtitle": "Maandishi ya mara kwa mara kuhusu mifumo ya ubunifu, kujenga programu kwa mkono, na kuendesha studio ndogo kutoka Nairobi.",
+    "relatedTitle": "Soma zaidi",
+    "all": "Zote",
+    "allPosts": "Machapisho yote",
+    "empty": "Hakuna chochote bado. Angalia tena hivi karibuni.",
+    "backToJournal": "← Blogu",
+    "alsoAvailableIn": "Inapatikana pia kwa:",
+    "readOriginal": "Soma toleo la awali",
+    "availableInEnglishOnly": "Makala hii inapatikana kwa Kiingereza tu."
+  },
+  "Legal": {
+    "terms": {
+      "metaTitle": "Masharti ya Huduma — Khalai Studio",
+      "metaDescription": "Masharti yanayosimamia matumizi ya tovuti, bidhaa, na huduma za Khalai Studio.",
+      "lastUpdated": "Imesasishwa mwisho: 15 Oktoba 2026",
+      "title": "Masharti ya Huduma"
+    },
+    "privacy": {
+      "metaTitle": "Sera ya Faragha — Khalai Studio",
+      "metaDescription": "Jinsi Khalai Studio inakusanya, inatumia, na inalinda data yako ya kibinafsi.",
+      "lastUpdated": "Imesasishwa mwisho: 15 Oktoba 2026",
+      "title": "Sera ya Faragha"
+    },
+    "byContinuing": "Kwa kuendelea, unakubali",
+    "termsLink": "masharti yetu",
+    "and": "na",
+    "privacyLink": "sera ya faragha",
+    "needHelp": "Unahitaji msaada?",
+    "contactUs": "Wasiliana nasi"
+  },
+  "Cookies": {
+    "title": "Kidokezo kuhusu vidakuzi",
+    "body": "Tunatumia vidakuzi muhimu ili tovuti ifanye kazi — kuingia kwako, mandhari, na usalama wa fomu. Ndivyo tu. Hakuna ufuatiliaji, hakuna matangazo.",
+    "privacyLink": "Soma sera yetu ya faragha",
+    "acceptAll": "Kubali zote",
+    "rejectNonEssential": "Muhimu tu",
+    "customize": "Rekebisha",
+    "hideDetails": "Ficha maelezo",
+    "savePreferences": "Hifadhi mapendeleo",
+    "essential": {
+      "title": "Muhimu",
+      "body": "Inahitajika ili tovuti ifanye kazi. Kuingia, usalama, mapendeleo ya mandhari. Hizi haziwezi kuzimwa."
+    },
+    "analytics": {
+      "title": "Uchanganuzi",
+      "body": "Takwimu za matumizi zisizo na majina ili kutusaidia kuboresha tovuti. Kwa sasa hatutumii yoyote."
+    },
+    "marketing": {
+      "title": "Uuzaji",
+      "body": "Maudhui yaliyobinafsishwa na matangazo. Kwa sasa hatutumii yoyote."
+    }
+  },
+  
+  "Marketing": {
+    "kicker": "Masoko mtandaoni",
+    "title": "Patikana kila mahali wateja wako wanapotafuta.",
+    "body": "SEO, mitandao ya kijamii, injini za majibu za AI, utafutaji wa ndani, na matangazo ya kulipia. Ufundi ni wa kweli — lakini huhitaji kujua msamiati ili kufaidika nao. Haya ni tunayofanya, inachukua muda gani, na gharama yake — kwa biashara ndogo na kwa chapa.",
+    "noJargon": "Lugha rahisi. Bila maneno magumu. Tuulize chochote — tunafurahi kueleza.",
+    "cta": {
+      "talk": "Zungumza nasi kwanza",
+      "read": "Au soma tunachofanya",
+      "title": "Huna uhakika wa kile unachohitaji?",
+      "body": "Tutumie mistari michache kuhusu biashara yako. Tutakurudishia mpango kwa lugha rahisi — bila masharti, bila simu ya mauzo.",
+      "contact": "Wasiliana na studio",
+      "whatsapp": "WhatsApp"
+    },
+    "services": {
+      "title": "Tunachofanya",
+      "subtitle": "Huduma sita, kila moja na muda halisi na viwango viwili vya bei vya uaminifu — Biashara Ndogo na Chapa.",
+      "timeLabel": "Muda",
+      "breakdownLabel": "Kinachojumuishwa",
+      "view": "Tazama maelezo",
+
+      "seo": {
+        "plain": "SEO — patikana kwenye Google",
+        "short": "Uboreshaji wa Injini za Utafutaji",
+        "detail": "Tunahakikisha Google inaweza kusoma, kuamini, na kupanga tovuti yako. Vichwa, kasi ya ukurasa, muundo, na maudhui yanayojibu utafutaji halisi.",
+        "time": "Miezi 3–6 kwa mabadiliko yenye maana",
+        "costSme": "KES 15,000 – 45,000 / mwezi",
+        "costBrand": "$800 – $3,500 / mwezi",
+        "breakdown": [
+          { "label": "Ukaguzi wa kiufundi", "value": "umejumuishwa" },
+          { "label": "Uboreshaji wa ukurasa", "value": "umejumuishwa" },
+          { "label": "Utafiti wa maneno muhimu", "value": "umejumuishwa" },
+          { "label": "Muhtasari wa maudhui", "value": "SME: 2/mwezi · Brand: 6/mwezi" },
+          { "label": "Ujenzi wa viungo", "value": "Brand pekee" },
+          { "label": "Ripoti", "value": "SME: kila mwezi · Brand: kila wiki" }
+        ],
+        "brands": [
+          { "name": "Mavuno", "note": "Trafiki ya kikaboni +180% katika miezi 5" },
+          { "name": "Sokoni", "note": "Nafasi #1 kwa \"online market Kenya\"" }
+        ],
+        "example": {
+          "caption": "Nafasi ya utafutaji kabla/baada kwa muuzaji wa ndani."
+        },
+        "opportunities": {
+          "title": "Fursa zinazokosekana tunazokuta",
+          "rows": [
+            { "item": "Vichwa vya kurasa", "status": "missing", "note": "Vichwa vya chaguo-msingi \"Home | Site\" hupoteza mibofyo." },
+            { "item": "Maelezo ya meta", "status": "missing", "note": "Hakuna udhibiti wa kipande cha SERP." },
+            { "item": "Lebo ya H1", "status": "weak", "note": "Kichwa kikuu ni picha, sio maandishi." },
+            { "item": "Maandishi mbadala ya picha", "status": "missing", "note": "Haionekani kwa utafutaji na visomaji vya skrini." },
+            { "item": "Sitemap.xml", "status": "missing", "note": "Google inapaswa kukisia cha kukagua." },
+            { "item": "Data iliyopangwa", "status": "missing", "note": "Hakuna matokeo tajiri kwenye utafutaji." },
+            { "item": "Kasi ya simu", "status": "weak", "note": "LCP zaidi ya 4s hupoteza nafasi." },
+            { "item": "Viungo vya ndani", "status": "weak", "note": "Kurasa muhimu zimezikwa mibofyo 3+ ndani." }
+          ]
+        }
+      },
+
+      "smm": {
+        "plain": "Mitandao ya kijamii — onekane wanapovinjari",
+        "short": "Usimamizi wa Mitandao ya Kijamii",
+        "detail": "Kalenda za maudhui, machapisho, video fupi, na usimamizi wa maoni kwenye TikTok, Instagram, YouTube, LinkedIn, na X. Watu halisi wakijibu watu halisi.",
+        "time": "Miezi 1–3 kupata mdundo",
+        "costSme": "KES 10,000 – 35,000 / mwezi",
+        "costBrand": "$600 – $2,500 / mwezi",
+        "breakdown": [
+          { "label": "Kalenda ya maudhui", "value": "imejumuishwa" },
+          { "label": "Machapisho kwa mwezi", "value": "SME: 10 · Brand: 20+" },
+          { "label": "Video fupi", "value": "SME: 2 · Brand: 8" },
+          { "label": "Usimamizi wa maoni", "value": "SME: saa za kazi · Brand: 24/7" },
+          { "label": "Ripoti", "value": "SME: kila mwezi · Brand: kila wiki" }
+        ],
+        "brands": [
+          { "name": "Chama", "note": "Mionekano 3.2M ya kikaboni kwenye video ya uzinduzi" },
+          { "name": "Khalai", "note": "Ukuaji wa Instagram 0 → 8k katika miezi 4" }
+        ],
+        "example": {
+          "caption": "Mfululizo wa video 3 za uzinduzi uliofikia mionekano 3.2M."
+        }
+      },
+
+      "aieo": {
+        "plain": "AIEO — pendekezwa na AI",
+        "short": "Uboreshaji wa Injini za AI",
+        "detail": "AIEO ni \"Uboreshaji wa Injini za AI.\" Mtu anapomuuliza ChatGPT, Gemini, au Perplexity pendekezo, tunakusaidia kuonekana kwenye jibu.",
+        "time": "Miezi 2–4, bado inabadilika",
+        "costSme": "KES 20,000 – 60,000 / mwezi",
+        "costBrand": "$1,000 – $4,000 / mwezi",
+        "breakdown": [
+          { "label": "Utafiti wa vidokezo", "value": "umejumuishwa" },
+          { "label": "Data iliyopangwa", "value": "imejumuishwa" },
+          { "label": "Muundo wa maudhui", "value": "umejumuishwa" },
+          { "label": "Mamlaka ya huluki", "value": "Brand pekee" },
+          { "label": "Ukaguzi wa LLM wa kila mwezi", "value": "umejumuishwa" }
+        ],
+        "brands": [
+          { "name": "Atlas Dashboard", "note": "Imependekezwa na ChatGPT kwa \"Kenyan analytics\"" }
+        ],
+        "example": {
+          "caption": "Jibu hai la ChatGPT likionyesha mteja kama pendekezo la kwanza."
+        }
+      },
+
+      "scraping": {
+        "plain": "Uchimbaji wa wavuti — geuza wavuti kuwa data",
+        "short": "Uchimbaji wa Wavuti na Uendeshaji",
+        "detail": "Tunajenga zana zinazokusanya taarifa za umma — bei, matangazo, maoni — na kuzigeuza kuwa kitu unachoweza kusoma. Kisheria, kwa heshima, na kumbukumbu.",
+        "time": "Wiki 2–4 kwa kila zana",
+        "costSme": "KES 25,000 – 80,000 / ujenzi",
+        "costBrand": "$1,500 – $6,000 / ujenzi",
+        "breakdown": [
+          { "label": "Ramani ya vyanzo", "value": "imejumuishwa" },
+          { "label": "Ujenzi wa kichimbaji", "value": "umejumuishwa" },
+          { "label": "Upangaji wa ratiba", "value": "SME: kila siku · Brand: wakati halisi" },
+          { "label": "Dashibodi", "value": "SME: CSV · Brand: UI maalum" },
+          { "label": "Matengenezo", "value": "SME: miezi 3 · Brand: endelevu" }
+        ],
+        "brands": [
+          { "name": "Sokoni", "note": "Ufuatiliaji wa bei kwenye tovuti 12 za washindani" },
+          { "name": "Mavuno", "note": "Kifuatiliaji cha matangazo ya kila siku kwa bidhaa 4,000" }
+        ],
+        "example": {
+          "caption": "Dashibodi hai ya bei za washindani iliyojengwa kwa mteja."
+        }
+      },
+
+      "localisation": {
+        "plain": "Ujanibishaji — zungumza lugha ya mteja wako",
+        "short": "Ujanibishaji na Tafsiri",
+        "detail": "Tafsiri na urekebishaji kwa Kiswahili, Kifaransa, Kiarabu, Kirusi, Kihispania, na Kiingereza — pamoja na utamaduni na mdundo ambao kila lugha inahitaji.",
+        "time": "Wiki 2–6 kwa kila lugha",
+        "costSme": "KES 15,000 – 40,000 / lugha",
+        "costBrand": "$800 – $3,000 / lugha",
+        "breakdown": [
+          { "label": "Tafsiri", "value": "imejumuishwa" },
+          { "label": "Urekebishaji wa kitamaduni", "value": "umejumuishwa" },
+          { "label": "Usanidi wa hreflang", "value": "umejumuishwa" },
+          { "label": "SEO ya kila lugha", "value": "Brand pekee" },
+          { "label": "Usahihishaji wa asili", "value": "umejumuishwa" }
+        ],
+        "brands": [
+          { "name": "Chama", "note": "Kiswahili + Kiingereza + Kifaransa hai" },
+          { "name": "Khalai", "note": "Lugha 6 na hreflang, msaada wa RTL" }
+        ],
+        "example": {
+          "caption": "Ukurasa huo wa nyumbani kwa Kiingereza, Kiswahili, na Kiarabu (RTL)."
+        }
+      },
+
+      "ads": {
+        "plain": "Matangazo ya kulipia — nunua umakini kwa makusudi",
+        "short": "Matangazo ya Kulipia",
+        "detail": "Matangazo ya Google, Meta, TikTok, na YouTube yanasimamiwa mwanzo hadi mwisho. Ripoti wazi. Unamiliki kila akaunti na kila shilingi ya matumizi.",
+        "time": "Papo hapo, rekebisha kwa wiki 2–4",
+        "costSme": "15–20% ya matumizi · min KES 10,000 / mwezi",
+        "costBrand": "15–20% ya matumizi · min $500 / mwezi",
+        "breakdown": [
+          { "label": "Usanidi wa kampeni", "value": "umejumuishwa" },
+          { "label": "Ubunifu (picha)", "value": "umejumuishwa" },
+          { "label": "Ubunifu (video)", "value": "Brand pekee" },
+          { "label": "Upimaji wa A/B", "value": "umejumuishwa" },
+          { "label": "Ripoti", "value": "SME: kila mwezi · Brand: kila wiki" },
+          { "label": "Ada ya usimamizi", "value": "15–20% ya matumizi" }
+        ],
+        "brands": [
+          { "name": "Mavuno", "note": "ROAS 4.2 kwenye Meta katika miezi 3" },
+          { "name": "Sokoni", "note": "Gharama kwa lead imepungua 62%" }
+        ],
+        "example": {
+          "caption": "Ubunifu wa tangazo la Meta uliofikia ROAS 4.2."
+        }
+      },
+
+      "leads": {
+        "plain": "Dashibodi ya wateja — ona maswali yanakotoka",
+        "short": "Ufuatiliaji wa Wateja na Uchanganuzi",
+        "detail": "Kila swali linakuambia kitu — ukurasa gani, huduma gani, mbofyo gani. Tunaweka tabaka dogo la ufuatiliaji ili uone hasa biashara yako inakotoka, bila uchanganuzi wa wahusika wengine.",
+        "time": "Wiki 1–2 usanidi, maarifa endelevu",
+        "costSme": "KES 20,000 – 50,000 / ujenzi",
+        "costBrand": "$1,500 – $4,000 / ujenzi",
+        "breakdown": [
+          { "label": "Tabaka la ufuatiliaji", "value": "limejumuishwa" },
+          { "label": "Dashibodi ya wateja", "value": "imejumuishwa" },
+          { "label": "Uhamishaji wa CSV", "value": "umejumuishwa" },
+          { "label": "Mchanganuo kwa chanzo", "value": "umejumuishwa" },
+          { "label": "Barua pepe ya muhtasari wa kila wiki", "value": "Brand pekee" },
+          { "label": "Ripoti maalum", "value": "Brand pekee" }
+        ],
+        "brands": [
+          { "name": "Khalai", "note": "Kila lead imefuatiliwa hadi ukurasa wa masoko" },
+          { "name": "Mavuno", "note": "Uhamishaji wa CSV unaolisha CRM" }
+        ],
+        "example": {
+          "caption": "Dashibodi hai ya wateja: kiasi cha kila siku, mgawanyo kwa huduma, mchanganuo wa chanzo."
+        }
+      }
+    },
+    "platforms": {
+      "title": "Kila jukwaa linachukua muda gani",
+      "subtitle": "Ukuaji wa kikaboni ni wa polepole na unaongezeka. Ulipiaji ni wa haraka na huacha ukiacha. Mikakati mingi yenye afya huchanganya vyote viwili.",
+      "col": {
+        "platform": "Jukwaa",
+        "organic": "Kikaboni (bure)",
+        "paid": "Kulipia (matangazo)",
+        "note": "Kumbuka"
+      },
+      "google": {
+        "organic": "Miezi 3–6 hadi ukurasa wa kwanza",
+        "paid": "Siku hiyo hiyo, ikiwa tangazo ni sahihi",
+        "note": "Utafutaji una nia kubwa zaidi ya kununua. Inafaa kusubiri."
+      },
+      "tiktok": {
+        "organic": "Wiki 1–4 kwa mpigo wa kwanza",
+        "paid": "Siku hiyo hiyo, ufikiaji wa bei nafuu",
+        "note": "Ushindi wa haraka wa kikaboni. Hupoteza kasi bila uthabiti."
+      },
+      "youtube": {
+        "organic": "Miezi 3–6 kwa mfululizo",
+        "paid": "Siku hiyo hiyo, bora kwa chapa",
+        "note": "Hutuza kina. Muda mrefu hubadilisha vizuri kuliko fupi."
+      },
+      "meta": {
+        "organic": "Miezi 2–4 kujenga ufikiaji",
+        "paid": "Siku hiyo hiyo, ROI bora kwa wengi",
+        "note": "Facebook + Instagram pamoja. Ulengaji bado ni bora zaidi."
+      },
+      "x": {
+        "organic": "Miezi 1–2 ikiwa unachapisha kila siku",
+        "paid": "Siku hiyo hiyo, hadhira maalum",
+        "note": "Ndogo lakini kali. Bora kwa B2B na teknolojia."
+      },
+      "firefox": {
+        "organic": "Haitumiki (sio njia ya ugunduzi)",
+        "paid": "Haitumiki",
+        "note": "Sio njia ya masoko. Imeorodheshwa kwa ukamilifu tu."
+      },
+      "local": {
+        "organic": "Wiki 2–8 kwa tangazo la ramani",
+        "paid": "Siku hiyo hiyo, nia kubwa ya ndani",
+        "note": "Google Business Profile ni hatua ya bure yenye faida kubwa zaidi."
+      },
+      "footnote": "Muda huchukulia jitihada thabiti. Acha katikati na saa inaanza upya."
+    },
+    "tracks": {
+      "title": "Njia mbili za bei, kiwango kimoja cha kazi",
+      "subtitle": "Iwe wewe ni mmiliki wa saluni anayeanza mtandaoni au chapa iliyofadhiliwa inayokua kimataifa, kazi ni ya uaminifu. Wigo hubadilika.",
+      "selector": {
+        "sme": "Biashara ndogo na za ndani",
+        "brand": "Chapa na startups zilizofadhiliwa"
+      }
+    },
+    "fundingSme": {
+      "title": "Bajeti za masoko za biashara ndogo (viwango halisi)",
+      "subtitle": "Kulingana na ushirikiano halisi wa Kenya — sio mawasilisho ya ndoto. Kila kiwango kinajumuisha mkakati, utekelezaji, na ripoti.",
+      "test": {
+        "name": "Jaribio",
+        "range": "KES 15,000 – 30,000 / mwezi",
+        "body": "Njia moja, lengo moja. Thibitisha dhana inafanya kazi kabla ya kupanua.",
+        "includes": [
+          "Jukwaa moja (Google au Facebook)",
+          "SEO ya msingi + Google Business Profile",
+          "Ripoti ya kila mwezi",
+          "Simu moja ya mkakati"
+        ]
+      },
+      "grow": {
+        "name": "Kua",
+        "range": "KES 30,000 – 75,000 / mwezi",
+        "body": "Njia mbili hadi tatu zikifanya kazi pamoja. Mahali pazuri pa kweli kwa biashara nyingi ndogo za Kenya.",
+        "includes": [
+          "Majukwaa mawili + SEO",
+          "Usimamizi wa mitandao ya kijamii (machapisho 10/mwezi)",
+          "Video fupi (2 kwa mwezi)",
+          "Ripoti ya kila wiki mbili",
+          "SEO ya ndani + Google Maps"
+        ]
+      },
+      "scale": {
+        "name": "Panua",
+        "range": "KES 75,000 – 150,000 / mwezi",
+        "body": "Mkondo kamili kwenye kila jukwaa. Kwa biashara ndogo zilizoimarika zenye ufanisi wa bidhaa-soko uliothibitishwa.",
+        "includes": [
+          "Mchanganyiko kamili wa majukwaa",
+          "Usimamizi wa matangazo (Google + Meta)",
+          "Uzalishaji wa maudhui + video",
+          "Ujanibishaji kwa Kiswahili",
+          "Ripoti ya kila wiki",
+          "Mkakati maalum"
+        ]
+      },
+      "custom": {
+        "title": "Ufadhili maalum wa biashara ndogo",
+        "body": "Chini ya KES 15,000/mwezi? Zungumza nasi. Tumejenga mipango karibu na KES 5,000/mwezi kwa biashara za ndani za hatua ya awali — wigo ni mdogo, uaminifu ni ule ule."
+      }
+    },
+    "fundingBrand": {
+      "title": "Bajeti za masoko za chapa",
+      "subtitle": "Viwango vya uaminifu kwa startups zilizofadhiliwa na chapa zilizoimarika — bila nambari za kubuni.",
+      "test": {
+        "name": "Jaribio",
+        "range": "$1,000 – $3,000 / mwezi",
+        "body": "Njia moja, lengo moja. Thibitisha dhana inafanya kazi kabla ya kupanua.",
+        "includes": [
+          "Jukwaa moja (Google au Meta)",
+          "Usanidi wa SEO ya msingi",
+          "Ripoti ya kila mwezi",
+          "Simu moja ya mkakati"
+        ]
+      },
+      "grow": {
+        "name": "Kua",
+        "range": "$3,000 – $8,000 / mwezi",
+        "body": "Njia mbili hadi tatu zikifanya kazi pamoja. Mahali pazuri pa kweli kwa biashara nyingi zinazokua.",
+        "includes": [
+          "Majukwaa mawili + SEO",
+          "Usimamizi wa mitandao ya kijamii",
+          "Uzalishaji wa maudhui",
+          "Ripoti ya kila wiki mbili",
+          "Misingi ya ndani + AIEO"
+        ]
+      },
+      "scale": {
+        "name": "Panua",
+        "range": "$8,000 – $20,000+ / mwezi",
+        "body": "Mkondo kamili kwenye kila jukwaa. Inafaa kwa chapa zenye ufanisi wa bidhaa-soko uliothibitishwa na bajeti ya kutumia kwa nguvu.",
+        "includes": [
+          "Mchanganyiko kamili wa majukwaa",
+          "Usimamizi wa matangazo ya kulipia",
+          "Uzalishaji wa maudhui + video",
+          "Ujanibishaji",
+          "Ripoti ya kila wiki",
+          "Mkakati maalum"
+        ]
+      },
+      "custom": {
+        "title": "Ufadhili maalum wa chapa",
+        "body": "Ikiwa bajeti yako hailingani na viwango hivi — au huna uhakika wa kuanzia — zungumza nasi. Tumejenga mipango karibu na $500/mwezi na karibu na $50,000/mwezi. Nambari sahihi ni ile inayokuletea matokeo bila kuchoma runway yako."
+      }
+    },
+    "serviceDetail": {
+      "back": "Rudi kwa masoko",
+      "time": "Muda wa kawaida",
+      "sme": "Bajeti ya biashara ndogo",
+      "brand": "Bajeti ya chapa",
+      "breakdownTitle": "Pesa inaenda wapi",
+      "breakdownBody": "Kila mstari, kwa lugha rahisi — hakuna kilichofichwa nyuma ya simu ya mauzo.",
+      "exampleTitle": "Mfano halisi",
+      "exampleBody": "Kazi halisi, sio picha za akiba. Tazama jinsi hii inavyoonekana kweli.",
+      "brandsTitle": "Chapa tulizofanyia hivi",
+      "brandsBody": "Wateja teule waliotuma kwa huduma hii.",
+      "opportunitiesBody": "Kinachokosekana kwenye tovuti nyingi — na tunachopata kwanza tunapokagua mteja mpya.",
+      "sampleLabel": "Matokeo ya kawaida",
+      "scanner": {
+        "placeholder": "biasharayako.co.ke",
+        "button": "Kagua tovuti yangu",
+        "helper": "Bure, bila kujisajili. Inachukua sekunde 10.",
+        "resultsTitle": "Tulichokipata",
+        "error": "Haikuweza kukagua URL hii.",
+        "status": {
+          "missing": "Haipo",
+          "weak": "Dhaifu",
+          "present": "Sawa"
+        }
+      },
+      "cta": {
+        "title": "Unataka ripoti kamili?",
+        "body": "Tutakagua tovuti yako, kurasa za washindani, na mahitaji ya utafutaji — kisha tutume uchambuzi wazi ndani ya siku 2.",
+        "button": "Omba ukaguzi"
+      }
+    },
+    "leadsPreview": {
+      "banner": "Hakiki kwa data ya sampuli — dashibodi yako inaonyesha wateja halisi",
+      "stats": {
+        "total": "Jumla",
+        "open": "Wazi",
+        "topService": "Huduma kuu",
+        "topSource": "Chanzo kikuu"
+      },
+      "charts": {
+        "daily": "Siku 14 zilizopita",
+        "byService": "Kwa huduma",
+        "bySource": "Kwa chanzo"
+      },
+      "table": {
+        "when": "Lini",
+        "name": "Jina",
+        "subject": "Somo",
+        "service": "Huduma",
+        "source": "Chanzo",
+        "status": "Hali",
+        "empty": "Hakuna wateja bado."
+      },
+      "statuses": {
+        "open": "wazi",
+        "replied": "imejibiwa"
+      },
+      "csv": {
+        "title": "Uhamishaji wa CSV",
+        "body": "Kila dashibodi ina uhamishaji wa CSV wa mbofyo mmoja — ipeleke kwenye CRM, lahajedwali, au zana yako ya uhasibu."
+      },
+      "sample": {
+        "services": {
+          "seo": "SEO",
+          "scraping": "Uchimbaji wa wavuti",
+          "ads": "Matangazo ya kulipia",
+          "smm": "Mitandao ya kijamii",
+          "direct": "Moja kwa moja"
+        },
+        "sources": {
+          "marketing-service": "Masoko — ukurasa wa huduma",
+          "pricing-launch": "Bei — kiwango cha Launch",
+          "pricing-studio": "Bei — kiwango cha Studio",
+          "direct": "Moja kwa moja"
+        },
+        "rows": [
+          {
+            "name": "Jane Wanjiru",
+            "email": "jane@mavuno.co.ke",
+            "subject": "SEO — swali",
+            "service": "seo",
+            "source": "marketing-service",
+            "when": "2026-10-22",
+            "status": "open"
+          },
+          {
+            "name": "David Otieno",
+            "email": "david@sokoni.com",
+            "subject": "Uchimbaji wa wavuti — swali",
+            "service": "scraping",
+            "source": "marketing-service",
+            "when": "2026-10-21",
+            "status": "replied"
+          },
+          {
+            "name": "Amina Hassan",
+            "email": "amina@chama.app",
+            "subject": "Matangazo ya kulipia — swali",
+            "service": "ads",
+            "source": "pricing-launch",
+            "when": "2026-10-20",
+            "status": "open"
+          },
+          {
+            "name": "Peter Mwangi",
+            "email": "peter@atlas.io",
+            "subject": "Ujenzi maalum",
+            "service": "direct",
+            "source": "direct",
+            "when": "2026-10-19",
+            "status": "open"
+          }
+        ],
+        "daily": [
+          { "day": "2026-10-09", "count": 2 },
+          { "day": "2026-10-10", "count": 1 },
+          { "day": "2026-10-11", "count": 3 },
+          { "day": "2026-10-12", "count": 4 },
+          { "day": "2026-10-13", "count": 2 },
+          { "day": "2026-10-14", "count": 5 },
+          { "day": "2026-10-15", "count": 6 },
+          { "day": "2026-10-16", "count": 4 },
+          { "day": "2026-10-17", "count": 7 },
+          { "day": "2026-10-18", "count": 5 },
+          { "day": "2026-10-19", "count": 8 },
+          { "day": "2026-10-20", "count": 6 },
+          { "day": "2026-10-21", "count": 9 },
+          { "day": "2026-10-22", "count": 7 }
+        ],
+        "byService": [
+          { "key": "seo", "count": 18 },
+          { "key": "scraping", "count": 6 },
+          { "key": "ads", "count": 4 },
+          { "key": "smm", "count": 3 },
+          { "key": "direct", "count": 23 }
+        ],
+        "bySource": [
+          { "key": "marketing-service", "count": 28 },
+          { "key": "pricing-launch", "count": 11 },
+          { "key": "pricing-studio", "count": 4 },
+          { "key": "direct", "count": 23 }
+        ]
+      }
+    }
+  },
+
+  
+  "Payments": {
+    "title": "Malipo",
+    "subtitle": "Miamala na risiti zako.",
+    "newPayment": "Malipo mapya",
+    "newPaymentTitle": "Malipo mapya",
+    "newPaymentSubtitle": "Chagua mtoa huduma na uweke kiasi.",
+    "subscriptions": "Usajili",
+    "subscriptionsTitle": "Usajili",
+    "subscriptionsSubtitle": "Dhibiti malipo ya mara kwa mara.",
+    "payoutsTitle": "Malipo yanayotoka",
+    "payoutsSubtitle": "Dhibiti pesa zako zinapokwenda.",
+    "empty": "Hakuna kitu hapa bado.",
+    "viewReceipt": "Tazama",
+    "columns": {
+      "id": "Kitambulisho",
+      "date": "Tarehe",
+      "description": "Maelezo",
+      "provider": "Mtoa huduma",
+      "amount": "Kiasi",
+      "status": "Hali",
+      "receipt": "Risiti"
+    },
+    "providers": {
+      "mpesa": "M-Pesa",
+      "card": "Visa / Mastercard",
+      "paypal": "PayPal",
+      "crypto": "Crypto (USDC)"
+    },
+    "fields": {
+      "amount": "Kiasi",
+      "description": "Maelezo",
+      "mpesaPhone": "Namba ya simu ya M-Pesa"
+    },
+    "placeholders": {
+      "phone": "+254 700 000 000"
+    },
+    "actions": {
+      "pay": "Lipa",
+      "paying": "Inachakata…",
+      "cancel": "Ghairi usajili"
+    },
+    "messages": {
+      "initiated": "Malipo yameanzishwa. Angalia simu yako.",
+      "cancelled": "Usajili umesitishwa.",
+      "comingSoon": "Inakuja hivi karibuni"
+    },
+    "errors": {
+      "generic": "Kitu kimeenda kombo. Tafadhali jaribu tena."
+    },
+    "detail": {
+      "title": "Maelezo ya malipo",
+      "back": "Rudi kwa malipo",
+      "pending": "Inasubiri mtoa huduma kuthibitisha. Onyesha upya baada ya muda mfupi.",
+      "failed": "Malipo haya yameshindwa. Unaweza kujaribu tena."
+    },
+    "receipt": {
+      "title": "Risiti",
+      "number": "Namba ya risiti",
+      "issued": "Imetolewa",
+      "download": "Pakua PDF"
+    },
+    "payouts": {
+      "methods": "Njia za malipo yanayotoka",
+      "addMethod": "Ongeza njia ya malipo",
+      "history": "Historia ya malipo yanayotoka",
+      "noMethods": "Hakuna njia ya malipo iliyoongezwa",
+      "paypalEmail": "Barua pepe ya PayPal",
+      "label": "Sababu",
+      "optional": "si lazima",
+      "walletAddress": "Anwani ya pochi",
+      "phoneNumber": "Namba ya simu",
+      "provider": "Mtoa huduma"
+    }
+  }
+
+
+
+}

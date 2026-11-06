@@ -1,0 +1,134 @@
+{
+  "privacy.ar": {
+    "title": "سياسة الخصوصية",
+    "description": "سياسة الخصوصية لـ Khalai Studio - توضح البيانات الشخصية التي نجمعها ولماذا نجمعها وحقوقك.",
+    "lastUpdated": "2026-10-15",
+    "language": "ar",
+    "langName": "Arabic",
+    "slug": "khosusiya",
+    "direction": "rtl",
+    "doc": "privacy",
+    "file": "privacy.ar"
+  },
+  "privacy.es": {
+    "title": "Politica de Privacidad",
+    "description": "Politica de Privacidad de Khalai Studio - que explica que datos personales recopilamos, por que los recopilamos y sus derechos.",
+    "lastUpdated": "2026-10-15",
+    "language": "es",
+    "langName": "Espanol",
+    "slug": "privacidad",
+    "direction": "ltr",
+    "doc": "privacy",
+    "file": "privacy.es"
+  },
+  "privacy.fr": {
+    "title": "Politique de Confidentialite",
+    "description": "Politique de Confidentialite de Khalai Studio - expliquant quelles donnees personnelles nous collectons, pourquoi nous les collectons et vos droits.",
+    "lastUpdated": "2026-10-15",
+    "language": "fr",
+    "langName": "Francais",
+    "slug": "confidentialite",
+    "direction": "ltr",
+    "doc": "privacy",
+    "file": "privacy.fr"
+  },
+  "privacy.en": {
+    "title": "Privacy Policy",
+    "description": "Privacy Policy for Khalai Studio - explaining what personal data we collect, why we collect it, and your rights.",
+    "lastUpdated": "2026-10-15",
+    "language": "en",
+    "langName": "English",
+    "slug": "privacy",
+    "direction": "ltr",
+    "doc": "privacy",
+    "file": "privacy"
+  },
+  "privacy.ru": {
+    "title": "Политика конфиденциальности",
+    "description": "Политика конфиденциальности Khalai Studio - объясняющая, какие персональные данные мы собираем, почему мы их собираем и ваши права.",
+    "lastUpdated": "2026-10-15",
+    "language": "ru",
+    "langName": "Russian",
+    "slug": "konfidentsialnost",
+    "direction": "ltr",
+    "doc": "privacy",
+    "file": "privacy.ru"
+  },
+  "privacy.sw": {
+    "title": "Sera ya Faragha",
+    "description": "Sera ya Faragha ya Khalai Studio - inayoeleza data ya kibinafsi tunayokusanya, kwa nini tunaikusanya, na haki zako.",
+    "lastUpdated": "2026-10-15",
+    "language": "sw",
+    "langName": "Kiswahili",
+    "slug": "faragha",
+    "direction": "ltr",
+    "doc": "privacy",
+    "file": "privacy.sw"
+  },
+  "terms.ar": {
+    "title": "شروط الخدمة",
+    "description": "شروط خدمة Khalai Studio - التي تحكم استخدامك لموقعنا الإلكتروني ومنتجاتنا وخدماتنا.",
+    "lastUpdated": "2026-10-15",
+    "language": "ar",
+    "langName": "Arabic",
+    "slug": "shurut",
+    "direction": "rtl",
+    "doc": "terms",
+    "file": "terms.ar"
+  },
+  "terms.es": {
+    "title": "Terminos de Servicio",
+    "description": "Terminos de Servicio de Khalai Studio - que rigen el uso de nuestro sitio web, productos y servicios.",
+    "lastUpdated": "2026-10-15",
+    "language": "es",
+    "langName": "Espanol",
+    "slug": "terminos",
+    "direction": "ltr",
+    "doc": "terms",
+    "file": "terms.es"
+  },
+  "terms.fr": {
+    "title": "Conditions d'Utilisation",
+    "description": "Conditions d'Utilisation de Khalai Studio - regissant votre utilisation de notre site web, produits et services.",
+    "lastUpdated": "2026-10-15",
+    "language": "fr",
+    "langName": "Francais",
+    "slug": "conditions",
+    "direction": "ltr",
+    "doc": "terms",
+    "file": "terms.fr"
+  },
+  "terms.en": {
+    "title": "Terms of Service",
+    "description": "Terms of Service for Khalai Studio - governing your use of our website, products, and services.",
+    "lastUpdated": "2026-10-15",
+    "language": "en",
+    "langName": "English",
+    "slug": "terms",
+    "direction": "ltr",
+    "doc": "terms",
+    "file": "terms"
+  },
+  "terms.ru": {
+    "title": "Условия обслуживания",
+    "description": "Условия обслуживания Khalai Studio - регулирующие использование вами нашего веб-сайта, продуктов и услуг.",
+    "lastUpdated": "2026-10-15",
+    "language": "ru",
+    "langName": "Russian",
+    "slug": "usloviya",
+    "direction": "ltr",
+    "doc": "terms",
+    "file": "terms.ru"
+  },
+  "terms.sw": {
+    "title": "Masharti ya Huduma",
+    "description": "Masharti ya Huduma ya Khalai Studio - yanayosimamia matumizi yako ya tovuti, bidhaa, na huduma zetu.",
+    "lastUpdated": "2026-10-15",
+    "language": "sw",
+    "langName": "Kiswahili",
+    "slug": "masharti",
+    "direction": "ltr",
+    "doc": "terms",
+    "file": "terms.sw"
+  }
+}

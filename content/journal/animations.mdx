@@ -1,0 +1,78 @@
+---
+title: 'A case for animations'
+excerpt:
+  'Motion is not decoration. It is how a page tells you what changed, where you
+  came from, and what to do next.'
+date: '2026-10-16'
+category: 'Craft'
+cover: '/images/journal/animation.jpg'
+tags: ['motion', 'ux', 'craft']
+---
+
+Motion on the web is usually treated as ornament. Something to add at the end,
+once the "real" work is done. That framing is backwards.
+
+Animation is how a page communicates _change_. When a menu opens, when a form
+validates, when a section enters the viewport — motion tells the user what just
+happened, and what to expect next.
+
+## What good motion does
+
+- **Explains state.** A loading spinner is not just a pretty graphic. It is the
+  honest answer to "did my click register?"
+- **Directs attention.** A slide-in error message pulls the eye to the field
+  that needs fixing. A silent red border does not.
+- **Reduces cognitive load.** When elements move from where they were to where
+  they are, the user's brain does not have to re-scan the whole page.
+- **Rewards curiosity.** A hover state, a lens reveal, a scroll-triggered reveal
+  — small moments of surprise that make a site feel cared for.
+
+## What bad motion does
+
+- **Steals attention.** Animation that plays on every scroll, that never stops,
+  that fights for the eye.
+- **Blocks interaction.** Loading screens that take two seconds to fade out so
+  the user can click.
+- **Ignores the device.** A blurred, 60fps, GPU-heavy scene on a phone with a
+  three-year-old chip.
+- **Ignores the user.** The same intense animation plays for someone who has
+  `prefers-reduced-motion: reduce` set on their OS.
+
+The difference between good and bad motion is not aesthetic. It is intent.
+
+## How I build motion
+
+Three rules, always:
+
+1. **Only animate `transform` and `opacity`.** Everything else causes layout or
+   paint work that the browser cannot offload to the GPU.
+2. **Respect `prefers-reduced-motion`.** Not as an afterthought. As the default,
+   then opt _into_ motion for users who want it.
+3. **Tie motion to scroll.** Scrolling is the most direct gesture a user has. A
+   page that responds to it feels alive without demanding attention.
+
+The techniques are not fancy. Framer Motion, a scroll progress value, and a
+handful of transforms. What makes them work is restraint.
+
+## See it in action
+
+I built a page that walks through four scroll-driven animations. Each one uses a
+different technique, each one is pinned to the viewport while its animation
+plays, and a clock in the corner fills in as you scroll so you always know where
+you are in the sequence.
+
+<CallToAction
+  href="/creativity"
+  title="Open the animations page"
+  body="Four scroll-driven scenes. Each one pinned to the viewport until its animation finishes."
+  label="View the demos"
+/>
+
+## The point
+
+Animation is not a coat of paint. It is part of the structure of an interface.
+It is the difference between a page that responds to you and a page that just
+sits there.
+
+Do it deliberately. Skip it on low-end devices. Give the user control. Then let
+it do its work.

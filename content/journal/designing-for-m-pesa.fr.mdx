@@ -1,0 +1,82 @@
+---
+title: 'Concevoir pour M-Pesa d’abord'
+excerpt:
+  'Quand la moitié de vos utilisateurs paie avec son téléphone, le parcours de
+  paiement est le produit.'
+date: '2026-09-12'
+category: 'Design'
+cover: '/images/journal/mpesa.png'
+tags: ['paiements', 'design', 'kenya']
+---
+
+M-Pesa n'est pas un moyen de paiement au Kenya. C'est **le** moyen de paiement.
+Si votre tunnel de commande le traite comme une option secondaire derrière un
+formulaire de carte bancaire, vous avez déjà perdu.
+
+## Ce que cela change
+
+- Le champ du numéro de téléphone est la saisie la plus importante de la page.
+- Le texte de confirmation doit parler le langage de M-Pesa — « entrez votre
+  code PIN », pas « finaliser la transaction ».
+- Les états d'erreur doivent être sans ambiguïté. Un paiement échoué sans raison
+  claire est un ticket de support en puissance.
+
+<CallToAction
+  href="/mpesa"
+  title="Voyez comment je construis des tunnels M-Pesa d'abord"
+  body="Quatre principes de design, appliqués au champ du téléphone, à la confirmation et aux états d'erreur qui empêchent les utilisateurs d'appeler le support."
+  label="Lire les principes"
+/>
+
+## Ce que je fais à ce sujet
+
+Chaque parcours e-commerce que je construis commence par le chemin nominal de
+M-Pesa, dessiné sur papier, avant qu'un seul composant n'existe. Le formulaire
+de carte vient ensuite. Cet ordre n'est pas négociable.
+
+La raison est simple : le placement des champs, le texte du bouton, l'écran de
+confirmation, la gestion des erreurs — tout découle en cascade du moyen de
+paiement principal. Si M-Pesa est le principal, tout s'ajuste. S'il est
+secondaire, tout le parcours est subtilement faux, et les utilisateurs le
+remarquent même s'ils ne peuvent pas l'articuler.
+
+## Le champ du numéro de téléphone
+
+Il doit accepter `+254`, `07`, `01` et les formats locaux sans espaces. Il a
+besoin de `inputmode="tel"` pour que les téléphones affichent le clavier
+téléphonique. Il doit se souvenir de l'indicatif pays pour qu'un client qui
+revient tape sept chiffres, pas douze.
+
+```tsx
+<input
+  type="tel"
+  inputMode="tel"
+  autoComplete="tel"
+  placeholder="+254 700 000 000"
+  className="..."
+/>
+```
+
+Des petites choses. Mais elles s'additionnent pour donner un tunnel qui semble
+conçu pour le Kenya, pas adapté d'ailleurs.
+
+Le texte de confirmation « Entrez votre code PIN » — pas « finaliser la
+transaction ». « Vérifiez votre téléphone pour l'invite M-Pesa » — pas « en
+attente de confirmation du paiement ». L'utilisateur a son téléphone en main.
+Parlez de ce qu'il fait, pas de comment le système l'appelle.
+
+Les états d'erreur Chaque échec nécessite une explication humaine. « M-Pesa n'a
+pas pu être joint. Réessayez dans un instant. » « Votre code PIN était
+incorrect. Il vous reste deux tentatives. » « Votre solde est insuffisant pour
+cette commande. »
+
+Pas « Erreur 403 ». Pas « Transaction échouée ». L'utilisateur appellera le
+support s'il ne peut pas savoir quoi faire ensuite, et chaque appel est du temps
+que vous ne récupérez pas.
+
+<CallToAction
+  href="/start"
+  title="Prêt à bien le construire ?"
+  body="Une courte conversation, une évaluation honnête, et un devis écrit à prix fixe. Sans surprises, sans transmission."
+  label="Démarrer un projet"
+/>
