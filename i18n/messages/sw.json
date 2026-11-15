@@ -185,7 +185,7 @@
       "whatsapp": "WhatsApp"
     }
   },
-  
+
   "Showcase": {
     "kicker": "Maonyesho",
     "title": "Njia tatu za kuona kazi.",
@@ -333,7 +333,7 @@
       "loggingOut": "Inatoka…"
     }
   },
-  
+
   "Nav": {
     "home": "Nyumbani",
     "about": "Kuhusu",
@@ -395,8 +395,7 @@
       "terms": "Masharti",
       "privacy": "Faragha"
     }
-  }
-,
+  },
   "AdminProjects": {
     "title": "Simamia Miradi",
     "subtitle": "Miradi {count} kwenye hifadhidata",
@@ -455,7 +454,7 @@
     "metaDescription": "Miongozo, gridi, aina ya maandishi, rangi moja. Mchakato wa hatua tano nyuma ya kila mradi.",
     "hero": {
       "eyebrow": "Mbinu",
-      "titleLens": "Kutoka mstari hadi |kitufe|.",
+      "titleLens": "Kutoka mstari hadi |kitufe|",
       "subtitle": "Hatua tano. Mpangilio huo huo, kila wakati. Ndio sababu mabadiliko ya kumi ni ya haraka kuliko ya kwanza.",
       "scrollHint": "Sogeza ili kuipitia"
     },
@@ -701,7 +700,7 @@
     "description": "Mtu mmoja, pande zote mbili: ubunifu na msimbo. Tovuti, maduka, na programu maalum zilizojengwa kwa mkono kwa biashara za Kenya.",
     "location": "Nairobi, Kenya"
   },
-  
+
   "Studio": {
     "footer": {
       "copyright": "© {year} {name}. Imejengwa kwa mkono huko {location}.",
@@ -883,8 +882,7 @@
       "primary": "Anzisha mradi",
       "location": "Nairobi, Kenya"
     }
-  }
-,
+  },
   "Newsletter": {
     "placeholder": "jiunge na jarida letu",
     "subscribe": "Jiunge",
@@ -1097,7 +1095,7 @@
       "body": "Kila mradi hapa ulianza na mazungumzo mafupi. Wako unaweza pia.",
       "primary": "Anza mradi"
     }
-  },  
+  },
   "Errors": {
     "eyebrow": "Kuna jambo limeenda kombo",
     "title": "Ukurasa haukuweza kupakia.",
@@ -1212,104 +1210,104 @@
       "secondary": "Tazama kazi za hivi karibuni"
     }
   },
-   "Auth": {
-      "legal": "Kwa kuendelea, unakubali masharti yetu na sera ya faragha.",
-      "support": "Unahitaji msaada? Wasiliana nasi.",
-      "hero": {
-        "eyebrow": "Karibu tena",
-        "title": "Mtu mmoja. Ubunifu na msimbo.",
-        "body": "Khalai ni studio ya mtu mmoja jijini Nairobi. Unapoingia, unazungumza na mtu anayebuni na kuunda kazi yako — hakuna kupeana kazi, hakuna tabaka la kati.",
-        "footer": "Nairobi, Kenya · GMT+3 · Majibu ndani ya siku moja ya kazi",
-        "registerEyebrow": "Mgeni hapa",
-        "registerTitle": "Anza kitu na Khalai.",
-        "registerBody": "Fungua akaunti ili kufuatilia miradi, kuwasiliana na studio moja kwa moja, na kuona kazi yako ikizaliwa mahali pamoja.",
-        "registerFooter": "Bure kufungua · Hakuna kadi inayohitajika",
-        "forgotEyebrow": "Umesahau neno la siri",
-        "forgotTitle": "Hutokea.",
-        "forgotBody": "Weka barua pepe uliyojisajili nayo na tutakutumia kiungo cha kuweka upya. Kiungo hiki kinaisha baada ya saa moja, na unaweza kuomba kingine wakati wowote.",
-        "forgotFooter": "Nairobi, Kenya · GMT+3"
-      },
-      "forgot": {
-        "metaTitle": "Umesahau neno la siri — Khalai",
-        "metaDescription": "Weka upya neno la siri la akaunti yako ya Khalai.",
-        "title": "Umesahau neno lako la siri?",
-        "subtitle": "Weka barua pepe yako na tutakutumia kiungo cha kuweka upya.",
-        "email": "Barua pepe",
-        "emailPlaceholder": "wewe@example.com",
-        "send": "Tuma kiungo cha kuweka upya",
-        "sending": "Inatuma…",
-        "backToLogin": "Rudi kuingia",
-        "checkTitle": "Angalia kikasha chako",
-        "checkBody": "Ikiwa akaunti ipo kwa barua pepe hiyo, tumetuma kiungo cha kuweka upya neno la siri. Kiungo kinaisha baada ya saa moja.",
-        "tryAgain": "Tuma kwa barua pepe nyingine",
-        "errorGeneric": "Hitilafu imetokea. Tafadhali jaribu tena."
-      },
-      "login": {
-        "metaTitle": "Ingia — Khalai",
-        "metaDescription": "Ingia kwenye akaunti yako ya Khalai.",
-        "title": "Karibu tena",
-        "subtitle": "Ingia ili kuendelea ulipoishia.",
-        "identifier": "Barua pepe au simu",
-        "identifierPlaceholder": "wewe@example.com au +254 700 000 000",
-        "password": "Neno la siri",
-        "forgotPassword": "Umesahau neno la siri?",
-        "signIn": "Ingia",
-        "signingIn": "Inaingia…",
-        "orContinue": "au endelea na",
-        "noAccount": "Huna akaunti?",
-        "signUp": "Fungua moja",
-        "oauthApple": "Ingia na Apple",
-        "oauthGoogle": "Ingia na Google",
-        "oauthMeta": "Ingia na Meta",
-        "validationError": "Tafadhali rekebisha sehemu zilizoangaziwa.",
-        "welcomeBack": "Karibu tena.",
-        "loginFailed": "Kuingia kumeshindikana.",
-        "showPassword": "Onyesha neno la siri",
-        "hidePassword": "Ficha neno la siri"
-      },
-      "register": {
-        "metaTitle": "Fungua akaunti — Khalai",
-        "metaDescription": "Fungua akaunti ya Khalai ili kuanza mradi.",
-        "title": "Fungua akaunti yako",
-        "subtitle": "Dakika mbili. Hakuna kadi inayohitajika.",
-        "name": "Jina kamili",
-        "email": "Barua pepe",
-        "phone": "Simu",
-        "phoneOptional": "hiari",
-        "stepOf": "Hatua {current} kati ya {total}",
-        "back": "Rudi",
-        "continue": "Endelea",
-        "review": "Kagua",
-        "edit": "Hariri",
-        "showPassword": "Onyesha neno la siri",
-        "hidePassword": "Ficha neno la siri",
-        "age": "Umri",
-        "bio": "Maelezo binafsi",
-        "bioOptional": "hiari",
-        "password": "Neno la siri",
-        "passwordHint": "Angalau herufi 6, herufi moja kubwa, namba moja.",
-        "confirmPassword": "Thibitisha neno la siri",
-        "createAccount": "Fungua akaunti",
-        "creatingAccount": "Inafungua akaunti…",
-        "orContinue": "au endelea na",
-        "haveAccount": "Tayari una akaunti?",
-        "signIn": "Ingia",
-        "oauthApple": "Jisajili na Apple",
-        "oauthGoogle": "Jisajili na Google",
-        "oauthMeta": "Jisajili na Meta",
-        "validationError": "Tafadhali rekebisha sehemu zilizoangaziwa.",
-        "welcome": "Karibu Khalai.",
-        "registrationFailed": "Usajili umeshindikana.",
-        "creatingNotice": "Inafungua akaunti yako…",
-        "stepOfPrefix": "Hatua",
-        "stepOfSeparator": "kati ya",
-        "acceptTermsPrefix": "Nakubali",
-        "acceptTermsLink": "Masharti ya Huduma",
-        "acceptTermsAnd": "na",
-        "acceptPrivacyLink": "Sera ya Faragha",
-        "acceptTermsError": "Tafadhali kubali Masharti na Sera ya Faragha ili kuendelea."
-      }
+  "Auth": {
+    "legal": "Kwa kuendelea, unakubali masharti yetu na sera ya faragha.",
+    "support": "Unahitaji msaada? Wasiliana nasi.",
+    "hero": {
+      "eyebrow": "Karibu tena",
+      "title": "Mtu mmoja. Ubunifu na msimbo.",
+      "body": "Khalai ni studio ya mtu mmoja jijini Nairobi. Unapoingia, unazungumza na mtu anayebuni na kuunda kazi yako — hakuna kupeana kazi, hakuna tabaka la kati.",
+      "footer": "Nairobi, Kenya · GMT+3 · Majibu ndani ya siku moja ya kazi",
+      "registerEyebrow": "Mgeni hapa",
+      "registerTitle": "Anza kitu na Khalai.",
+      "registerBody": "Fungua akaunti ili kufuatilia miradi, kuwasiliana na studio moja kwa moja, na kuona kazi yako ikizaliwa mahali pamoja.",
+      "registerFooter": "Bure kufungua · Hakuna kadi inayohitajika",
+      "forgotEyebrow": "Umesahau neno la siri",
+      "forgotTitle": "Hutokea.",
+      "forgotBody": "Weka barua pepe uliyojisajili nayo na tutakutumia kiungo cha kuweka upya. Kiungo hiki kinaisha baada ya saa moja, na unaweza kuomba kingine wakati wowote.",
+      "forgotFooter": "Nairobi, Kenya · GMT+3"
     },
+    "forgot": {
+      "metaTitle": "Umesahau neno la siri — Khalai",
+      "metaDescription": "Weka upya neno la siri la akaunti yako ya Khalai.",
+      "title": "Umesahau neno lako la siri?",
+      "subtitle": "Weka barua pepe yako na tutakutumia kiungo cha kuweka upya.",
+      "email": "Barua pepe",
+      "emailPlaceholder": "wewe@example.com",
+      "send": "Tuma kiungo cha kuweka upya",
+      "sending": "Inatuma…",
+      "backToLogin": "Rudi kuingia",
+      "checkTitle": "Angalia kikasha chako",
+      "checkBody": "Ikiwa akaunti ipo kwa barua pepe hiyo, tumetuma kiungo cha kuweka upya neno la siri. Kiungo kinaisha baada ya saa moja.",
+      "tryAgain": "Tuma kwa barua pepe nyingine",
+      "errorGeneric": "Hitilafu imetokea. Tafadhali jaribu tena."
+    },
+    "login": {
+      "metaTitle": "Ingia — Khalai",
+      "metaDescription": "Ingia kwenye akaunti yako ya Khalai.",
+      "title": "Karibu tena",
+      "subtitle": "Ingia ili kuendelea ulipoishia.",
+      "identifier": "Barua pepe au simu",
+      "identifierPlaceholder": "wewe@example.com au +254 700 000 000",
+      "password": "Neno la siri",
+      "forgotPassword": "Umesahau neno la siri?",
+      "signIn": "Ingia",
+      "signingIn": "Inaingia…",
+      "orContinue": "au endelea na",
+      "noAccount": "Huna akaunti?",
+      "signUp": "Fungua moja",
+      "oauthApple": "Ingia na Apple",
+      "oauthGoogle": "Ingia na Google",
+      "oauthMeta": "Ingia na Meta",
+      "validationError": "Tafadhali rekebisha sehemu zilizoangaziwa.",
+      "welcomeBack": "Karibu tena.",
+      "loginFailed": "Kuingia kumeshindikana.",
+      "showPassword": "Onyesha neno la siri",
+      "hidePassword": "Ficha neno la siri"
+    },
+    "register": {
+      "metaTitle": "Fungua akaunti — Khalai",
+      "metaDescription": "Fungua akaunti ya Khalai ili kuanza mradi.",
+      "title": "Fungua akaunti yako",
+      "subtitle": "Dakika mbili. Hakuna kadi inayohitajika.",
+      "name": "Jina kamili",
+      "email": "Barua pepe",
+      "phone": "Simu",
+      "phoneOptional": "hiari",
+      "stepOf": "Hatua {current} kati ya {total}",
+      "back": "Rudi",
+      "continue": "Endelea",
+      "review": "Kagua",
+      "edit": "Hariri",
+      "showPassword": "Onyesha neno la siri",
+      "hidePassword": "Ficha neno la siri",
+      "age": "Umri",
+      "bio": "Maelezo binafsi",
+      "bioOptional": "hiari",
+      "password": "Neno la siri",
+      "passwordHint": "Angalau herufi 6, herufi moja kubwa, namba moja.",
+      "confirmPassword": "Thibitisha neno la siri",
+      "createAccount": "Fungua akaunti",
+      "creatingAccount": "Inafungua akaunti…",
+      "orContinue": "au endelea na",
+      "haveAccount": "Tayari una akaunti?",
+      "signIn": "Ingia",
+      "oauthApple": "Jisajili na Apple",
+      "oauthGoogle": "Jisajili na Google",
+      "oauthMeta": "Jisajili na Meta",
+      "validationError": "Tafadhali rekebisha sehemu zilizoangaziwa.",
+      "welcome": "Karibu Khalai.",
+      "registrationFailed": "Usajili umeshindikana.",
+      "creatingNotice": "Inafungua akaunti yako…",
+      "stepOfPrefix": "Hatua",
+      "stepOfSeparator": "kati ya",
+      "acceptTermsPrefix": "Nakubali",
+      "acceptTermsLink": "Masharti ya Huduma",
+      "acceptTermsAnd": "na",
+      "acceptPrivacyLink": "Sera ya Faragha",
+      "acceptTermsError": "Tafadhali kubali Masharti na Sera ya Faragha ili kuendelea."
+    }
+  },
   "Blog": {
     "metaTitle": "Blogu — Khalai Studio",
     "metaDescription": "Maandishi kuhusu ufundi, msimbo, na kuendesha studio ndogo ya ubunifu na programu kutoka Nairobi.",
@@ -1367,7 +1365,7 @@
       "body": "Maudhui yaliyobinafsishwa na matangazo. Kwa sasa hatutumii yoyote."
     }
   },
-  
+
   "Marketing": {
     "kicker": "Masoko mtandaoni",
     "title": "Patikana kila mahali wateja wako wanapotafuta.",
@@ -1396,16 +1394,22 @@
         "costSme": "KES 15,000 – 45,000 / mwezi",
         "costBrand": "$800 – $3,500 / mwezi",
         "breakdown": [
-          { "label": "Ukaguzi wa kiufundi", "value": "umejumuishwa" },
-          { "label": "Uboreshaji wa ukurasa", "value": "umejumuishwa" },
-          { "label": "Utafiti wa maneno muhimu", "value": "umejumuishwa" },
-          { "label": "Muhtasari wa maudhui", "value": "SME: 2/mwezi · Brand: 6/mwezi" },
-          { "label": "Ujenzi wa viungo", "value": "Brand pekee" },
-          { "label": "Ripoti", "value": "SME: kila mwezi · Brand: kila wiki" }
+          {"label": "Ukaguzi wa kiufundi", "value": "umejumuishwa"},
+          {"label": "Uboreshaji wa ukurasa", "value": "umejumuishwa"},
+          {"label": "Utafiti wa maneno muhimu", "value": "umejumuishwa"},
+          {
+            "label": "Muhtasari wa maudhui",
+            "value": "SME: 2/mwezi · Brand: 6/mwezi"
+          },
+          {"label": "Ujenzi wa viungo", "value": "Brand pekee"},
+          {"label": "Ripoti", "value": "SME: kila mwezi · Brand: kila wiki"}
         ],
         "brands": [
-          { "name": "Mavuno", "note": "Trafiki ya kikaboni +180% katika miezi 5" },
-          { "name": "Sokoni", "note": "Nafasi #1 kwa \"online market Kenya\"" }
+          {
+            "name": "Mavuno",
+            "note": "Trafiki ya kikaboni +180% katika miezi 5"
+          },
+          {"name": "Sokoni", "note": "Nafasi #1 kwa \"online market Kenya\""}
         ],
         "example": {
           "caption": "Nafasi ya utafutaji kabla/baada kwa muuzaji wa ndani."
@@ -1413,14 +1417,46 @@
         "opportunities": {
           "title": "Fursa zinazokosekana tunazokuta",
           "rows": [
-            { "item": "Vichwa vya kurasa", "status": "missing", "note": "Vichwa vya chaguo-msingi \"Home | Site\" hupoteza mibofyo." },
-            { "item": "Maelezo ya meta", "status": "missing", "note": "Hakuna udhibiti wa kipande cha SERP." },
-            { "item": "Lebo ya H1", "status": "weak", "note": "Kichwa kikuu ni picha, sio maandishi." },
-            { "item": "Maandishi mbadala ya picha", "status": "missing", "note": "Haionekani kwa utafutaji na visomaji vya skrini." },
-            { "item": "Sitemap.xml", "status": "missing", "note": "Google inapaswa kukisia cha kukagua." },
-            { "item": "Data iliyopangwa", "status": "missing", "note": "Hakuna matokeo tajiri kwenye utafutaji." },
-            { "item": "Kasi ya simu", "status": "weak", "note": "LCP zaidi ya 4s hupoteza nafasi." },
-            { "item": "Viungo vya ndani", "status": "weak", "note": "Kurasa muhimu zimezikwa mibofyo 3+ ndani." }
+            {
+              "item": "Vichwa vya kurasa",
+              "status": "missing",
+              "note": "Vichwa vya chaguo-msingi \"Home | Site\" hupoteza mibofyo."
+            },
+            {
+              "item": "Maelezo ya meta",
+              "status": "missing",
+              "note": "Hakuna udhibiti wa kipande cha SERP."
+            },
+            {
+              "item": "Lebo ya H1",
+              "status": "weak",
+              "note": "Kichwa kikuu ni picha, sio maandishi."
+            },
+            {
+              "item": "Maandishi mbadala ya picha",
+              "status": "missing",
+              "note": "Haionekani kwa utafutaji na visomaji vya skrini."
+            },
+            {
+              "item": "Sitemap.xml",
+              "status": "missing",
+              "note": "Google inapaswa kukisia cha kukagua."
+            },
+            {
+              "item": "Data iliyopangwa",
+              "status": "missing",
+              "note": "Hakuna matokeo tajiri kwenye utafutaji."
+            },
+            {
+              "item": "Kasi ya simu",
+              "status": "weak",
+              "note": "LCP zaidi ya 4s hupoteza nafasi."
+            },
+            {
+              "item": "Viungo vya ndani",
+              "status": "weak",
+              "note": "Kurasa muhimu zimezikwa mibofyo 3+ ndani."
+            }
           ]
         }
       },
@@ -1433,15 +1469,24 @@
         "costSme": "KES 10,000 – 35,000 / mwezi",
         "costBrand": "$600 – $2,500 / mwezi",
         "breakdown": [
-          { "label": "Kalenda ya maudhui", "value": "imejumuishwa" },
-          { "label": "Machapisho kwa mwezi", "value": "SME: 10 · Brand: 20+" },
-          { "label": "Video fupi", "value": "SME: 2 · Brand: 8" },
-          { "label": "Usimamizi wa maoni", "value": "SME: saa za kazi · Brand: 24/7" },
-          { "label": "Ripoti", "value": "SME: kila mwezi · Brand: kila wiki" }
+          {"label": "Kalenda ya maudhui", "value": "imejumuishwa"},
+          {"label": "Machapisho kwa mwezi", "value": "SME: 10 · Brand: 20+"},
+          {"label": "Video fupi", "value": "SME: 2 · Brand: 8"},
+          {
+            "label": "Usimamizi wa maoni",
+            "value": "SME: saa za kazi · Brand: 24/7"
+          },
+          {"label": "Ripoti", "value": "SME: kila mwezi · Brand: kila wiki"}
         ],
         "brands": [
-          { "name": "Chama", "note": "Mionekano 3.2M ya kikaboni kwenye video ya uzinduzi" },
-          { "name": "Khalai", "note": "Ukuaji wa Instagram 0 → 8k katika miezi 4" }
+          {
+            "name": "Chama",
+            "note": "Mionekano 3.2M ya kikaboni kwenye video ya uzinduzi"
+          },
+          {
+            "name": "Khalai",
+            "note": "Ukuaji wa Instagram 0 → 8k katika miezi 4"
+          }
         ],
         "example": {
           "caption": "Mfululizo wa video 3 za uzinduzi uliofikia mionekano 3.2M."
@@ -1456,14 +1501,17 @@
         "costSme": "KES 20,000 – 60,000 / mwezi",
         "costBrand": "$1,000 – $4,000 / mwezi",
         "breakdown": [
-          { "label": "Utafiti wa vidokezo", "value": "umejumuishwa" },
-          { "label": "Data iliyopangwa", "value": "imejumuishwa" },
-          { "label": "Muundo wa maudhui", "value": "umejumuishwa" },
-          { "label": "Mamlaka ya huluki", "value": "Brand pekee" },
-          { "label": "Ukaguzi wa LLM wa kila mwezi", "value": "umejumuishwa" }
+          {"label": "Utafiti wa vidokezo", "value": "umejumuishwa"},
+          {"label": "Data iliyopangwa", "value": "imejumuishwa"},
+          {"label": "Muundo wa maudhui", "value": "umejumuishwa"},
+          {"label": "Mamlaka ya huluki", "value": "Brand pekee"},
+          {"label": "Ukaguzi wa LLM wa kila mwezi", "value": "umejumuishwa"}
         ],
         "brands": [
-          { "name": "Atlas Dashboard", "note": "Imependekezwa na ChatGPT kwa \"Kenyan analytics\"" }
+          {
+            "name": "Atlas Dashboard",
+            "note": "Imependekezwa na ChatGPT kwa \"Kenyan analytics\""
+          }
         ],
         "example": {
           "caption": "Jibu hai la ChatGPT likionyesha mteja kama pendekezo la kwanza."
@@ -1478,15 +1526,24 @@
         "costSme": "KES 25,000 – 80,000 / ujenzi",
         "costBrand": "$1,500 – $6,000 / ujenzi",
         "breakdown": [
-          { "label": "Ramani ya vyanzo", "value": "imejumuishwa" },
-          { "label": "Ujenzi wa kichimbaji", "value": "umejumuishwa" },
-          { "label": "Upangaji wa ratiba", "value": "SME: kila siku · Brand: wakati halisi" },
-          { "label": "Dashibodi", "value": "SME: CSV · Brand: UI maalum" },
-          { "label": "Matengenezo", "value": "SME: miezi 3 · Brand: endelevu" }
+          {"label": "Ramani ya vyanzo", "value": "imejumuishwa"},
+          {"label": "Ujenzi wa kichimbaji", "value": "umejumuishwa"},
+          {
+            "label": "Upangaji wa ratiba",
+            "value": "SME: kila siku · Brand: wakati halisi"
+          },
+          {"label": "Dashibodi", "value": "SME: CSV · Brand: UI maalum"},
+          {"label": "Matengenezo", "value": "SME: miezi 3 · Brand: endelevu"}
         ],
         "brands": [
-          { "name": "Sokoni", "note": "Ufuatiliaji wa bei kwenye tovuti 12 za washindani" },
-          { "name": "Mavuno", "note": "Kifuatiliaji cha matangazo ya kila siku kwa bidhaa 4,000" }
+          {
+            "name": "Sokoni",
+            "note": "Ufuatiliaji wa bei kwenye tovuti 12 za washindani"
+          },
+          {
+            "name": "Mavuno",
+            "note": "Kifuatiliaji cha matangazo ya kila siku kwa bidhaa 4,000"
+          }
         ],
         "example": {
           "caption": "Dashibodi hai ya bei za washindani iliyojengwa kwa mteja."
@@ -1501,15 +1558,15 @@
         "costSme": "KES 15,000 – 40,000 / lugha",
         "costBrand": "$800 – $3,000 / lugha",
         "breakdown": [
-          { "label": "Tafsiri", "value": "imejumuishwa" },
-          { "label": "Urekebishaji wa kitamaduni", "value": "umejumuishwa" },
-          { "label": "Usanidi wa hreflang", "value": "umejumuishwa" },
-          { "label": "SEO ya kila lugha", "value": "Brand pekee" },
-          { "label": "Usahihishaji wa asili", "value": "umejumuishwa" }
+          {"label": "Tafsiri", "value": "imejumuishwa"},
+          {"label": "Urekebishaji wa kitamaduni", "value": "umejumuishwa"},
+          {"label": "Usanidi wa hreflang", "value": "umejumuishwa"},
+          {"label": "SEO ya kila lugha", "value": "Brand pekee"},
+          {"label": "Usahihishaji wa asili", "value": "umejumuishwa"}
         ],
         "brands": [
-          { "name": "Chama", "note": "Kiswahili + Kiingereza + Kifaransa hai" },
-          { "name": "Khalai", "note": "Lugha 6 na hreflang, msaada wa RTL" }
+          {"name": "Chama", "note": "Kiswahili + Kiingereza + Kifaransa hai"},
+          {"name": "Khalai", "note": "Lugha 6 na hreflang, msaada wa RTL"}
         ],
         "example": {
           "caption": "Ukurasa huo wa nyumbani kwa Kiingereza, Kiswahili, na Kiarabu (RTL)."
@@ -1524,16 +1581,16 @@
         "costSme": "15–20% ya matumizi · min KES 10,000 / mwezi",
         "costBrand": "15–20% ya matumizi · min $500 / mwezi",
         "breakdown": [
-          { "label": "Usanidi wa kampeni", "value": "umejumuishwa" },
-          { "label": "Ubunifu (picha)", "value": "umejumuishwa" },
-          { "label": "Ubunifu (video)", "value": "Brand pekee" },
-          { "label": "Upimaji wa A/B", "value": "umejumuishwa" },
-          { "label": "Ripoti", "value": "SME: kila mwezi · Brand: kila wiki" },
-          { "label": "Ada ya usimamizi", "value": "15–20% ya matumizi" }
+          {"label": "Usanidi wa kampeni", "value": "umejumuishwa"},
+          {"label": "Ubunifu (picha)", "value": "umejumuishwa"},
+          {"label": "Ubunifu (video)", "value": "Brand pekee"},
+          {"label": "Upimaji wa A/B", "value": "umejumuishwa"},
+          {"label": "Ripoti", "value": "SME: kila mwezi · Brand: kila wiki"},
+          {"label": "Ada ya usimamizi", "value": "15–20% ya matumizi"}
         ],
         "brands": [
-          { "name": "Mavuno", "note": "ROAS 4.2 kwenye Meta katika miezi 3" },
-          { "name": "Sokoni", "note": "Gharama kwa lead imepungua 62%" }
+          {"name": "Mavuno", "note": "ROAS 4.2 kwenye Meta katika miezi 3"},
+          {"name": "Sokoni", "note": "Gharama kwa lead imepungua 62%"}
         ],
         "example": {
           "caption": "Ubunifu wa tangazo la Meta uliofikia ROAS 4.2."
@@ -1548,16 +1605,22 @@
         "costSme": "KES 20,000 – 50,000 / ujenzi",
         "costBrand": "$1,500 – $4,000 / ujenzi",
         "breakdown": [
-          { "label": "Tabaka la ufuatiliaji", "value": "limejumuishwa" },
-          { "label": "Dashibodi ya wateja", "value": "imejumuishwa" },
-          { "label": "Uhamishaji wa CSV", "value": "umejumuishwa" },
-          { "label": "Mchanganuo kwa chanzo", "value": "umejumuishwa" },
-          { "label": "Barua pepe ya muhtasari wa kila wiki", "value": "Brand pekee" },
-          { "label": "Ripoti maalum", "value": "Brand pekee" }
+          {"label": "Tabaka la ufuatiliaji", "value": "limejumuishwa"},
+          {"label": "Dashibodi ya wateja", "value": "imejumuishwa"},
+          {"label": "Uhamishaji wa CSV", "value": "umejumuishwa"},
+          {"label": "Mchanganuo kwa chanzo", "value": "umejumuishwa"},
+          {
+            "label": "Barua pepe ya muhtasari wa kila wiki",
+            "value": "Brand pekee"
+          },
+          {"label": "Ripoti maalum", "value": "Brand pekee"}
         ],
         "brands": [
-          { "name": "Khalai", "note": "Kila lead imefuatiliwa hadi ukurasa wa masoko" },
-          { "name": "Mavuno", "note": "Uhamishaji wa CSV unaolisha CRM" }
+          {
+            "name": "Khalai",
+            "note": "Kila lead imefuatiliwa hadi ukurasa wa masoko"
+          },
+          {"name": "Mavuno", "note": "Uhamishaji wa CSV unaolisha CRM"}
         ],
         "example": {
           "caption": "Dashibodi hai ya wateja: kiasi cha kila siku, mgawanyo kwa huduma, mchanganuo wa chanzo."
@@ -1820,39 +1883,38 @@
           }
         ],
         "daily": [
-          { "day": "2026-10-09", "count": 2 },
-          { "day": "2026-10-10", "count": 1 },
-          { "day": "2026-10-11", "count": 3 },
-          { "day": "2026-10-12", "count": 4 },
-          { "day": "2026-10-13", "count": 2 },
-          { "day": "2026-10-14", "count": 5 },
-          { "day": "2026-10-15", "count": 6 },
-          { "day": "2026-10-16", "count": 4 },
-          { "day": "2026-10-17", "count": 7 },
-          { "day": "2026-10-18", "count": 5 },
-          { "day": "2026-10-19", "count": 8 },
-          { "day": "2026-10-20", "count": 6 },
-          { "day": "2026-10-21", "count": 9 },
-          { "day": "2026-10-22", "count": 7 }
+          {"day": "2026-10-09", "count": 2},
+          {"day": "2026-10-10", "count": 1},
+          {"day": "2026-10-11", "count": 3},
+          {"day": "2026-10-12", "count": 4},
+          {"day": "2026-10-13", "count": 2},
+          {"day": "2026-10-14", "count": 5},
+          {"day": "2026-10-15", "count": 6},
+          {"day": "2026-10-16", "count": 4},
+          {"day": "2026-10-17", "count": 7},
+          {"day": "2026-10-18", "count": 5},
+          {"day": "2026-10-19", "count": 8},
+          {"day": "2026-10-20", "count": 6},
+          {"day": "2026-10-21", "count": 9},
+          {"day": "2026-10-22", "count": 7}
         ],
         "byService": [
-          { "key": "seo", "count": 18 },
-          { "key": "scraping", "count": 6 },
-          { "key": "ads", "count": 4 },
-          { "key": "smm", "count": 3 },
-          { "key": "direct", "count": 23 }
+          {"key": "seo", "count": 18},
+          {"key": "scraping", "count": 6},
+          {"key": "ads", "count": 4},
+          {"key": "smm", "count": 3},
+          {"key": "direct", "count": 23}
         ],
         "bySource": [
-          { "key": "marketing-service", "count": 28 },
-          { "key": "pricing-launch", "count": 11 },
-          { "key": "pricing-studio", "count": 4 },
-          { "key": "direct", "count": 23 }
+          {"key": "marketing-service", "count": 28},
+          {"key": "pricing-launch", "count": 11},
+          {"key": "pricing-studio", "count": 4},
+          {"key": "direct", "count": 23}
         ]
       }
     }
   },
 
-  
   "Payments": {
     "title": "Malipo",
     "subtitle": "Miamala na risiti zako.",
@@ -1927,7 +1989,4 @@
       "provider": "Mtoa huduma"
     }
   }
-
-
-
 }

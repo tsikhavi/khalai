@@ -716,7 +716,7 @@
       "contact": "Contact the studio",
       "whatsapp": "WhatsApp"
     },
-     "services": {
+    "services": {
       "title": "What we do",
       "subtitle": "Six services, each with a real timeline and two honest price ranges — SME and Brand.",
       "timeLabel": "Time",
@@ -731,16 +731,16 @@
         "costSme": "KES 15,000 – 45,000 / month",
         "costBrand": "$800 – $3,500 / month",
         "breakdown": [
-          { "label": "Technical audit", "value": "included" },
-          { "label": "On-page optimisation", "value": "included" },
-          { "label": "Keyword research", "value": "included" },
-          { "label": "Content briefs", "value": "SME: 2/mo · Brand: 6/mo" },
-          { "label": "Link building", "value": "Brand only" },
-          { "label": "Reporting", "value": "SME: monthly · Brand: weekly" }
+          {"label": "Technical audit", "value": "included"},
+          {"label": "On-page optimisation", "value": "included"},
+          {"label": "Keyword research", "value": "included"},
+          {"label": "Content briefs", "value": "SME: 2/mo · Brand: 6/mo"},
+          {"label": "Link building", "value": "Brand only"},
+          {"label": "Reporting", "value": "SME: monthly · Brand: weekly"}
         ],
         "brands": [
-          { "name": "Mavuno", "note": "Organic traffic +180% in 5 months" },
-          { "name": "Sokoni", "note": "Ranked #1 for \"online market Kenya\"" }
+          {"name": "Mavuno", "note": "Organic traffic +180% in 5 months"},
+          {"name": "Sokoni", "note": "Ranked #1 for \"online market Kenya\""}
         ],
         "example": {
           "caption": "Before/after search position for a local retailer."
@@ -748,14 +748,46 @@
         "opportunities": {
           "title": "Common missed opportunities we find",
           "rows": [
-            { "item": "Page titles", "status": "missing", "note": "Default \"Home | Site\" titles lose clicks." },
-            { "item": "Meta descriptions", "status": "missing", "note": "Zero control over the SERP snippet." },
-            { "item": "H1 tag", "status": "weak", "note": "The main heading is an image, not text." },
-            { "item": "Image alt text", "status": "missing", "note": "Invisible to search and screen readers." },
-            { "item": "Sitemap.xml", "status": "missing", "note": "Google has to guess what to crawl." },
-            { "item": "Structured data", "status": "missing", "note": "No rich results in search." },
-            { "item": "Mobile speed", "status": "weak", "note": "LCP over 4s loses ranking." },
-            { "item": "Internal links", "status": "weak", "note": "Key pages buried 3+ clicks deep." }
+            {
+              "item": "Page titles",
+              "status": "missing",
+              "note": "Default \"Home | Site\" titles lose clicks."
+            },
+            {
+              "item": "Meta descriptions",
+              "status": "missing",
+              "note": "Zero control over the SERP snippet."
+            },
+            {
+              "item": "H1 tag",
+              "status": "weak",
+              "note": "The main heading is an image, not text."
+            },
+            {
+              "item": "Image alt text",
+              "status": "missing",
+              "note": "Invisible to search and screen readers."
+            },
+            {
+              "item": "Sitemap.xml",
+              "status": "missing",
+              "note": "Google has to guess what to crawl."
+            },
+            {
+              "item": "Structured data",
+              "status": "missing",
+              "note": "No rich results in search."
+            },
+            {
+              "item": "Mobile speed",
+              "status": "weak",
+              "note": "LCP over 4s loses ranking."
+            },
+            {
+              "item": "Internal links",
+              "status": "weak",
+              "note": "Key pages buried 3+ clicks deep."
+            }
           ]
         }
       },
@@ -768,15 +800,18 @@
         "costSme": "KES 10,000 – 35,000 / month",
         "costBrand": "$600 – $2,500 / month",
         "breakdown": [
-          { "label": "Content calendar", "value": "included" },
-          { "label": "Posts per month", "value": "SME: 10 · Brand: 20+" },
-          { "label": "Short video", "value": "SME: 2 · Brand: 8" },
-          { "label": "Comment management", "value": "SME: business hours · Brand: 24/7" },
-          { "label": "Reporting", "value": "SME: monthly · Brand: weekly" }
+          {"label": "Content calendar", "value": "included"},
+          {"label": "Posts per month", "value": "SME: 10 · Brand: 20+"},
+          {"label": "Short video", "value": "SME: 2 · Brand: 8"},
+          {
+            "label": "Comment management",
+            "value": "SME: business hours · Brand: 24/7"
+          },
+          {"label": "Reporting", "value": "SME: monthly · Brand: weekly"}
         ],
         "brands": [
-          { "name": "Chama", "note": "3.2M organic views on launch video" },
-          { "name": "Khalai", "note": "Instagram growth 0 → 8k in 4 months" }
+          {"name": "Chama", "note": "3.2M organic views on launch video"},
+          {"name": "Khalai", "note": "Instagram growth 0 → 8k in 4 months"}
         ],
         "example": {
           "caption": "A 3-video launch sequence that reached 3.2M views."
@@ -791,14 +826,17 @@
         "costSme": "KES 20,000 – 60,000 / month",
         "costBrand": "$1,000 – $4,000 / month",
         "breakdown": [
-          { "label": "Prompt research", "value": "included" },
-          { "label": "Structured data", "value": "included" },
-          { "label": "Content structure", "value": "included" },
-          { "label": "Entity authority", "value": "Brand only" },
-          { "label": "Monthly LLM audit", "value": "included" }
+          {"label": "Prompt research", "value": "included"},
+          {"label": "Structured data", "value": "included"},
+          {"label": "Content structure", "value": "included"},
+          {"label": "Entity authority", "value": "Brand only"},
+          {"label": "Monthly LLM audit", "value": "included"}
         ],
         "brands": [
-          { "name": "Atlas Dashboard", "note": "Recommended by ChatGPT for \"Kenyan analytics\"" }
+          {
+            "name": "Atlas Dashboard",
+            "note": "Recommended by ChatGPT for \"Kenyan analytics\""
+          }
         ],
         "example": {
           "caption": "A live ChatGPT answer showing the client as the top recommendation."
@@ -813,15 +851,18 @@
         "costSme": "KES 25,000 – 80,000 / build",
         "costBrand": "$1,500 – $6,000 / build",
         "breakdown": [
-          { "label": "Source mapping", "value": "included" },
-          { "label": "Scraper build", "value": "included" },
-          { "label": "Scheduling", "value": "SME: daily · Brand: real-time" },
-          { "label": "Dashboard", "value": "SME: CSV · Brand: custom UI" },
-          { "label": "Maintenance", "value": "SME: 3 months · Brand: ongoing" }
+          {"label": "Source mapping", "value": "included"},
+          {"label": "Scraper build", "value": "included"},
+          {"label": "Scheduling", "value": "SME: daily · Brand: real-time"},
+          {"label": "Dashboard", "value": "SME: CSV · Brand: custom UI"},
+          {"label": "Maintenance", "value": "SME: 3 months · Brand: ongoing"}
         ],
         "brands": [
-          { "name": "Sokoni", "note": "Price-tracking across 12 competitor sites" },
-          { "name": "Mavuno", "note": "Daily listing monitor for 4,000 products" }
+          {
+            "name": "Sokoni",
+            "note": "Price-tracking across 12 competitor sites"
+          },
+          {"name": "Mavuno", "note": "Daily listing monitor for 4,000 products"}
         ],
         "example": {
           "caption": "A live competitor-price dashboard built for a client."
@@ -836,15 +877,15 @@
         "costSme": "KES 15,000 – 40,000 / language",
         "costBrand": "$800 – $3,000 / language",
         "breakdown": [
-          { "label": "Translation", "value": "included" },
-          { "label": "Cultural adaptation", "value": "included" },
-          { "label": "hreflang setup", "value": "included" },
-          { "label": "Per-language SEO", "value": "Brand only" },
-          { "label": "Native proofread", "value": "included" }
+          {"label": "Translation", "value": "included"},
+          {"label": "Cultural adaptation", "value": "included"},
+          {"label": "hreflang setup", "value": "included"},
+          {"label": "Per-language SEO", "value": "Brand only"},
+          {"label": "Native proofread", "value": "included"}
         ],
         "brands": [
-          { "name": "Chama", "note": "Swahili + English + French live" },
-          { "name": "Khalai", "note": "6 locales with hreflang, RTL support" }
+          {"name": "Chama", "note": "Swahili + English + French live"},
+          {"name": "Khalai", "note": "6 locales with hreflang, RTL support"}
         ],
         "example": {
           "caption": "The same homepage in English, Swahili, and Arabic (RTL)."
@@ -859,16 +900,16 @@
         "costSme": "15–20% of spend · min KES 10,000 / month",
         "costBrand": "15–20% of spend · min $500 / month",
         "breakdown": [
-          { "label": "Campaign setup", "value": "included" },
-          { "label": "Creative (images)", "value": "included" },
-          { "label": "Creative (video)", "value": "Brand only" },
-          { "label": "A/B testing", "value": "included" },
-          { "label": "Reporting", "value": "SME: monthly · Brand: weekly" },
-          { "label": "Management fee", "value": "15–20% of spend" }
+          {"label": "Campaign setup", "value": "included"},
+          {"label": "Creative (images)", "value": "included"},
+          {"label": "Creative (video)", "value": "Brand only"},
+          {"label": "A/B testing", "value": "included"},
+          {"label": "Reporting", "value": "SME: monthly · Brand: weekly"},
+          {"label": "Management fee", "value": "15–20% of spend"}
         ],
         "brands": [
-          { "name": "Mavuno", "note": "ROAS 4.2 on Meta in 3 months" },
-          { "name": "Sokoni", "note": "Cost per lead down 62%" }
+          {"name": "Mavuno", "note": "ROAS 4.2 on Meta in 3 months"},
+          {"name": "Sokoni", "note": "Cost per lead down 62%"}
         ],
         "example": {
           "caption": "A Meta ad creative that reached 4.2 ROAS."
@@ -883,23 +924,22 @@
         "costSme": "KES 20,000 – 50,000 / build",
         "costBrand": "$1,500 – $4,000 / build",
         "breakdown": [
-          { "label": "Tracking layer", "value": "included" },
-          { "label": "Lead dashboard", "value": "included" },
-          { "label": "CSV export", "value": "included" },
-          { "label": "Per-source breakdown", "value": "included" },
-          { "label": "Weekly digest email", "value": "Brand only" },
-          { "label": "Custom reporting", "value": "Brand only" }
+          {"label": "Tracking layer", "value": "included"},
+          {"label": "Lead dashboard", "value": "included"},
+          {"label": "CSV export", "value": "included"},
+          {"label": "Per-source breakdown", "value": "included"},
+          {"label": "Weekly digest email", "value": "Brand only"},
+          {"label": "Custom reporting", "value": "Brand only"}
         ],
         "brands": [
-          { "name": "Khalai", "note": "Every lead traced to a marketing page" },
-          { "name": "Mavuno", "note": "CSV exports feeding a CRM" }
+          {"name": "Khalai", "note": "Every lead traced to a marketing page"},
+          {"name": "Mavuno", "note": "CSV exports feeding a CRM"}
         ],
         "example": {
           "caption": "A live leads dashboard: daily volume, per-service split, source breakdown."
         }
       }
-    }
-  ,
+    },
     "platforms": {
       "title": "How long each platform takes",
       "subtitle": "Organic growth is slow and compounding. Paid is fast and stops when you stop. Most healthy strategies mix both.",
@@ -1075,15 +1115,38 @@
     },
     "leadsPreview": {
       "banner": "...",
-      "stats": { "total": "...", "open": "...", "topService": "...", "topSource": "..." },
-      "charts": { "daily": "...", "byService": "...", "bySource": "..." },
-      "table": { "when": "...", "name": "...", "subject": "...", "service": "...", "source": "...", "status": "...", "empty": "..." },
-      "statuses": { "open": "...", "replied": "..." },
-      "csv": { "title": "...", "body": "..." },
-      "services": { "seo": "...", "scraping": "...", "ads": "...", "smm": "...", "direct": "..." },
-      "sources": { "marketing-service": "...", "pricing-launch": "...", "pricing-studio": "...", "direct": "..." }
+      "stats": {
+        "total": "...",
+        "open": "...",
+        "topService": "...",
+        "topSource": "..."
+      },
+      "charts": {"daily": "...", "byService": "...", "bySource": "..."},
+      "table": {
+        "when": "...",
+        "name": "...",
+        "subject": "...",
+        "service": "...",
+        "source": "...",
+        "status": "...",
+        "empty": "..."
+      },
+      "statuses": {"open": "...", "replied": "..."},
+      "csv": {"title": "...", "body": "..."},
+      "services": {
+        "seo": "...",
+        "scraping": "...",
+        "ads": "...",
+        "smm": "...",
+        "direct": "..."
+      },
+      "sources": {
+        "marketing-service": "...",
+        "pricing-launch": "...",
+        "pricing-studio": "...",
+        "direct": "..."
+      }
     }
-  
   },
   "Pricing": {
     "kicker": "Pricing",
@@ -1873,7 +1936,7 @@
       "wordmark": "Khalai Studio",
       "wordmarkPrimary": "Khalai",
       "wordmarkSecondary": "Studio",
-      "titleLens": "Take a closer |look|.",
+      "titleLens": "Take a closer |look|",
       "subtitle": "Design and software studio from Kenya. One person, both sides: design and code.",
       "startProject": "Start a project",
       "readJournal": "Read the journal"

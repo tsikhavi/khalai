@@ -90,7 +90,7 @@
       "loggingOut": "Déconnexion…"
     }
   },
-  
+
   "Nav": {
     "home": "Accueil",
     "about": "À propos",
@@ -152,8 +152,7 @@
       "terms": "Conditions",
       "privacy": "Confidentialité"
     }
-  }
-,
+  },
   "AdminProjects": {
     "title": "Gérer les projets",
     "subtitle": "{count} projets dans la base de données",
@@ -440,7 +439,7 @@
       "contact": "Contact"
     }
   },
-  
+
   "Contact": {
     "metaTitle": "Contact — Khalai Studio",
     "metaDescription": "Parlez-nous de votre projet. Studio de design et de logiciels à Nairobi. Réponse en un jour ouvré.",
@@ -542,7 +541,7 @@
     "metaDescription": "Des repères, une grille, une typographie, une couleur. Le processus en cinq étapes derrière chaque projet.",
     "hero": {
       "eyebrow": "La méthode",
-      "titleLens": "D'une ligne à un |bouton|.",
+      "titleLens": "D'une ligne à un |bouton|",
       "subtitle": "Cinq étapes. Même ordre, à chaque fois. C'est pourquoi la dixième modification est plus rapide que la première.",
       "scrollHint": "Faites défiler pour la parcourir"
     },
@@ -787,7 +786,7 @@
     "description": "Une personne, les deux côtés : design et code. Sites web, boutiques et logiciels sur mesure faits main pour les entreprises kényanes.",
     "location": "Nairobi, Kenya"
   },
-  
+
   "Studio": {
     "footer": {
       "copyright": "© {year} {name}. Fait main à {location}.",
@@ -799,7 +798,7 @@
       "wordmark": "Khalai Studio",
       "wordmarkPrimary": "Khalai",
       "wordmarkSecondary": "Studio",
-      "titleLens": "Regardez de |plus près|.",
+      "titleLens": "Regardez de |plus près|",
       "subtitle": "Studio de design et de logiciels du Kenya. Une personne, deux côtés : design et code.",
       "startProject": "Démarrer un projet",
       "readJournal": "Lire le journal"
@@ -971,103 +970,103 @@
     }
   },
   "Auth": {
-      "legal": "En continuant, vous acceptez nos conditions et notre politique de confidentialité.",
-      "support": "Besoin d'aide ? Contactez-nous.",
-      "hero": {
-        "eyebrow": "Bon retour",
-        "title": "Une personne. Design et code.",
-        "body": "Khalai est un studio individuel à Nairobi. Lorsque vous vous connectez, vous parlez à la personne qui conçoit et réalise votre projet — sans intermédiaire, sans couche intermédiaire.",
-        "footer": "Nairobi, Kenya · GMT+3 · Réponse sous un jour ouvré",
-        "registerEyebrow": "Nouveau ici",
-        "registerTitle": "Commencez quelque chose avec Khalai.",
-        "registerBody": "Créez un compte pour suivre vos projets, échanger directement avec le studio et voir votre travail prendre vie au même endroit.",
-        "registerFooter": "Gratuit · Aucune carte requise",
-        "forgotEyebrow": "Mot de passe oublié",
-        "forgotTitle": "Ça arrive.",
-        "forgotBody": "Saisissez l'adresse e-mail utilisée lors de votre inscription et nous vous enverrons un lien de réinitialisation. Le lien expire dans une heure, et vous pouvez en demander un nouveau à tout moment.",
-        "forgotFooter": "Nairobi, Kenya · GMT+3"
-      },
-      "forgot": {
-        "metaTitle": "Mot de passe oublié — Khalai",
-        "metaDescription": "Réinitialisez le mot de passe de votre compte Khalai.",
-        "title": "Mot de passe oublié ?",
-        "subtitle": "Saisissez votre e-mail et nous vous enverrons un lien de réinitialisation.",
-        "email": "E-mail",
-        "emailPlaceholder": "vous@example.com",
-        "send": "Envoyer le lien",
-        "sending": "Envoi…",
-        "backToLogin": "Retour à la connexion",
-        "checkTitle": "Vérifiez votre boîte de réception",
-        "checkBody": "Si un compte existe pour cet e-mail, nous avons envoyé un lien de réinitialisation. Le lien expire dans une heure.",
-        "tryAgain": "Envoyer à une autre adresse",
-        "errorGeneric": "Une erreur s'est produite. Veuillez réessayer."
-      },
-      "login": {
-        "metaTitle": "Connexion — Khalai",
-        "metaDescription": "Connectez-vous à votre compte Khalai.",
-        "title": "Bon retour",
-        "subtitle": "Connectez-vous pour reprendre où vous en étiez.",
-        "identifier": "E-mail ou téléphone",
-        "identifierPlaceholder": "vous@example.com ou +254 700 000 000",
-        "password": "Mot de passe",
-        "forgotPassword": "Mot de passe oublié ?",
-        "signIn": "Se connecter",
-        "signingIn": "Connexion…",
-        "orContinue": "ou continuer avec",
-        "noAccount": "Pas encore de compte ?",
-        "signUp": "Créer un compte",
-        "oauthApple": "Se connecter avec Apple",
-        "oauthGoogle": "Se connecter avec Google",
-        "oauthMeta": "Se connecter avec Meta",
-        "validationError": "Veuillez corriger les champs en surbrillance.",
-        "welcomeBack": "Bon retour.",
-        "loginFailed": "Échec de la connexion.",
-        "showPassword": "Afficher le mot de passe",
-        "hidePassword": "Masquer le mot de passe"
-      },
-      "register": {
-        "metaTitle": "Créer un compte — Khalai",
-        "metaDescription": "Créez un compte Khalai pour démarrer un projet.",
-        "title": "Créez votre compte",
-        "subtitle": "Deux minutes. Aucune carte requise.",
-        "name": "Nom complet",
-        "email": "E-mail",
-        "phone": "Téléphone",
-        "phoneOptional": "facultatif",
-        "stepOf": "Étape {current} sur {total}",
-        "back": "Retour",
-        "continue": "Continuer",
-        "review": "Vérifier",
-        "edit": "Modifier",
-        "showPassword": "Afficher le mot de passe",
-        "hidePassword": "Masquer le mot de passe",
-        "age": "Âge",
-        "bio": "Bio",
-        "bioOptional": "facultatif",
-        "password": "Mot de passe",
-        "passwordHint": "Au moins 6 caractères, une majuscule, un chiffre.",
-        "confirmPassword": "Confirmer le mot de passe",
-        "createAccount": "Créer le compte",
-        "creatingAccount": "Création du compte…",
-        "orContinue": "ou continuer avec",
-        "haveAccount": "Vous avez déjà un compte ?",
-        "signIn": "Se connecter",
-        "oauthApple": "S'inscrire avec Apple",
-        "oauthGoogle": "S'inscrire avec Google",
-        "oauthMeta": "S'inscrire avec Meta",
-        "validationError": "Veuillez corriger les champs en surbrillance.",
-        "welcome": "Bienvenue chez Khalai.",
-        "registrationFailed": "Échec de l'inscription.",
-        "creatingNotice": "Création de votre compte…",
-        "stepOfPrefix": "Étape",
-        "stepOfSeparator": "sur",
-        "acceptTermsPrefix": "J'accepte les",
-        "acceptTermsLink": "Conditions d'utilisation",
-        "acceptTermsAnd": "et la",
-        "acceptPrivacyLink": "Politique de confidentialité",
-        "acceptTermsError": "Veuillez accepter les Conditions et la Politique de confidentialité pour continuer."
-      }
+    "legal": "En continuant, vous acceptez nos conditions et notre politique de confidentialité.",
+    "support": "Besoin d'aide ? Contactez-nous.",
+    "hero": {
+      "eyebrow": "Bon retour",
+      "title": "Une personne. Design et code.",
+      "body": "Khalai est un studio individuel à Nairobi. Lorsque vous vous connectez, vous parlez à la personne qui conçoit et réalise votre projet — sans intermédiaire, sans couche intermédiaire.",
+      "footer": "Nairobi, Kenya · GMT+3 · Réponse sous un jour ouvré",
+      "registerEyebrow": "Nouveau ici",
+      "registerTitle": "Commencez quelque chose avec Khalai.",
+      "registerBody": "Créez un compte pour suivre vos projets, échanger directement avec le studio et voir votre travail prendre vie au même endroit.",
+      "registerFooter": "Gratuit · Aucune carte requise",
+      "forgotEyebrow": "Mot de passe oublié",
+      "forgotTitle": "Ça arrive.",
+      "forgotBody": "Saisissez l'adresse e-mail utilisée lors de votre inscription et nous vous enverrons un lien de réinitialisation. Le lien expire dans une heure, et vous pouvez en demander un nouveau à tout moment.",
+      "forgotFooter": "Nairobi, Kenya · GMT+3"
     },
+    "forgot": {
+      "metaTitle": "Mot de passe oublié — Khalai",
+      "metaDescription": "Réinitialisez le mot de passe de votre compte Khalai.",
+      "title": "Mot de passe oublié ?",
+      "subtitle": "Saisissez votre e-mail et nous vous enverrons un lien de réinitialisation.",
+      "email": "E-mail",
+      "emailPlaceholder": "vous@example.com",
+      "send": "Envoyer le lien",
+      "sending": "Envoi…",
+      "backToLogin": "Retour à la connexion",
+      "checkTitle": "Vérifiez votre boîte de réception",
+      "checkBody": "Si un compte existe pour cet e-mail, nous avons envoyé un lien de réinitialisation. Le lien expire dans une heure.",
+      "tryAgain": "Envoyer à une autre adresse",
+      "errorGeneric": "Une erreur s'est produite. Veuillez réessayer."
+    },
+    "login": {
+      "metaTitle": "Connexion — Khalai",
+      "metaDescription": "Connectez-vous à votre compte Khalai.",
+      "title": "Bon retour",
+      "subtitle": "Connectez-vous pour reprendre où vous en étiez.",
+      "identifier": "E-mail ou téléphone",
+      "identifierPlaceholder": "vous@example.com ou +254 700 000 000",
+      "password": "Mot de passe",
+      "forgotPassword": "Mot de passe oublié ?",
+      "signIn": "Se connecter",
+      "signingIn": "Connexion…",
+      "orContinue": "ou continuer avec",
+      "noAccount": "Pas encore de compte ?",
+      "signUp": "Créer un compte",
+      "oauthApple": "Se connecter avec Apple",
+      "oauthGoogle": "Se connecter avec Google",
+      "oauthMeta": "Se connecter avec Meta",
+      "validationError": "Veuillez corriger les champs en surbrillance.",
+      "welcomeBack": "Bon retour.",
+      "loginFailed": "Échec de la connexion.",
+      "showPassword": "Afficher le mot de passe",
+      "hidePassword": "Masquer le mot de passe"
+    },
+    "register": {
+      "metaTitle": "Créer un compte — Khalai",
+      "metaDescription": "Créez un compte Khalai pour démarrer un projet.",
+      "title": "Créez votre compte",
+      "subtitle": "Deux minutes. Aucune carte requise.",
+      "name": "Nom complet",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "phoneOptional": "facultatif",
+      "stepOf": "Étape {current} sur {total}",
+      "back": "Retour",
+      "continue": "Continuer",
+      "review": "Vérifier",
+      "edit": "Modifier",
+      "showPassword": "Afficher le mot de passe",
+      "hidePassword": "Masquer le mot de passe",
+      "age": "Âge",
+      "bio": "Bio",
+      "bioOptional": "facultatif",
+      "password": "Mot de passe",
+      "passwordHint": "Au moins 6 caractères, une majuscule, un chiffre.",
+      "confirmPassword": "Confirmer le mot de passe",
+      "createAccount": "Créer le compte",
+      "creatingAccount": "Création du compte…",
+      "orContinue": "ou continuer avec",
+      "haveAccount": "Vous avez déjà un compte ?",
+      "signIn": "Se connecter",
+      "oauthApple": "S'inscrire avec Apple",
+      "oauthGoogle": "S'inscrire avec Google",
+      "oauthMeta": "S'inscrire avec Meta",
+      "validationError": "Veuillez corriger les champs en surbrillance.",
+      "welcome": "Bienvenue chez Khalai.",
+      "registrationFailed": "Échec de l'inscription.",
+      "creatingNotice": "Création de votre compte…",
+      "stepOfPrefix": "Étape",
+      "stepOfSeparator": "sur",
+      "acceptTermsPrefix": "J'accepte les",
+      "acceptTermsLink": "Conditions d'utilisation",
+      "acceptTermsAnd": "et la",
+      "acceptPrivacyLink": "Politique de confidentialité",
+      "acceptTermsError": "Veuillez accepter les Conditions et la Politique de confidentialité pour continuer."
+    }
+  },
   "Blog": {
     "metaTitle": "Journal — Khalai Studio",
     "metaDescription": "Notes sur l'artisanat, le code et la gestion d'un petit studio de design et de logiciels à Nairobi.",
@@ -1125,8 +1124,7 @@
       "body": "Contenu personnalisé et publicités. Nous n'en utilisons aucun actuellement."
     }
   },
-  
-  
+
   "Marketing": {
     "kicker": "Marketing en ligne",
     "title": "Soyez trouvé, partout où vos clients cherchent.",
@@ -1155,16 +1153,19 @@
         "costSme": "KES 15 000 – 45 000 / mois",
         "costBrand": "$800 – $3 500 / mois",
         "breakdown": [
-          { "label": "Audit technique", "value": "inclus" },
-          { "label": "Optimisation on-page", "value": "inclus" },
-          { "label": "Recherche de mots-clés", "value": "inclus" },
-          { "label": "Briefs de contenu", "value": "SME : 2/mois · Brand : 6/mois" },
-          { "label": "Création de liens", "value": "Brand uniquement" },
-          { "label": "Rapports", "value": "SME : mensuel · Brand : hebdomadaire" }
+          {"label": "Audit technique", "value": "inclus"},
+          {"label": "Optimisation on-page", "value": "inclus"},
+          {"label": "Recherche de mots-clés", "value": "inclus"},
+          {
+            "label": "Briefs de contenu",
+            "value": "SME : 2/mois · Brand : 6/mois"
+          },
+          {"label": "Création de liens", "value": "Brand uniquement"},
+          {"label": "Rapports", "value": "SME : mensuel · Brand : hebdomadaire"}
         ],
         "brands": [
-          { "name": "Mavuno", "note": "Trafic organique +180% en 5 mois" },
-          { "name": "Sokoni", "note": "Classé #1 pour « online market Kenya »" }
+          {"name": "Mavuno", "note": "Trafic organique +180% en 5 mois"},
+          {"name": "Sokoni", "note": "Classé #1 pour « online market Kenya »"}
         ],
         "example": {
           "caption": "Position de recherche avant/après pour un détaillant local."
@@ -1172,14 +1173,46 @@
         "opportunities": {
           "title": "Opportunités manquées courantes que nous trouvons",
           "rows": [
-            { "item": "Titres de page", "status": "missing", "note": "Les titres par défaut « Home | Site » font perdre des clics." },
-            { "item": "Méta-descriptions", "status": "missing", "note": "Aucun contrôle sur l'extrait SERP." },
-            { "item": "Balise H1", "status": "weak", "note": "Le titre principal est une image, pas du texte." },
-            { "item": "Texte alternatif des images", "status": "missing", "note": "Invisible pour la recherche et les lecteurs d'écran." },
-            { "item": "Sitemap.xml", "status": "missing", "note": "Google doit deviner quoi explorer." },
-            { "item": "Données structurées", "status": "missing", "note": "Pas de résultats enrichis dans la recherche." },
-            { "item": "Vitesse mobile", "status": "weak", "note": "LCP au-delà de 4s fait perdre du classement." },
-            { "item": "Liens internes", "status": "weak", "note": "Pages clés enterrées à 3+ clics de profondeur." }
+            {
+              "item": "Titres de page",
+              "status": "missing",
+              "note": "Les titres par défaut « Home | Site » font perdre des clics."
+            },
+            {
+              "item": "Méta-descriptions",
+              "status": "missing",
+              "note": "Aucun contrôle sur l'extrait SERP."
+            },
+            {
+              "item": "Balise H1",
+              "status": "weak",
+              "note": "Le titre principal est une image, pas du texte."
+            },
+            {
+              "item": "Texte alternatif des images",
+              "status": "missing",
+              "note": "Invisible pour la recherche et les lecteurs d'écran."
+            },
+            {
+              "item": "Sitemap.xml",
+              "status": "missing",
+              "note": "Google doit deviner quoi explorer."
+            },
+            {
+              "item": "Données structurées",
+              "status": "missing",
+              "note": "Pas de résultats enrichis dans la recherche."
+            },
+            {
+              "item": "Vitesse mobile",
+              "status": "weak",
+              "note": "LCP au-delà de 4s fait perdre du classement."
+            },
+            {
+              "item": "Liens internes",
+              "status": "weak",
+              "note": "Pages clés enterrées à 3+ clics de profondeur."
+            }
           ]
         }
       },
@@ -1192,15 +1225,21 @@
         "costSme": "KES 10 000 – 35 000 / mois",
         "costBrand": "$600 – $2 500 / mois",
         "breakdown": [
-          { "label": "Calendrier de contenu", "value": "inclus" },
-          { "label": "Publications par mois", "value": "SME : 10 · Brand : 20+" },
-          { "label": "Vidéo courte", "value": "SME : 2 · Brand : 8" },
-          { "label": "Gestion des commentaires", "value": "SME : heures ouvrées · Brand : 24/7" },
-          { "label": "Rapports", "value": "SME : mensuel · Brand : hebdomadaire" }
+          {"label": "Calendrier de contenu", "value": "inclus"},
+          {"label": "Publications par mois", "value": "SME : 10 · Brand : 20+"},
+          {"label": "Vidéo courte", "value": "SME : 2 · Brand : 8"},
+          {
+            "label": "Gestion des commentaires",
+            "value": "SME : heures ouvrées · Brand : 24/7"
+          },
+          {"label": "Rapports", "value": "SME : mensuel · Brand : hebdomadaire"}
         ],
         "brands": [
-          { "name": "Chama", "note": "3,2M de vues organiques sur la vidéo de lancement" },
-          { "name": "Khalai", "note": "Croissance Instagram 0 → 8k en 4 mois" }
+          {
+            "name": "Chama",
+            "note": "3,2M de vues organiques sur la vidéo de lancement"
+          },
+          {"name": "Khalai", "note": "Croissance Instagram 0 → 8k en 4 mois"}
         ],
         "example": {
           "caption": "Une séquence de lancement de 3 vidéos ayant atteint 3,2M de vues."
@@ -1215,14 +1254,17 @@
         "costSme": "KES 20 000 – 60 000 / mois",
         "costBrand": "$1 000 – $4 000 / mois",
         "breakdown": [
-          { "label": "Recherche de prompts", "value": "inclus" },
-          { "label": "Données structurées", "value": "inclus" },
-          { "label": "Structure de contenu", "value": "inclus" },
-          { "label": "Autorité d'entité", "value": "Brand uniquement" },
-          { "label": "Audit LLM mensuel", "value": "inclus" }
+          {"label": "Recherche de prompts", "value": "inclus"},
+          {"label": "Données structurées", "value": "inclus"},
+          {"label": "Structure de contenu", "value": "inclus"},
+          {"label": "Autorité d'entité", "value": "Brand uniquement"},
+          {"label": "Audit LLM mensuel", "value": "inclus"}
         ],
         "brands": [
-          { "name": "Atlas Dashboard", "note": "Recommandé par ChatGPT pour « Kenyan analytics »" }
+          {
+            "name": "Atlas Dashboard",
+            "note": "Recommandé par ChatGPT pour « Kenyan analytics »"
+          }
         ],
         "example": {
           "caption": "Une réponse ChatGPT en direct montrant le client comme recommandation principale."
@@ -1237,15 +1279,24 @@
         "costSme": "KES 25 000 – 80 000 / construction",
         "costBrand": "$1 500 – $6 000 / construction",
         "breakdown": [
-          { "label": "Cartographie des sources", "value": "inclus" },
-          { "label": "Construction du scraper", "value": "inclus" },
-          { "label": "Planification", "value": "SME : quotidien · Brand : temps réel" },
-          { "label": "Tableau de bord", "value": "SME : CSV · Brand : UI sur mesure" },
-          { "label": "Maintenance", "value": "SME : 3 mois · Brand : continue" }
+          {"label": "Cartographie des sources", "value": "inclus"},
+          {"label": "Construction du scraper", "value": "inclus"},
+          {
+            "label": "Planification",
+            "value": "SME : quotidien · Brand : temps réel"
+          },
+          {
+            "label": "Tableau de bord",
+            "value": "SME : CSV · Brand : UI sur mesure"
+          },
+          {"label": "Maintenance", "value": "SME : 3 mois · Brand : continue"}
         ],
         "brands": [
-          { "name": "Sokoni", "note": "Suivi des prix sur 12 sites concurrents" },
-          { "name": "Mavuno", "note": "Moniteur quotidien d'annonces pour 4 000 produits" }
+          {"name": "Sokoni", "note": "Suivi des prix sur 12 sites concurrents"},
+          {
+            "name": "Mavuno",
+            "note": "Moniteur quotidien d'annonces pour 4 000 produits"
+          }
         ],
         "example": {
           "caption": "Un tableau de bord en direct des prix concurrents construit pour un client."
@@ -1260,15 +1311,15 @@
         "costSme": "KES 15 000 – 40 000 / langue",
         "costBrand": "$800 – $3 000 / langue",
         "breakdown": [
-          { "label": "Traduction", "value": "inclus" },
-          { "label": "Adaptation culturelle", "value": "inclus" },
-          { "label": "Configuration hreflang", "value": "inclus" },
-          { "label": "SEO par langue", "value": "Brand uniquement" },
-          { "label": "Relecture native", "value": "inclus" }
+          {"label": "Traduction", "value": "inclus"},
+          {"label": "Adaptation culturelle", "value": "inclus"},
+          {"label": "Configuration hreflang", "value": "inclus"},
+          {"label": "SEO par langue", "value": "Brand uniquement"},
+          {"label": "Relecture native", "value": "inclus"}
         ],
         "brands": [
-          { "name": "Chama", "note": "Swahili + anglais + français en ligne" },
-          { "name": "Khalai", "note": "6 locales avec hreflang, support RTL" }
+          {"name": "Chama", "note": "Swahili + anglais + français en ligne"},
+          {"name": "Khalai", "note": "6 locales avec hreflang, support RTL"}
         ],
         "example": {
           "caption": "La même page d'accueil en anglais, swahili et arabe (RTL)."
@@ -1283,16 +1334,19 @@
         "costSme": "15–20% du budget · min KES 10 000 / mois",
         "costBrand": "15–20% du budget · min $500 / mois",
         "breakdown": [
-          { "label": "Configuration de campagne", "value": "inclus" },
-          { "label": "Créatif (images)", "value": "inclus" },
-          { "label": "Créatif (vidéo)", "value": "Brand uniquement" },
-          { "label": "Tests A/B", "value": "inclus" },
-          { "label": "Rapports", "value": "SME : mensuel · Brand : hebdomadaire" },
-          { "label": "Frais de gestion", "value": "15–20% du budget" }
+          {"label": "Configuration de campagne", "value": "inclus"},
+          {"label": "Créatif (images)", "value": "inclus"},
+          {"label": "Créatif (vidéo)", "value": "Brand uniquement"},
+          {"label": "Tests A/B", "value": "inclus"},
+          {
+            "label": "Rapports",
+            "value": "SME : mensuel · Brand : hebdomadaire"
+          },
+          {"label": "Frais de gestion", "value": "15–20% du budget"}
         ],
         "brands": [
-          { "name": "Mavuno", "note": "ROAS 4,2 sur Meta en 3 mois" },
-          { "name": "Sokoni", "note": "Coût par lead en baisse de 62%" }
+          {"name": "Mavuno", "note": "ROAS 4,2 sur Meta en 3 mois"},
+          {"name": "Sokoni", "note": "Coût par lead en baisse de 62%"}
         ],
         "example": {
           "caption": "Un créatif Meta ayant atteint un ROAS de 4,2."
@@ -1307,16 +1361,19 @@
         "costSme": "KES 20 000 – 50 000 / construction",
         "costBrand": "$1 500 – $4 000 / construction",
         "breakdown": [
-          { "label": "Couche de suivi", "value": "inclus" },
-          { "label": "Tableau de bord des leads", "value": "inclus" },
-          { "label": "Export CSV", "value": "inclus" },
-          { "label": "Répartition par source", "value": "inclus" },
-          { "label": "Email digest hebdomadaire", "value": "Brand uniquement" },
-          { "label": "Rapports sur mesure", "value": "Brand uniquement" }
+          {"label": "Couche de suivi", "value": "inclus"},
+          {"label": "Tableau de bord des leads", "value": "inclus"},
+          {"label": "Export CSV", "value": "inclus"},
+          {"label": "Répartition par source", "value": "inclus"},
+          {"label": "Email digest hebdomadaire", "value": "Brand uniquement"},
+          {"label": "Rapports sur mesure", "value": "Brand uniquement"}
         ],
         "brands": [
-          { "name": "Khalai", "note": "Chaque lead tracé jusqu'à une page marketing" },
-          { "name": "Mavuno", "note": "Exports CSV alimentant un CRM" }
+          {
+            "name": "Khalai",
+            "note": "Chaque lead tracé jusqu'à une page marketing"
+          },
+          {"name": "Mavuno", "note": "Exports CSV alimentant un CRM"}
         ],
         "example": {
           "caption": "Un tableau de bord de leads en direct : volume quotidien, répartition par service, par source."
@@ -1579,38 +1636,38 @@
           }
         ],
         "daily": [
-          { "day": "2026-10-09", "count": 2 },
-          { "day": "2026-10-10", "count": 1 },
-          { "day": "2026-10-11", "count": 3 },
-          { "day": "2026-10-12", "count": 4 },
-          { "day": "2026-10-13", "count": 2 },
-          { "day": "2026-10-14", "count": 5 },
-          { "day": "2026-10-15", "count": 6 },
-          { "day": "2026-10-16", "count": 4 },
-          { "day": "2026-10-17", "count": 7 },
-          { "day": "2026-10-18", "count": 5 },
-          { "day": "2026-10-19", "count": 8 },
-          { "day": "2026-10-20", "count": 6 },
-          { "day": "2026-10-21", "count": 9 },
-          { "day": "2026-10-22", "count": 7 }
+          {"day": "2026-10-09", "count": 2},
+          {"day": "2026-10-10", "count": 1},
+          {"day": "2026-10-11", "count": 3},
+          {"day": "2026-10-12", "count": 4},
+          {"day": "2026-10-13", "count": 2},
+          {"day": "2026-10-14", "count": 5},
+          {"day": "2026-10-15", "count": 6},
+          {"day": "2026-10-16", "count": 4},
+          {"day": "2026-10-17", "count": 7},
+          {"day": "2026-10-18", "count": 5},
+          {"day": "2026-10-19", "count": 8},
+          {"day": "2026-10-20", "count": 6},
+          {"day": "2026-10-21", "count": 9},
+          {"day": "2026-10-22", "count": 7}
         ],
         "byService": [
-          { "key": "seo", "count": 18 },
-          { "key": "scraping", "count": 6 },
-          { "key": "ads", "count": 4 },
-          { "key": "smm", "count": 3 },
-          { "key": "direct", "count": 23 }
+          {"key": "seo", "count": 18},
+          {"key": "scraping", "count": 6},
+          {"key": "ads", "count": 4},
+          {"key": "smm", "count": 3},
+          {"key": "direct", "count": 23}
         ],
         "bySource": [
-          { "key": "marketing-service", "count": 28 },
-          { "key": "pricing-launch", "count": 11 },
-          { "key": "pricing-studio", "count": 4 },
-          { "key": "direct", "count": 23 }
+          {"key": "marketing-service", "count": 28},
+          {"key": "pricing-launch", "count": 11},
+          {"key": "pricing-studio", "count": 4},
+          {"key": "direct", "count": 23}
         ]
       }
     }
   },
-  
+
   "NotFound": {
     "eyebrow": "404 · Perdu",
     "title": "Cette page s'est égarée.",
@@ -1631,7 +1688,7 @@
     "svgAria": "Un personnage perdu errant dans un marché nocturne",
     "hint": "Il fait sombre dehors. Allons somewhere de familier."
   },
-  
+
   "Showcase": {
     "kicker": "Vitrine",
     "title": "Trois façons de voir le travail.",
@@ -1671,7 +1728,6 @@
     }
   },
 
-  
   "Pricing": {
     "kicker": "Tarifs",
     "title": "Deux pistes. Un standard de travail.",
@@ -1853,7 +1909,7 @@
       "whatsapp": "WhatsApp"
     }
   },
-  
+
   "Payments": {
     "title": "Paiements",
     "subtitle": "Vos transactions et reçus.",
@@ -1928,8 +1984,4 @@
       "provider": "Prestataire"
     }
   }
-
-
-
-
 }

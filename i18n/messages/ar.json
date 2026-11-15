@@ -90,7 +90,7 @@
       "loggingOut": "جارٍ تسجيل الخروج…"
     }
   },
-  
+
   "Nav": {
     "home": "الرئيسية",
     "about": "من نحن",
@@ -152,8 +152,7 @@
       "terms": "الشروط",
       "privacy": "الخصوصية"
     }
-  }
-,
+  },
   "AdminProjects": {
     "title": "إدارة المشاريع",
     "subtitle": "{count} مشروع في قاعدة البيانات",
@@ -423,7 +422,6 @@
     }
   },
 
-  
   "Errors": {
     "eyebrow": "حدث خطأ ما",
     "title": "تعذّر تحميل الصفحة.",
@@ -441,10 +439,7 @@
       "blog": "المجلة",
       "contact": "اتصل"
     }
-  }
-,
-
-  
+  },
   "Contact": {
     "metaTitle": "اتصل بنا — Khalai Studio",
     "metaDescription": "أخبرنا عن مشروعك. استوديو تصميم وبرمجيات في نيروبي. رد خلال يوم عمل واحد.",
@@ -791,7 +786,7 @@
     "description": "شخص واحد، الجانبان معًا: التصميم والكود. مواقع ومتاجر وبرمجيات مخصصة مصنوعة يدويًا للشركات الكينية.",
     "location": "نيروبي، كينيا"
   },
-  
+
   "Studio": {
     "footer": {
       "copyright": "© {year} {name}. صُنع يدويًا في {location}.",
@@ -973,106 +968,105 @@
       "primary": "ابدأ مشروعًا",
       "location": "نيروبي، كينيا"
     }
-  }
-,
+  },
   "Auth": {
-      "legal": "بالمتابعة، أنت توافق على شروطنا وسياسة الخصوصية.",
-      "support": "تحتاج مساعدة؟ تواصل معنا.",
-      "hero": {
-        "eyebrow": "مرحبًا بعودتك",
-        "title": "شخص واحد. تصميم وبرمجة.",
-        "body": "Khalai استوديو يديره شخص واحد في نيروبي. عند تسجيل الدخول، أنت تتحدث مع الشخص الذي يصمم ويبني عملك — بلا تسليمات، وبلا وسيط.",
-        "footer": "نيروبي، كينيا · GMT+3 · الرد خلال يوم عمل واحد",
-        "registerEyebrow": "أنت جديد هنا",
-        "registerTitle": "ابدأ شيئًا مع Khalai.",
-        "registerBody": "أنشئ حسابًا لتتبّع المشاريع، ومراسلة الاستوديو مباشرة، ومشاهدة عملك ينبض بالحياة في مكان واحد.",
-        "registerFooter": "مجاني · لا حاجة لبطاقة",
-        "forgotEyebrow": "نسيت كلمة المرور",
-        "forgotTitle": "يحدث ذلك.",
-        "forgotBody": "أدخل البريد الإلكتروني الذي سجّلت به وسنرسل لك رابطًا لإعادة التعيين. ينتهي الرابط خلال ساعة، ويمكنك طلب رابط جديد في أي وقت.",
-        "forgotFooter": "نيروبي، كينيا · GMT+3"
-      },
-      "forgot": {
-        "metaTitle": "نسيت كلمة المرور — Khalai",
-        "metaDescription": "أعد تعيين كلمة مرور حسابك في Khalai.",
-        "title": "هل نسيت كلمة المرور؟",
-        "subtitle": "أدخل بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيينها.",
-        "email": "البريد الإلكتروني",
-        "emailPlaceholder": "you@example.com",
-        "send": "إرسال رابط إعادة التعيين",
-        "sending": "جارٍ الإرسال…",
-        "backToLogin": "العودة إلى تسجيل الدخول",
-        "checkTitle": "تحقق من بريدك الوارد",
-        "checkBody": "إذا كان هناك حساب بهذا البريد، فقد أرسلنا رابطًا لإعادة تعيين كلمة المرور. ينتهي الرابط خلال ساعة.",
-        "tryAgain": "الإرسال إلى بريد آخر",
-        "errorGeneric": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
-      },
-      "login": {
-        "metaTitle": "تسجيل الدخول — Khalai",
-        "metaDescription": "سجّل الدخول إلى حسابك في Khalai.",
-        "title": "مرحبًا بعودتك",
-        "subtitle": "سجّل الدخول لمتابعة ما كنت تفعله.",
-        "identifier": "البريد الإلكتروني أو الهاتف",
-        "identifierPlaceholder": "you@example.com أو +254 700 000 000",
-        "password": "كلمة المرور",
-        "forgotPassword": "نسيت كلمة المرور؟",
-        "signIn": "تسجيل الدخول",
-        "signingIn": "جارٍ تسجيل الدخول…",
-        "orContinue": "أو المتابعة عبر",
-        "noAccount": "ليس لديك حساب؟",
-        "signUp": "أنشئ حسابًا",
-        "oauthApple": "تسجيل الدخول عبر Apple",
-        "oauthGoogle": "تسجيل الدخول عبر Google",
-        "oauthMeta": "تسجيل الدخول عبر Meta",
-        "validationError": "يرجى تصحيح الحقول المميّزة.",
-        "welcomeBack": "مرحبًا بعودتك.",
-        "loginFailed": "فشل تسجيل الدخول.",
-        "showPassword": "إظهار كلمة المرور",
-        "hidePassword": "إخفاء كلمة المرور"
-      },
-      "register": {
-        "metaTitle": "إنشاء حساب — Khalai",
-        "metaDescription": "أنشئ حساب Khalai لبدء مشروع.",
-        "title": "أنشئ حسابك",
-        "subtitle": "دقيقتان. لا حاجة لبطاقة.",
-        "name": "الاسم الكامل",
-        "email": "البريد الإلكتروني",
-        "phone": "الهاتف",
-        "phoneOptional": "اختياري",
-        "stepOf": "الخطوة {current} من {total}",
-        "back": "رجوع",
-        "continue": "متابعة",
-        "review": "مراجعة",
-        "edit": "تعديل",
-        "showPassword": "إظهار كلمة المرور",
-        "hidePassword": "إخفاء كلمة المرور",
-        "age": "العمر",
-        "bio": "نبذة",
-        "bioOptional": "اختياري",
-        "password": "كلمة المرور",
-        "passwordHint": "6 أحرف على الأقل، وحرف كبير واحد، ورقم واحد.",
-        "confirmPassword": "تأكيد كلمة المرور",
-        "createAccount": "إنشاء حساب",
-        "creatingAccount": "جارٍ إنشاء الحساب…",
-        "orContinue": "أو المتابعة عبر",
-        "haveAccount": "لديك حساب بالفعل؟",
-        "signIn": "تسجيل الدخول",
-        "oauthApple": "التسجيل عبر Apple",
-        "oauthGoogle": "التسجيل عبر Google",
-        "oauthMeta": "التسجيل عبر Meta",
-        "validationError": "يرجى تصحيح الحقول المميّزة.",
-        "welcome": "مرحبًا بك في Khalai.",
-        "registrationFailed": "فشل التسجيل.",
-        "creatingNotice": "جارٍ إنشاء حسابك…",
-        "stepOfPrefix": "الخطوة",
-        "stepOfSeparator": "من",
-        "acceptTermsPrefix": "أوافق على",
-        "acceptTermsLink": "شروط الخدمة",
-        "acceptTermsAnd": "و",
-        "acceptPrivacyLink": "سياسة الخصوصية",
-        "acceptTermsError": "يرجى قبول الشروط وسياسة الخصوصية للمتابعة."
-      }
+    "legal": "بالمتابعة، أنت توافق على شروطنا وسياسة الخصوصية.",
+    "support": "تحتاج مساعدة؟ تواصل معنا.",
+    "hero": {
+      "eyebrow": "مرحبًا بعودتك",
+      "title": "شخص واحد. تصميم وبرمجة.",
+      "body": "Khalai استوديو يديره شخص واحد في نيروبي. عند تسجيل الدخول، أنت تتحدث مع الشخص الذي يصمم ويبني عملك — بلا تسليمات، وبلا وسيط.",
+      "footer": "نيروبي، كينيا · GMT+3 · الرد خلال يوم عمل واحد",
+      "registerEyebrow": "أنت جديد هنا",
+      "registerTitle": "ابدأ شيئًا مع Khalai.",
+      "registerBody": "أنشئ حسابًا لتتبّع المشاريع، ومراسلة الاستوديو مباشرة، ومشاهدة عملك ينبض بالحياة في مكان واحد.",
+      "registerFooter": "مجاني · لا حاجة لبطاقة",
+      "forgotEyebrow": "نسيت كلمة المرور",
+      "forgotTitle": "يحدث ذلك.",
+      "forgotBody": "أدخل البريد الإلكتروني الذي سجّلت به وسنرسل لك رابطًا لإعادة التعيين. ينتهي الرابط خلال ساعة، ويمكنك طلب رابط جديد في أي وقت.",
+      "forgotFooter": "نيروبي، كينيا · GMT+3"
     },
+    "forgot": {
+      "metaTitle": "نسيت كلمة المرور — Khalai",
+      "metaDescription": "أعد تعيين كلمة مرور حسابك في Khalai.",
+      "title": "هل نسيت كلمة المرور؟",
+      "subtitle": "أدخل بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيينها.",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "you@example.com",
+      "send": "إرسال رابط إعادة التعيين",
+      "sending": "جارٍ الإرسال…",
+      "backToLogin": "العودة إلى تسجيل الدخول",
+      "checkTitle": "تحقق من بريدك الوارد",
+      "checkBody": "إذا كان هناك حساب بهذا البريد، فقد أرسلنا رابطًا لإعادة تعيين كلمة المرور. ينتهي الرابط خلال ساعة.",
+      "tryAgain": "الإرسال إلى بريد آخر",
+      "errorGeneric": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+    },
+    "login": {
+      "metaTitle": "تسجيل الدخول — Khalai",
+      "metaDescription": "سجّل الدخول إلى حسابك في Khalai.",
+      "title": "مرحبًا بعودتك",
+      "subtitle": "سجّل الدخول لمتابعة ما كنت تفعله.",
+      "identifier": "البريد الإلكتروني أو الهاتف",
+      "identifierPlaceholder": "you@example.com أو +254 700 000 000",
+      "password": "كلمة المرور",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "signIn": "تسجيل الدخول",
+      "signingIn": "جارٍ تسجيل الدخول…",
+      "orContinue": "أو المتابعة عبر",
+      "noAccount": "ليس لديك حساب؟",
+      "signUp": "أنشئ حسابًا",
+      "oauthApple": "تسجيل الدخول عبر Apple",
+      "oauthGoogle": "تسجيل الدخول عبر Google",
+      "oauthMeta": "تسجيل الدخول عبر Meta",
+      "validationError": "يرجى تصحيح الحقول المميّزة.",
+      "welcomeBack": "مرحبًا بعودتك.",
+      "loginFailed": "فشل تسجيل الدخول.",
+      "showPassword": "إظهار كلمة المرور",
+      "hidePassword": "إخفاء كلمة المرور"
+    },
+    "register": {
+      "metaTitle": "إنشاء حساب — Khalai",
+      "metaDescription": "أنشئ حساب Khalai لبدء مشروع.",
+      "title": "أنشئ حسابك",
+      "subtitle": "دقيقتان. لا حاجة لبطاقة.",
+      "name": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "phoneOptional": "اختياري",
+      "stepOf": "الخطوة {current} من {total}",
+      "back": "رجوع",
+      "continue": "متابعة",
+      "review": "مراجعة",
+      "edit": "تعديل",
+      "showPassword": "إظهار كلمة المرور",
+      "hidePassword": "إخفاء كلمة المرور",
+      "age": "العمر",
+      "bio": "نبذة",
+      "bioOptional": "اختياري",
+      "password": "كلمة المرور",
+      "passwordHint": "6 أحرف على الأقل، وحرف كبير واحد، ورقم واحد.",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "createAccount": "إنشاء حساب",
+      "creatingAccount": "جارٍ إنشاء الحساب…",
+      "orContinue": "أو المتابعة عبر",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "signIn": "تسجيل الدخول",
+      "oauthApple": "التسجيل عبر Apple",
+      "oauthGoogle": "التسجيل عبر Google",
+      "oauthMeta": "التسجيل عبر Meta",
+      "validationError": "يرجى تصحيح الحقول المميّزة.",
+      "welcome": "مرحبًا بك في Khalai.",
+      "registrationFailed": "فشل التسجيل.",
+      "creatingNotice": "جارٍ إنشاء حسابك…",
+      "stepOfPrefix": "الخطوة",
+      "stepOfSeparator": "من",
+      "acceptTermsPrefix": "أوافق على",
+      "acceptTermsLink": "شروط الخدمة",
+      "acceptTermsAnd": "و",
+      "acceptPrivacyLink": "سياسة الخصوصية",
+      "acceptTermsError": "يرجى قبول الشروط وسياسة الخصوصية للمتابعة."
+    }
+  },
   "Blog": {
     "metaTitle": "المدونة — خالاي ستوديو",
     "metaDescription": "ملاحظات عن الحرفة والكود وإدارة استوديو صغير للتصميم والبرمجيات من نيروبي.",
@@ -1130,7 +1124,7 @@
       "body": "محتوى مخصص وإعلانات. لا نستخدم أيًا منها حاليًا."
     }
   },
-  
+
   "Marketing": {
     "kicker": "التسويق عبر الإنترنت",
     "title": "كن موجودًا حيث يبحث عملاؤك.",
@@ -1159,16 +1153,16 @@
         "costSme": "KES 15,000 – 45,000 / شهر",
         "costBrand": "$800 – $3,500 / شهر",
         "breakdown": [
-          { "label": "تدقيق تقني", "value": "مشمول" },
-          { "label": "تحسين الصفحة", "value": "مشمول" },
-          { "label": "بحث الكلمات المفتاحية", "value": "مشمول" },
-          { "label": "ملخصات المحتوى", "value": "SME: 2/شهر · Brand: 6/شهر" },
-          { "label": "بناء الروابط", "value": "Brand فقط" },
-          { "label": "التقارير", "value": "SME: شهريًا · Brand: أسبوعيًا" }
+          {"label": "تدقيق تقني", "value": "مشمول"},
+          {"label": "تحسين الصفحة", "value": "مشمول"},
+          {"label": "بحث الكلمات المفتاحية", "value": "مشمول"},
+          {"label": "ملخصات المحتوى", "value": "SME: 2/شهر · Brand: 6/شهر"},
+          {"label": "بناء الروابط", "value": "Brand فقط"},
+          {"label": "التقارير", "value": "SME: شهريًا · Brand: أسبوعيًا"}
         ],
         "brands": [
-          { "name": "Mavuno", "note": "حركة عضوية +180% في 5 أشهر" },
-          { "name": "Sokoni", "note": "المرتبة #1 لـ «online market Kenya»" }
+          {"name": "Mavuno", "note": "حركة عضوية +180% في 5 أشهر"},
+          {"name": "Sokoni", "note": "المرتبة #1 لـ «online market Kenya»"}
         ],
         "example": {
           "caption": "موضع البحث قبل/بعد لمتجر تجزئة محلي."
@@ -1176,14 +1170,46 @@
         "opportunities": {
           "title": "فرص شائعة مفقودة نجدها",
           "rows": [
-            { "item": "عناوين الصفحات", "status": "missing", "note": "عناوين «Home | Site» الافتراضية تفقد النقرات." },
-            { "item": "أوصاف الميتا", "status": "missing", "note": "صفر تحكم في مقتطف نتائج البحث." },
-            { "item": "وسم H1", "status": "weak", "note": "العنوان الرئيسي صورة، لا نص." },
-            { "item": "نص بديل للصور", "status": "missing", "note": "غير مرئي للبحث وقارئات الشاشة." },
-            { "item": "Sitemap.xml", "status": "missing", "note": "على Google تخمين ما تزحفه." },
-            { "item": "بيانات منظمة", "status": "missing", "note": "لا نتائج غنية في البحث." },
-            { "item": "سرعة الجوال", "status": "weak", "note": "LCP فوق 4 ثوانٍ يفقد الترتيب." },
-            { "item": "الروابط الداخلية", "status": "weak", "note": "الصفحات الرئيسية مدفونة 3+ نقرات في العمق." }
+            {
+              "item": "عناوين الصفحات",
+              "status": "missing",
+              "note": "عناوين «Home | Site» الافتراضية تفقد النقرات."
+            },
+            {
+              "item": "أوصاف الميتا",
+              "status": "missing",
+              "note": "صفر تحكم في مقتطف نتائج البحث."
+            },
+            {
+              "item": "وسم H1",
+              "status": "weak",
+              "note": "العنوان الرئيسي صورة، لا نص."
+            },
+            {
+              "item": "نص بديل للصور",
+              "status": "missing",
+              "note": "غير مرئي للبحث وقارئات الشاشة."
+            },
+            {
+              "item": "Sitemap.xml",
+              "status": "missing",
+              "note": "على Google تخمين ما تزحفه."
+            },
+            {
+              "item": "بيانات منظمة",
+              "status": "missing",
+              "note": "لا نتائج غنية في البحث."
+            },
+            {
+              "item": "سرعة الجوال",
+              "status": "weak",
+              "note": "LCP فوق 4 ثوانٍ يفقد الترتيب."
+            },
+            {
+              "item": "الروابط الداخلية",
+              "status": "weak",
+              "note": "الصفحات الرئيسية مدفونة 3+ نقرات في العمق."
+            }
           ]
         }
       },
@@ -1196,15 +1222,18 @@
         "costSme": "KES 10,000 – 35,000 / شهر",
         "costBrand": "$600 – $2,500 / شهر",
         "breakdown": [
-          { "label": "تقويم المحتوى", "value": "مشمول" },
-          { "label": "منشورات شهريًا", "value": "SME: 10 · Brand: 20+" },
-          { "label": "فيديو قصير", "value": "SME: 2 · Brand: 8" },
-          { "label": "إدارة التعليقات", "value": "SME: ساعات العمل · Brand: 24/7" },
-          { "label": "التقارير", "value": "SME: شهريًا · Brand: أسبوعيًا" }
+          {"label": "تقويم المحتوى", "value": "مشمول"},
+          {"label": "منشورات شهريًا", "value": "SME: 10 · Brand: 20+"},
+          {"label": "فيديو قصير", "value": "SME: 2 · Brand: 8"},
+          {
+            "label": "إدارة التعليقات",
+            "value": "SME: ساعات العمل · Brand: 24/7"
+          },
+          {"label": "التقارير", "value": "SME: شهريًا · Brand: أسبوعيًا"}
         ],
         "brands": [
-          { "name": "Chama", "note": "3.2 مليون مشاهدة عضوية لفيديو الإطلاق" },
-          { "name": "Khalai", "note": "نمو Instagram من 0 → 8k في 4 أشهر" }
+          {"name": "Chama", "note": "3.2 مليون مشاهدة عضوية لفيديو الإطلاق"},
+          {"name": "Khalai", "note": "نمو Instagram من 0 → 8k في 4 أشهر"}
         ],
         "example": {
           "caption": "سلسلة إطلاق من 3 فيديوهات وصلت إلى 3.2 مليون مشاهدة."
@@ -1219,14 +1248,17 @@
         "costSme": "KES 20,000 – 60,000 / شهر",
         "costBrand": "$1,000 – $4,000 / شهر",
         "breakdown": [
-          { "label": "بحث المطالبات", "value": "مشمول" },
-          { "label": "بيانات منظمة", "value": "مشمول" },
-          { "label": "بنية المحتوى", "value": "مشمول" },
-          { "label": "سلطة الكيان", "value": "Brand فقط" },
-          { "label": "تدقيق LLM شهري", "value": "مشمول" }
+          {"label": "بحث المطالبات", "value": "مشمول"},
+          {"label": "بيانات منظمة", "value": "مشمول"},
+          {"label": "بنية المحتوى", "value": "مشمول"},
+          {"label": "سلطة الكيان", "value": "Brand فقط"},
+          {"label": "تدقيق LLM شهري", "value": "مشمول"}
         ],
         "brands": [
-          { "name": "Atlas Dashboard", "note": "موصى به من ChatGPT لـ «Kenyan analytics»" }
+          {
+            "name": "Atlas Dashboard",
+            "note": "موصى به من ChatGPT لـ «Kenyan analytics»"
+          }
         ],
         "example": {
           "caption": "إجابة ChatGPT حية تُظهر العميل كأفضل توصية."
@@ -1241,15 +1273,15 @@
         "costSme": "KES 25,000 – 80,000 / بناء",
         "costBrand": "$1,500 – $6,000 / بناء",
         "breakdown": [
-          { "label": "رسم خرائط المصادر", "value": "مشمول" },
-          { "label": "بناء المستخرج", "value": "مشمول" },
-          { "label": "الجدولة", "value": "SME: يوميًا · Brand: فوري" },
-          { "label": "لوحة التحكم", "value": "SME: CSV · Brand: واجهة مخصصة" },
-          { "label": "الصيانة", "value": "SME: 3 أشهر · Brand: مستمرة" }
+          {"label": "رسم خرائط المصادر", "value": "مشمول"},
+          {"label": "بناء المستخرج", "value": "مشمول"},
+          {"label": "الجدولة", "value": "SME: يوميًا · Brand: فوري"},
+          {"label": "لوحة التحكم", "value": "SME: CSV · Brand: واجهة مخصصة"},
+          {"label": "الصيانة", "value": "SME: 3 أشهر · Brand: مستمرة"}
         ],
         "brands": [
-          { "name": "Sokoni", "note": "تتبع الأسعار عبر 12 موقع منافس" },
-          { "name": "Mavuno", "note": "مراقب إعلانات يومي لـ 4,000 منتج" }
+          {"name": "Sokoni", "note": "تتبع الأسعار عبر 12 موقع منافس"},
+          {"name": "Mavuno", "note": "مراقب إعلانات يومي لـ 4,000 منتج"}
         ],
         "example": {
           "caption": "لوحة تحكم حية لأسعار المنافسين بُنيت لعميل."
@@ -1264,15 +1296,18 @@
         "costSme": "KES 15,000 – 40,000 / لغة",
         "costBrand": "$800 – $3,000 / لغة",
         "breakdown": [
-          { "label": "الترجمة", "value": "مشمول" },
-          { "label": "التكييف الثقافي", "value": "مشمول" },
-          { "label": "إعداد hreflang", "value": "مشمول" },
-          { "label": "SEO لكل لغة", "value": "Brand فقط" },
-          { "label": "مراجعة لغوية أصلية", "value": "مشمول" }
+          {"label": "الترجمة", "value": "مشمول"},
+          {"label": "التكييف الثقافي", "value": "مشمول"},
+          {"label": "إعداد hreflang", "value": "مشمول"},
+          {"label": "SEO لكل لغة", "value": "Brand فقط"},
+          {"label": "مراجعة لغوية أصلية", "value": "مشمول"}
         ],
         "brands": [
-          { "name": "Chama", "note": "السواحيلية + الإنجليزية + الفرنسية مباشرة" },
-          { "name": "Khalai", "note": "6 لغات مع hreflang، دعم RTL" }
+          {
+            "name": "Chama",
+            "note": "السواحيلية + الإنجليزية + الفرنسية مباشرة"
+          },
+          {"name": "Khalai", "note": "6 لغات مع hreflang، دعم RTL"}
         ],
         "example": {
           "caption": "نفس الصفحة الرئيسية بالإنجليزية والسواحيلية والعربية (RTL)."
@@ -1287,16 +1322,16 @@
         "costSme": "15–20% من الإنفاق · حد أدنى KES 10,000 / شهر",
         "costBrand": "15–20% من الإنفاق · حد أدنى $500 / شهر",
         "breakdown": [
-          { "label": "إعداد الحملة", "value": "مشمول" },
-          { "label": "الإبداع (صور)", "value": "مشمول" },
-          { "label": "الإبداع (فيديو)", "value": "Brand فقط" },
-          { "label": "اختبار A/B", "value": "مشمول" },
-          { "label": "التقارير", "value": "SME: شهريًا · Brand: أسبوعيًا" },
-          { "label": "رسوم الإدارة", "value": "15–20% من الإنفاق" }
+          {"label": "إعداد الحملة", "value": "مشمول"},
+          {"label": "الإبداع (صور)", "value": "مشمول"},
+          {"label": "الإبداع (فيديو)", "value": "Brand فقط"},
+          {"label": "اختبار A/B", "value": "مشمول"},
+          {"label": "التقارير", "value": "SME: شهريًا · Brand: أسبوعيًا"},
+          {"label": "رسوم الإدارة", "value": "15–20% من الإنفاق"}
         ],
         "brands": [
-          { "name": "Mavuno", "note": "ROAS 4.2 على Meta في 3 أشهر" },
-          { "name": "Sokoni", "note": "تكلفة العميل المحتمل انخفضت 62%" }
+          {"name": "Mavuno", "note": "ROAS 4.2 على Meta في 3 أشهر"},
+          {"name": "Sokoni", "note": "تكلفة العميل المحتمل انخفضت 62%"}
         ],
         "example": {
           "caption": "إبداع إعلان Meta وصل إلى ROAS 4.2."
@@ -1311,16 +1346,16 @@
         "costSme": "KES 20,000 – 50,000 / بناء",
         "costBrand": "$1,500 – $4,000 / بناء",
         "breakdown": [
-          { "label": "طبقة التتبع", "value": "مشمولة" },
-          { "label": "لوحة العملاء المحتملين", "value": "مشمولة" },
-          { "label": "تصدير CSV", "value": "مشمول" },
-          { "label": "التفصيل حسب المصدر", "value": "مشمول" },
-          { "label": "بريد ملخص أسبوعي", "value": "Brand فقط" },
-          { "label": "تقارير مخصصة", "value": "Brand فقط" }
+          {"label": "طبقة التتبع", "value": "مشمولة"},
+          {"label": "لوحة العملاء المحتملين", "value": "مشمولة"},
+          {"label": "تصدير CSV", "value": "مشمول"},
+          {"label": "التفصيل حسب المصدر", "value": "مشمول"},
+          {"label": "بريد ملخص أسبوعي", "value": "Brand فقط"},
+          {"label": "تقارير مخصصة", "value": "Brand فقط"}
         ],
         "brands": [
-          { "name": "Khalai", "note": "كل عميل محتمل متتبع إلى صفحة تسويقية" },
-          { "name": "Mavuno", "note": "تصدير CSV يغذي CRM" }
+          {"name": "Khalai", "note": "كل عميل محتمل متتبع إلى صفحة تسويقية"},
+          {"name": "Mavuno", "note": "تصدير CSV يغذي CRM"}
         ],
         "example": {
           "caption": "لوحة عملاء محتملين حية: الحجم اليومي، التوزيع حسب الخدمة، التفصيل حسب المصدر."
@@ -1583,33 +1618,33 @@
           }
         ],
         "daily": [
-          { "day": "2026-10-09", "count": 2 },
-          { "day": "2026-10-10", "count": 1 },
-          { "day": "2026-10-11", "count": 3 },
-          { "day": "2026-10-12", "count": 4 },
-          { "day": "2026-10-13", "count": 2 },
-          { "day": "2026-10-14", "count": 5 },
-          { "day": "2026-10-15", "count": 6 },
-          { "day": "2026-10-16", "count": 4 },
-          { "day": "2026-10-17", "count": 7 },
-          { "day": "2026-10-18", "count": 5 },
-          { "day": "2026-10-19", "count": 8 },
-          { "day": "2026-10-20", "count": 6 },
-          { "day": "2026-10-21", "count": 9 },
-          { "day": "2026-10-22", "count": 7 }
+          {"day": "2026-10-09", "count": 2},
+          {"day": "2026-10-10", "count": 1},
+          {"day": "2026-10-11", "count": 3},
+          {"day": "2026-10-12", "count": 4},
+          {"day": "2026-10-13", "count": 2},
+          {"day": "2026-10-14", "count": 5},
+          {"day": "2026-10-15", "count": 6},
+          {"day": "2026-10-16", "count": 4},
+          {"day": "2026-10-17", "count": 7},
+          {"day": "2026-10-18", "count": 5},
+          {"day": "2026-10-19", "count": 8},
+          {"day": "2026-10-20", "count": 6},
+          {"day": "2026-10-21", "count": 9},
+          {"day": "2026-10-22", "count": 7}
         ],
         "byService": [
-          { "key": "seo", "count": 18 },
-          { "key": "scraping", "count": 6 },
-          { "key": "ads", "count": 4 },
-          { "key": "smm", "count": 3 },
-          { "key": "direct", "count": 23 }
+          {"key": "seo", "count": 18},
+          {"key": "scraping", "count": 6},
+          {"key": "ads", "count": 4},
+          {"key": "smm", "count": 3},
+          {"key": "direct", "count": 23}
         ],
         "bySource": [
-          { "key": "marketing-service", "count": 28 },
-          { "key": "pricing-launch", "count": 11 },
-          { "key": "pricing-studio", "count": 4 },
-          { "key": "direct", "count": 23 }
+          {"key": "marketing-service", "count": 28},
+          {"key": "pricing-launch", "count": 11},
+          {"key": "pricing-studio", "count": 4},
+          {"key": "direct", "count": 23}
         ]
       }
     }
@@ -1634,7 +1669,7 @@
     "svgAria": "شخصية تائهة تتجول في سوق ليلي",
     "hint": "الظلام في الخارج. لنذهب إلى مكان مألوف."
   },
-  
+
   "Showcase": {
     "kicker": "معرض الأعمال",
     "title": "ثلاث طرق لرؤية العمل.",
@@ -1857,80 +1892,77 @@
   },
 
   "Payments": {
-      "title": "المدفوعات",
-      "subtitle": "معاملاتك وإيصالاتك.",
-      "newPayment": "دفعة جديدة",
-      "newPaymentTitle": "دفعة جديدة",
-      "newPaymentSubtitle": "اختر مزودًا وأدخل المبلغ.",
-      "subscriptions": "الاشتراكات",
-      "subscriptionsTitle": "الاشتراكات",
-      "subscriptionsSubtitle": "إدارة المدفوعات المتكررة.",
-      "payoutsTitle": "المدفوعات الصادرة",
-      "payoutsSubtitle": "إدارة وجهة أموالك.",
-      "empty": "لا يوجد شيء هنا بعد.",
-      "viewReceipt": "عرض",
-      "columns": {
-        "id": "المعرف",
-        "date": "التاريخ",
-        "description": "الوصف",
-        "provider": "المزود",
-        "amount": "المبلغ",
-        "status": "الحالة",
-        "receipt": "الإيصال"
-      },
-      "providers": {
-        "mpesa": "M-Pesa",
-        "card": "Visa / Mastercard",
-        "paypal": "PayPal",
-        "crypto": "عملات رقمية (USDC)"
-      },
-      "fields": {
-        "amount": "المبلغ",
-        "description": "الوصف",
-        "mpesaPhone": "رقم هاتف M-Pesa"
-      },
-      "placeholders": {
-        "phone": "+254 700 000 000"
-      },
-      "actions": {
-        "pay": "ادفع",
-        "paying": "جارٍ المعالجة…",
-        "cancel": "إلغاء الاشتراك"
-      },
-      "messages": {
-        "initiated": "تم بدء الدفع. تحقق من هاتفك.",
-        "cancelled": "تم إلغاء الاشتراك.",
-        "comingSoon": "قريبًا"
-      },
-      "errors": {
-        "generic": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
-      },
-      "detail": {
-        "title": "تفاصيل الدفع",
-        "back": "العودة إلى المدفوعات",
-        "pending": "في انتظار تأكيد المزود. حدّث الصفحة بعد لحظات.",
-        "failed": "فشلت هذه الدفعة. يمكنك المحاولة مرة أخرى."
-      },
-      "receipt": {
-        "title": "الإيصال",
-        "number": "رقم الإيصال",
-        "issued": "تاريخ الإصدار",
-        "download": "تنزيل PDF"
-      },
-      "payouts": {
-        "methods": "طرق الدفع الصادرة",
-        "addMethod": "إضافة طريقة دفع صادرة",
-        "history": "سجل المدفوعات الصادرة",
-        "noMethods": "لم تتم إضافة أي طريقة دفع",
-        "paypalEmail": "بريد PayPal الإلكتروني",
-        "label": "السبب",
-        "optional": "اختياري",
-        "walletAddress": "عنوان المحفظة",
-        "phoneNumber": "رقم الهاتف",
-        "provider": "المزود"
-      }
+    "title": "المدفوعات",
+    "subtitle": "معاملاتك وإيصالاتك.",
+    "newPayment": "دفعة جديدة",
+    "newPaymentTitle": "دفعة جديدة",
+    "newPaymentSubtitle": "اختر مزودًا وأدخل المبلغ.",
+    "subscriptions": "الاشتراكات",
+    "subscriptionsTitle": "الاشتراكات",
+    "subscriptionsSubtitle": "إدارة المدفوعات المتكررة.",
+    "payoutsTitle": "المدفوعات الصادرة",
+    "payoutsSubtitle": "إدارة وجهة أموالك.",
+    "empty": "لا يوجد شيء هنا بعد.",
+    "viewReceipt": "عرض",
+    "columns": {
+      "id": "المعرف",
+      "date": "التاريخ",
+      "description": "الوصف",
+      "provider": "المزود",
+      "amount": "المبلغ",
+      "status": "الحالة",
+      "receipt": "الإيصال"
+    },
+    "providers": {
+      "mpesa": "M-Pesa",
+      "card": "Visa / Mastercard",
+      "paypal": "PayPal",
+      "crypto": "عملات رقمية (USDC)"
+    },
+    "fields": {
+      "amount": "المبلغ",
+      "description": "الوصف",
+      "mpesaPhone": "رقم هاتف M-Pesa"
+    },
+    "placeholders": {
+      "phone": "+254 700 000 000"
+    },
+    "actions": {
+      "pay": "ادفع",
+      "paying": "جارٍ المعالجة…",
+      "cancel": "إلغاء الاشتراك"
+    },
+    "messages": {
+      "initiated": "تم بدء الدفع. تحقق من هاتفك.",
+      "cancelled": "تم إلغاء الاشتراك.",
+      "comingSoon": "قريبًا"
+    },
+    "errors": {
+      "generic": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+    },
+    "detail": {
+      "title": "تفاصيل الدفع",
+      "back": "العودة إلى المدفوعات",
+      "pending": "في انتظار تأكيد المزود. حدّث الصفحة بعد لحظات.",
+      "failed": "فشلت هذه الدفعة. يمكنك المحاولة مرة أخرى."
+    },
+    "receipt": {
+      "title": "الإيصال",
+      "number": "رقم الإيصال",
+      "issued": "تاريخ الإصدار",
+      "download": "تنزيل PDF"
+    },
+    "payouts": {
+      "methods": "طرق الدفع الصادرة",
+      "addMethod": "إضافة طريقة دفع صادرة",
+      "history": "سجل المدفوعات الصادرة",
+      "noMethods": "لم تتم إضافة أي طريقة دفع",
+      "paypalEmail": "بريد PayPal الإلكتروني",
+      "label": "السبب",
+      "optional": "اختياري",
+      "walletAddress": "عنوان المحفظة",
+      "phoneNumber": "رقم الهاتف",
+      "provider": "المزود"
     }
-
-
-
+  }
 }
