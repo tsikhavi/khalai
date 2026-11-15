@@ -72,7 +72,7 @@ export function Hero() {
             className="relative origin-left"
             aria-label={t('wordmark')}>
             {/* Base layer — faint gray */}
-            <p className="select-none font-serif text-[15vw] leading-[0.85] font-semibold tracking-[-0.04em] text-foreground/15 md:text-[10vw]">
+            <p className="select-none font-serif text-[15vw] my-20 leading-[0.85] font-semibold tracking-[-0.04em] text-foreground/15 md:text-[10vw]">
               {t('wordmarkPrimary')}
               <span className="text-foreground/10">
                 {' '}

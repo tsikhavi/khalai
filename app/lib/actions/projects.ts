@@ -13,7 +13,7 @@ export async function submitProject(answers: ProjectAnswers) {
 
   const website = answers.website ? normalizeUrl(answers.website) : null;
 
-  await apiFetch('/projects', {
+  await apiFetch('/api/projects', {
     method: 'POST',
     json: {
       techLevel: answers.techLevel,

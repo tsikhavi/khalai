@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import {getTranslations, getLocale} from 'next-intl/server';
-import { buildServices } from '@/lib/marketing-services';
+import {buildServices} from '@/lib/marketing-services';
 
 type FundingTier = {
   name: string;
@@ -120,15 +120,15 @@ export default async function MarketingPage() {
 
         <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
-          <ServiceCard
-            key={service.slug}
-            service={service}
-            locale={locale}
-            timeLabel={t('services.timeLabel')}
-            breakdownLabel={t('services.breakdownLabel')}
-            viewLabel={t('services.view')}
-          />
-        ))}
+            <ServiceCard
+              key={service.slug}
+              service={service}
+              locale={locale}
+              timeLabel={t('services.timeLabel')}
+              breakdownLabel={t('services.breakdownLabel')}
+              viewLabel={t('services.view')}
+            />
+          ))}
         </div>
       </section>
 

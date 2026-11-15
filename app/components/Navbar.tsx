@@ -1,18 +1,18 @@
 'use client';
 
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, {useState, useEffect, useRef, useCallback} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { usePathname, useRouter } from 'next/navigation';
-import { useLocale, useTranslations } from 'next-intl';
+import {usePathname, useRouter} from 'next/navigation';
+import {useLocale, useTranslations} from 'next-intl';
 import clsx from 'clsx';
-import { motion, AnimatePresence, type Variants } from 'framer-motion';
+import {motion, AnimatePresence, type Variants} from 'framer-motion';
 import ThemeChanger from './ui/ThemeChanger';
-import { useAuth } from '@/providers/AuthProvider';
-import { UserMenu } from '@/components/dashboard/user-menu';
-import { locales, localeNames, type Locale } from '../../i18n/config';
-import { persistLocale } from '@/lib/cookies';
-import { SplashOverlay } from './splash-gate';
+import {useAuth} from '@/providers/AuthProvider';
+import {UserMenu} from '@/components/dashboard/user-menu';
+import {locales, localeNames, type Locale} from '../../i18n/config';
+import {persistLocale} from '@/lib/cookies';
+import {SplashOverlay} from './splash-gate';
 
 /* ---------------------------------- Types --------------------------------- */
 type NavKey = 'home' | 'about' | 'blog' | 'projects' | 'contact' | 'market';
@@ -25,13 +25,7 @@ type ExperienceSlug =
   | 'photography'
   | 'kitchen';
 type MarketingSlug =
-  | 'seo'
-  | 'smm'
-  | 'aieo'
-  | 'scraping'
-  | 'localisation'
-  | 'ads'
-  | 'leads';
+  'seo' | 'smm' | 'aieo' | 'scraping' | 'localisation' | 'ads' | 'leads';
 type UtilityKey =
   | 'contact'
   | 'pricing'
@@ -42,13 +36,13 @@ type UtilityKey =
   | 'privacy';
 
 /* ---------------------------------- Data ---------------------------------- */
-const navItems: { key: NavKey; path: string }[] = [
-  { key: 'home', path: '/' },
-  { key: 'about', path: '/about' },
-  { key: 'blog', path: '/blog' },
-  { key: 'projects', path: '/projects' },
-  { key: 'contact', path: '/contact' },
-  { key: 'market', path: '/marketing' },
+const navItems: {key: NavKey; path: string}[] = [
+  {key: 'home', path: '/'},
+  {key: 'about', path: '/about'},
+  {key: 'blog', path: '/blog'},
+  {key: 'projects', path: '/projects'},
+  {key: 'contact', path: '/contact'},
+  {key: 'market', path: '/marketing'},
 ];
 
 const experiences: {
@@ -101,63 +95,63 @@ const experiences: {
   },
 ];
 
-const marketingItems: { slug: MarketingSlug; path: string }[] = [
-  { slug: 'seo', path: '/marketing/seo' },
-  { slug: 'smm', path: '/marketing/smm' },
-  { slug: 'aieo', path: '/marketing/aieo' },
-  { slug: 'scraping', path: '/marketing/scraping' },
-  { slug: 'localisation', path: '/marketing/localisation' },
-  { slug: 'ads', path: '/marketing/ads' },
-  { slug: 'leads', path: '/marketing/leads' },
+const marketingItems: {slug: MarketingSlug; path: string}[] = [
+  {slug: 'seo', path: '/marketing/seo'},
+  {slug: 'smm', path: '/marketing/smm'},
+  {slug: 'aieo', path: '/marketing/aieo'},
+  {slug: 'scraping', path: '/marketing/scraping'},
+  {slug: 'localisation', path: '/marketing/localisation'},
+  {slug: 'ads', path: '/marketing/ads'},
+  {slug: 'leads', path: '/marketing/leads'},
 ];
 
-const utilityItems: { key: UtilityKey; path: string }[] = [
-  { key: 'contact', path: '/contact' },
-  { key: 'pricing', path: '/pricing' },
-  { key: 'start', path: '/start' },
-  { key: 'support', path: '/support' },
-  { key: 'payments', path: '/payments' },
-  { key: 'terms', path: '/terms' },
-  { key: 'privacy', path: '/privacy' },
+const utilityItems: {key: UtilityKey; path: string}[] = [
+  {key: 'contact', path: '/contact'},
+  {key: 'pricing', path: '/pricing'},
+  {key: 'start', path: '/start'},
+  {key: 'support', path: '/support'},
+  {key: 'payments', path: '/payments'},
+  {key: 'terms', path: '/terms'},
+  {key: 'privacy', path: '/privacy'},
 ];
 
 /* ------------------------------ Animation variants ------------------------ */
 const dropdownVariants: Variants = {
-  hidden: { opacity: 0, y: -8, scale: 0.96 },
+  hidden: {opacity: 0, y: -8, scale: 0.96},
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { duration: 0.2, ease: 'easeOut' },
+    transition: {duration: 0.2, ease: 'easeOut'},
   },
-  exit: { opacity: 0, y: -8, scale: 0.96, transition: { duration: 0.15 } },
+  exit: {opacity: 0, y: -8, scale: 0.96, transition: {duration: 0.15}},
 };
 
 const mobileMenuVariants: Variants = {
-  hidden: { opacity: 0, height: 0 },
+  hidden: {opacity: 0, height: 0},
   visible: {
     opacity: 1,
     height: 'auto',
-    transition: { duration: 0.3, ease: 'easeInOut' },
+    transition: {duration: 0.3, ease: 'easeInOut'},
   },
   exit: {
     opacity: 0,
     height: 0,
-    transition: { duration: 0.25, ease: 'easeInOut' },
+    transition: {duration: 0.25, ease: 'easeInOut'},
   },
 };
 
 const mobileItemVariants: Variants = {
-  hidden: { opacity: 0, x: -12 },
+  hidden: {opacity: 0, x: -12},
   visible: (i: number) => ({
     opacity: 1,
     x: 0,
-    transition: { delay: i * 0.05, duration: 0.25 },
+    transition: {delay: i * 0.05, duration: 0.25},
   }),
 };
 
 const megaMenuVariants: Variants = {
-  hidden: { opacity: 0, y: -16 },
+  hidden: {opacity: 0, y: -16},
   visible: {
     opacity: 1,
     y: 0,
@@ -168,24 +162,24 @@ const megaMenuVariants: Variants = {
       delayChildren: 0.05,
     },
   },
-  exit: { opacity: 0, y: -16, transition: { duration: 0.2 } },
+  exit: {opacity: 0, y: -16, transition: {duration: 0.2}},
 };
 
 const megaColumnVariants: Variants = {
-  hidden: { opacity: 0, y: 12 },
+  hidden: {opacity: 0, y: 12},
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] },
+    transition: {duration: 0.5, ease: [0.22, 1, 0.36, 1]},
   },
 };
 
 const megaLinkVariants: Variants = {
-  hidden: { opacity: 0, x: -8 },
+  hidden: {opacity: 0, x: -8},
   visible: {
     opacity: 1,
     x: 0,
-    transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] },
+    transition: {duration: 0.4, ease: [0.22, 1, 0.36, 1]},
   },
 };
 
@@ -214,7 +208,7 @@ const Navbar: React.FC = () => {
   const locale = useLocale() as Locale;
   const router = useRouter();
   const pathname = usePathname();
-  const { user, isLoading } = useAuth();
+  const {user, isLoading} = useAuth();
 
   const [isOpen, setIsOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
@@ -240,7 +234,7 @@ const Navbar: React.FC = () => {
       setScrolled((prev) => (prev === next ? prev : next));
     };
     requestAnimationFrame(onScroll);
-    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('scroll', onScroll, {passive: true});
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
@@ -332,23 +326,22 @@ const Navbar: React.FC = () => {
           scrolled
             ? 'bg-background/90 border-laurel-400 dark:border-laurel-900 shadow-sm'
             : 'bg-transparent border-laurel-400 dark:border-neutral-800'
-        )}
-      >
+        )}>
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 relative">
             {/* ------------------------------ Logo ------------------------------ */}
             <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.4 }}
-              className="flex items-center"
-            >
-              <Link href={`/${locale}`} className="group">
+              initial={{opacity: 0, x: -20}}
+              animate={{opacity: 1, x: 0}}
+              transition={{duration: 0.4}}
+              className="flex items-center">
+              <Link
+                href={`/${locale}`}
+                className="group">
                 <span className="font-sans font-extrabold tracking-wide text-base inline-flex items-center">
                   <motion.span
-                    whileHover={{ rotate: 15, scale: 1.1 }}
-                    transition={{ type: 'spring', stiffness: 300 }}
-                  >
+                    whileHover={{rotate: 15, scale: 1.1}}
+                    transition={{type: 'spring', stiffness: 300}}>
                     <Image
                       src="/images/logo-r.png"
                       alt={t('brand')}
@@ -372,10 +365,9 @@ const Navbar: React.FC = () => {
                   return (
                     <motion.div
                       key={item.key}
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.05 * i, duration: 0.3 }}
-                    >
+                      initial={{opacity: 0, y: -10}}
+                      animate={{opacity: 1, y: 0}}
+                      transition={{delay: 0.05 * i, duration: 0.3}}>
                       <Link
                         href={`/${locale}${item.path === '/' ? '' : item.path}`}
                         className={clsx(
@@ -384,8 +376,7 @@ const Navbar: React.FC = () => {
                             'underline underline-offset-4 text-laurel-700 dark:text-laurel-300':
                               isActive,
                           }
-                        )}
-                      >
+                        )}>
                         {t(item.key)}
                       </Link>
                     </motion.div>
@@ -397,16 +388,17 @@ const Navbar: React.FC = () => {
             {/* ------------------------- Right-side actions --------------------- */}
             <div className="flex items-center space-x-1">
               {/* ------------------------ Language switcher ------------------------ */}
-              <div className="relative" ref={langRef}>
+              <div
+                className="relative"
+                ref={langRef}>
                 <motion.button
                   type="button"
                   onClick={toggleLang}
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
+                  whileHover={{scale: 1.05}}
+                  whileTap={{scale: 0.95}}
                   className="inline-flex items-center gap-1 rounded-md px-2 py-1.5 text-sm font-medium text-foreground hover:bg-laurel-100 dark:hover:bg-laurel-900/30 transition-colors duration-200"
                   aria-label={t('language')}
-                  aria-expanded={langOpen}
-                >
+                  aria-expanded={langOpen}>
                   <span className="text-base leading-none">
                     {localeNames[locale].flag}
                   </span>
@@ -414,15 +406,14 @@ const Navbar: React.FC = () => {
                     {locale.toUpperCase()}
                   </span>
                   <motion.svg
-                    animate={{ rotate: langOpen ? 180 : 0 }}
-                    transition={{ duration: 0.2 }}
+                    animate={{rotate: langOpen ? 180 : 0}}
+                    transition={{duration: 0.2}}
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={2}
                     stroke="currentColor"
-                    className="w-3.5 h-3.5"
-                  >
+                    className="w-3.5 h-3.5">
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -439,10 +430,9 @@ const Navbar: React.FC = () => {
                       animate="visible"
                       exit="exit"
                       className="absolute right-0 mt-2 w-44 origin-top-right rounded-xl border border-laurel-200 dark:border-neutral-700 bg-background shadow-lg overflow-hidden z-50"
-                      role="menu"
-                    >
+                      role="menu">
                       {locales.map((code) => {
-                        const { label, flag } = localeNames[code];
+                        const {label, flag} = localeNames[code];
                         const active = code === locale;
                         return (
                           <li key={code}>
@@ -454,15 +444,13 @@ const Navbar: React.FC = () => {
                                   ? 'bg-laurel-100 dark:bg-laurel-900/40 text-laurel-800 dark:text-laurel-200 font-semibold'
                                   : 'text-foreground/80 hover:bg-laurel-50 dark:hover:bg-neutral-700'
                               )}
-                              role="menuitem"
-                            >
+                              role="menuitem">
                               <span className="text-base">{flag}</span>
                               <span>{label}</span>
                               {active && (
                                 <motion.span
                                   layoutId="lang-check"
-                                  className="ml-auto text-laurel-700 dark:text-laurel-300"
-                                >
+                                  className="ml-auto text-laurel-700 dark:text-laurel-300">
                                   ✓
                                 </motion.span>
                               )}
@@ -484,14 +472,12 @@ const Navbar: React.FC = () => {
                     <div className="hidden items-center space-x-4 px-2 md:flex">
                       <Link
                         href={`/${locale}/login`}
-                        className="text-laurel-700 hover:text-laurel-900 dark:text-laurel-300 dark:hover:text-laurel-100"
-                      >
+                        className="text-laurel-700 hover:text-laurel-900 dark:text-laurel-300 dark:hover:text-laurel-100">
                         {t('signIn')}
                       </Link>
                       <Link
                         href={`/${locale}/register`}
-                        className="text-laurel-700 hover:text-laurel-900 dark:text-laurel-300 dark:hover:text-laurel-100"
-                      >
+                        className="text-laurel-700 hover:text-laurel-900 dark:text-laurel-300 dark:hover:text-laurel-100">
                         {t('register')}
                       </Link>
                     </div>
@@ -501,9 +487,8 @@ const Navbar: React.FC = () => {
 
               {/* --------------------------- Theme toggle -------------------------- */}
               <motion.div
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
+                whileHover={{scale: 1.05}}
+                whileTap={{scale: 0.95}}>
                 <ThemeChanger />
               </motion.div>
 
@@ -511,21 +496,19 @@ const Navbar: React.FC = () => {
               <div className="inline-block md:hidden">
                 <motion.button
                   onClick={toggleMenu}
-                  whileTap={{ scale: 0.9 }}
+                  whileTap={{scale: 0.9}}
                   className="text-foreground/80 hover:text-foreground p-2 rounded-md transition-colors"
                   aria-label={isOpen ? t('mobile.close') : t('mobile.open')}
-                  aria-expanded={isOpen}
-                >
+                  aria-expanded={isOpen}>
                   <motion.svg
-                    animate={{ rotate: isOpen ? 90 : 0 }}
-                    transition={{ duration: 0.2 }}
+                    animate={{rotate: isOpen ? 90 : 0}}
+                    transition={{duration: 0.2}}
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="w-6 h-6"
-                  >
+                    className="w-6 h-6">
                     {isOpen ? (
                       <path
                         strokeLinecap="round"
@@ -550,21 +533,19 @@ const Navbar: React.FC = () => {
             <motion.button
               type="button"
               onClick={toggleMega}
-              whileHover={{ y: 1 }}
-              whileTap={{ scale: 0.96 }}
+              whileHover={{y: 1}}
+              whileTap={{scale: 0.96}}
               aria-label={megaOpen ? t('mega.closeAria') : t('mega.openAria')}
               aria-expanded={megaOpen}
-              className="pointer-events-auto group relative flex h-6 items-center gap-1.5 rounded-full border border-foreground/10 bg-background/95 px-3 text-[10px] font-medium uppercase tracking-[0.15em] text-foreground/60 shadow-md backdrop-blur-md transition-colors hover:text-foreground dark:border-white/10"
-            >
+              className="pointer-events-auto group relative flex h-6 items-center gap-1.5 rounded-full border border-foreground/10 bg-background/95 px-3 text-[10px] font-medium uppercase tracking-[0.15em] text-foreground/60 shadow-md backdrop-blur-md transition-colors hover:text-foreground dark:border-white/10">
               <motion.svg
-                animate={{ rotate: megaOpen ? 180 : 0 }}
-                transition={{ duration: 0.2 }}
+                animate={{rotate: megaOpen ? 180 : 0}}
+                transition={{duration: 0.2}}
                 viewBox="0 0 24 24"
                 className="h-3 w-3"
                 fill="none"
                 stroke="currentColor"
-                strokeWidth="2"
-              >
+                strokeWidth="2">
                 <path
                   d="M6 9l6 6 6-6"
                   strokeLinecap="round"
@@ -587,14 +568,12 @@ const Navbar: React.FC = () => {
                 initial="hidden"
                 animate="visible"
                 exit="exit"
-                className="overflow-hidden md:hidden"
-              >
+                className="overflow-hidden md:hidden">
                 <div
                   className={clsx(
                     'px-2 pt-2 pb-4 space-y-1 backdrop-blur-md rounded-b-md',
                     scrolled ? 'bg-background/90' : 'bg-background/80'
-                  )}
-                >
+                  )}>
                   {navItems.map((item, i) => {
                     const isActive = pathWithoutLocale === item.path;
                     return (
@@ -603,8 +582,7 @@ const Navbar: React.FC = () => {
                         custom={i}
                         variants={mobileItemVariants}
                         initial="hidden"
-                        animate="visible"
-                      >
+                        animate="visible">
                         <Link
                           href={`/${locale}${item.path === '/' ? '' : item.path}`}
                           onClick={toggleMenu}
@@ -615,8 +593,7 @@ const Navbar: React.FC = () => {
                               'underline underline-offset-4 text-laurel-700 dark:text-laurel-300':
                                 isActive,
                             }
-                          )}
-                        >
+                          )}>
                           {t(item.key)}
                         </Link>
                       </motion.div>
@@ -624,9 +601,9 @@ const Navbar: React.FC = () => {
                   })}
 
                   <motion.div
-                    initial={{ opacity: 0, y: 8 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.25 }}
+                    initial={{opacity: 0, y: 8}}
+                    animate={{opacity: 1, y: 0}}
+                    transition={{delay: 0.25}}
                     className="flex flex-col space-y-2 pt-2"
                   />
                 </div>
@@ -643,15 +620,14 @@ const Navbar: React.FC = () => {
         {megaOpen && (
           <motion.div
             key="mega"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            exit={{opacity: 0}}
+            transition={{duration: 0.2}}
             className="fixed inset-0 z-40 bg-background/95 backdrop-blur-xl"
             onClick={(e) => {
               if (e.target === e.currentTarget) setMegaOpen(false);
-            }}
-          >
+            }}>
             <motion.div
               ref={megaRef}
               variants={megaMenuVariants}
@@ -659,15 +635,16 @@ const Navbar: React.FC = () => {
               animate="visible"
               exit="exit"
               className="mx-auto flex h-full max-w-7xl flex-col px-6 pb-10 pt-24 md:px-12"
-              onClick={(e) => e.stopPropagation()}
-            >
+              onClick={(e) => e.stopPropagation()}>
               <div className="grid flex-1 gap-10 overflow-y-auto md:grid-cols-4 md:gap-12">
                 {/* Column 1 — Navigate */}
                 <motion.div
                   variants={megaColumnVariants}
-                  className="flex flex-col"
-                >
-                  <ColumnHeading label={t('mega.navigate')} index="01" />
+                  className="flex flex-col">
+                  <ColumnHeading
+                    label={t('mega.navigate')}
+                    index="01"
+                  />
 
                   <div className="flex flex-col gap-2">
                     {navItems.map((item) => (
@@ -692,9 +669,11 @@ const Navbar: React.FC = () => {
                 {/* Column 2 — Experiences */}
                 <motion.div
                   variants={megaColumnVariants}
-                  className="flex flex-col"
-                >
-                  <ColumnHeading label={t('mega.experiences')} index="02" />
+                  className="flex flex-col">
+                  <ColumnHeading
+                    label={t('mega.experiences')}
+                    index="02"
+                  />
                   <div className="flex flex-col gap-2">
                     {experiences.map((exp) => (
                       <MegaLink
@@ -713,9 +692,11 @@ const Navbar: React.FC = () => {
                 {/* Column 3 — Marketing */}
                 <motion.div
                   variants={megaColumnVariants}
-                  className="flex flex-col"
-                >
-                  <ColumnHeading label={t('mega.marketing')} index="03" />
+                  className="flex flex-col">
+                  <ColumnHeading
+                    label={t('mega.marketing')}
+                    index="03"
+                  />
                   <div className="flex flex-col gap-2">
                     {marketingItems.map((item) => (
                       <MegaLink
@@ -730,8 +711,7 @@ const Navbar: React.FC = () => {
                   <Link
                     href={`/${locale}/marketing`}
                     onClick={() => setMegaOpen(false)}
-                    className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-laurel-700 hover:underline dark:text-laurel-300"
-                  >
+                    className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-laurel-700 hover:underline dark:text-laurel-300">
                     {t('mega.allMarketing')} →
                   </Link>
                 </motion.div>
@@ -739,9 +719,11 @@ const Navbar: React.FC = () => {
                 {/* Column 4 — Studio */}
                 <motion.div
                   variants={megaColumnVariants}
-                  className="flex flex-col"
-                >
-                  <ColumnHeading label={t('mega.studio')} index="04" />
+                  className="flex flex-col">
+                  <ColumnHeading
+                    label={t('mega.studio')}
+                    index="04"
+                  />
                   <div className="flex flex-col gap-2">
                     {utilityItems.map((item) => (
                       <MegaLink
@@ -758,42 +740,39 @@ const Navbar: React.FC = () => {
 
               {/* ── Bottom KHALAI STUDIO wordmark ────────────────── */}
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
+                initial={{opacity: 0, y: 20}}
+                animate={{opacity: 1, y: 0}}
                 transition={{
                   delay: 0.4,
                   duration: 0.7,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                className="mt-8 flex flex-wrap items-end justify-between gap-4 border-t border-foreground/10 pt-6"
-              >
+                className="mt-8 flex flex-wrap items-end justify-between gap-4 border-t border-foreground/10 pt-6">
                 <div className="flex items-baseline gap-3">
                   <motion.span
-                    initial={{ opacity: 0, x: -8 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.5, duration: 0.6 }}
-                    className="font-serif text-[10px] uppercase tracking-[0.3em] text-foreground/40"
-                  >
+                    initial={{opacity: 0, x: -8}}
+                    animate={{opacity: 1, x: 0}}
+                    transition={{delay: 0.5, duration: 0.6}}
+                    className="font-serif text-[10px] uppercase tracking-[0.3em] text-foreground/40">
                     {t('mega.studioTagline')}
                   </motion.span>
                   <motion.span
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.6, duration: 0.6 }}
+                    initial={{opacity: 0}}
+                    animate={{opacity: 1}}
+                    transition={{delay: 0.6, duration: 0.6}}
                     className="h-px w-8 bg-foreground/20"
                   />
                 </div>
 
                 <motion.p
-                  initial={{ opacity: 0, y: 8 }}
-                  animate={{ opacity: 1, y: 0 }}
+                  initial={{opacity: 0, y: 8}}
+                  animate={{opacity: 1, y: 0}}
                   transition={{
                     delay: 0.5,
                     duration: 0.8,
                     ease: [0.22, 1, 0.36, 1],
                   }}
-                  className="font-serif text-3xl font-semibold tracking-tight md:text-4xl"
-                >
+                  className="font-serif text-3xl font-semibold tracking-tight md:text-4xl">
                   {t('mega.studioMarkPrimary')}
                   <span className="text-foreground/40">
                     {' '}
@@ -805,24 +784,21 @@ const Navbar: React.FC = () => {
                   <Link
                     href={`/${locale}/privacy`}
                     onClick={() => setMegaOpen(false)}
-                    className="group relative text-foreground/50 transition-colors hover:text-foreground"
-                  >
+                    className="group relative text-foreground/50 transition-colors hover:text-foreground">
                     {t('utility.privacy')}
                     <span className="absolute inset-x-0 -bottom-0.5 h-px origin-left scale-x-0 bg-foreground/40 transition-transform duration-300 group-hover:scale-x-100" />
                   </Link>
                   <Link
                     href={`/${locale}/terms`}
                     onClick={() => setMegaOpen(false)}
-                    className="group relative text-foreground/50 transition-colors hover:text-foreground"
-                  >
+                    className="group relative text-foreground/50 transition-colors hover:text-foreground">
                     {t('utility.terms')}
                     <span className="absolute inset-x-0 -bottom-0.5 h-px origin-left scale-x-0 bg-foreground/40 transition-transform duration-300 group-hover:scale-x-100" />
                   </Link>
                   <Link
                     href={`/${locale}/contact`}
                     onClick={() => setMegaOpen(false)}
-                    className="group relative text-foreground/50 transition-colors hover:text-foreground"
-                  >
+                    className="group relative text-foreground/50 transition-colors hover:text-foreground">
                     {t('utility.contact')}
                     <span className="absolute inset-x-0 -bottom-0.5 h-px origin-left scale-x-0 bg-foreground/40 transition-transform duration-300 group-hover:scale-x-100" />
                   </Link>
@@ -834,12 +810,11 @@ const Navbar: React.FC = () => {
                 {hoveredPreview && (
                   <motion.div
                     key={hoveredPreview}
-                    initial={{ opacity: 0, scale: 0.94, y: 12 }}
-                    animate={{ opacity: 1, scale: 1, y: 0 }}
-                    exit={{ opacity: 0, scale: 0.94, y: 12 }}
-                    transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-                    className="pointer-events-none fixed bottom-24 right-8 hidden h-72 w-96 overflow-hidden rounded-2xl border border-foreground/10 shadow-2xl md:block"
-                  >
+                    initial={{opacity: 0, scale: 0.94, y: 12}}
+                    animate={{opacity: 1, scale: 1, y: 0}}
+                    exit={{opacity: 0, scale: 0.94, y: 12}}
+                    transition={{duration: 0.25, ease: [0.22, 1, 0.36, 1]}}
+                    className="pointer-events-none fixed bottom-24 right-8 hidden h-72 w-96 overflow-hidden rounded-2xl border border-foreground/10 shadow-2xl md:block">
                     <Image
                       src={hoveredPreview}
                       alt=""
@@ -866,7 +841,7 @@ const Navbar: React.FC = () => {
 
 /* ── Column heading — number + label, geometric ─────── */
 
-function ColumnHeading({ label, index }: { label: string; index: string }) {
+function ColumnHeading({label, index}: {label: string; index: string}) {
   return (
     <div className="mb-4 flex items-baseline gap-3">
       <span className="font-serif text-[10px] tabular-nums tracking-[0.2em] text-foreground/30">
@@ -904,12 +879,11 @@ function MegaLink({
         onClick={onNavigate}
         onMouseEnter={onHover}
         onFocus={onHover}
-        className="group relative flex items-center gap-3 rounded-lg py-1.5 pr-3 transition-colors"
-      >
+        className="group relative flex items-center gap-3 rounded-lg py-1.5 pr-3 transition-colors">
         {accent ? (
           <span
             className="h-1.5 w-1.5 shrink-0 rounded-full transition-transform duration-300 group-hover:scale-150"
-            style={{ backgroundColor: accent }}
+            style={{backgroundColor: accent}}
           />
         ) : (
           <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/20 transition-all duration-300 group-hover:scale-150 group-hover:bg-foreground/60" />
@@ -925,15 +899,14 @@ function MegaLink({
             className="ml-auto h-4 w-4 shrink-0 text-foreground/20 transition-all duration-300 group-hover:translate-x-1 group-hover:text-foreground"
             fill="none"
             stroke="currentColor"
-            strokeWidth="1.8"
-          >
+            strokeWidth="1.8">
             <motion.path
               d="M5 12h14M13 6l6 6-6 6"
               strokeLinecap="round"
               strokeLinejoin="round"
-              initial={{ pathLength: 0.6 }}
-              whileHover={{ pathLength: 1 }}
-              transition={{ duration: 0.4, ease: 'easeOut' }}
+              initial={{pathLength: 0.6}}
+              whileHover={{pathLength: 1}}
+              transition={{duration: 0.4, ease: 'easeOut'}}
             />
           </svg>
         )}

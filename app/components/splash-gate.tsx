@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import {useEffect, useState} from 'react';
 import Loading from '@/[locale]/loading';
 
 /**
@@ -19,7 +19,7 @@ export function SplashOverlay() {
   );
 }
 
-export function SplashGate({ children }: { children: React.ReactNode }) {
+export function SplashGate({children}: {children: React.ReactNode}) {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {

@@ -48,7 +48,7 @@ export function Footer() {
       whileInView={{opacity: 1}}
       viewport={{once: true, margin: '-50px'}}
       transition={{duration: 0.6, ease: [0.22, 1, 0.36, 1]}}
-      className="border-t border-neutral-200 dark:border-neutral-800">
+      className="border-t rounded-t-4xl border-neutral-200 dark:border-neutral-800">
       <div className="mx-auto max-w-5xl px-6 py-12">
         <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
           <div>

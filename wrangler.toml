@@ -1,4 +1,4 @@
-name = "khalai studio"
+name = "khalai-studio"
 main = ".open-next/worker.js"
 compatibility_date = "2026-11-01"
 compatibility_flags = ["nodejs_compat"]

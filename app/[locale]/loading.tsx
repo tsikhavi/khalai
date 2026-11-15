@@ -9,7 +9,7 @@ export default function Loading() {
   // Simulated progress: quick to 70%, then decelerates
   useEffect(() => {
     const start = Date.now();
-    const duration = 2400; // ms — expected max load time
+    const duration = 5400; // ms — expected max load time
 
     const id = setInterval(() => {
       const elapsed = Date.now() - start;
@@ -33,6 +33,8 @@ export default function Loading() {
         aria-hidden
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,var(--color-laurel-500)/0.06,transparent_60%)]"
       />
+
+      
 
       {/* Wordmark — draws in from left to right */}
       <div className="relative">

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import {motion} from 'motion/react';
 import {useLocale, useTranslations} from 'next-intl';
 import {useRef} from 'react';
-import { buildServices } from '@/lib/marketing-services';
+import {buildServices} from '@/lib/marketing-services';
 
 export function MarketingSection() {
   const t = useTranslations('Marketing');
@@ -50,7 +50,7 @@ export function MarketingSection() {
             className="shrink-0 pl-6 md:pl-16"
             aria-hidden
           />
-  {services.map((service) => (
+          {services.map((service) => (
             <motion.div
               key={service.slug}
               initial={{opacity: 0, y: 20}}

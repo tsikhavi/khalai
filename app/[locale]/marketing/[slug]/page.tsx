@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import {notFound} from 'next/navigation';
 import {getTranslations, getLocale} from 'next-intl/server';
-import { getServiceFromT, SERVICE_SLUGS } from '@/lib/marketing-services';
+import {getServiceFromT, SERVICE_SLUGS} from '@/lib/marketing-services';
 import OpportunityScanner from './opportunity-scanner';
 import LeadsPreview from './leads-preview';
 
 export async function generateStaticParams() {
-  return SERVICE_SLUGS.map((slug) => ({ slug }));
+  return SERVICE_SLUGS.map((slug) => ({slug}));
 }
 
 export default async function ServiceDetailPage({
@@ -14,13 +14,13 @@ export default async function ServiceDetailPage({
 }: {
   params: Promise<{slug: string}>;
 }) {
-    const { slug } = await params;
+  const {slug} = await params;
 
-const t = await getTranslations('Marketing.serviceDetail');
+  const t = await getTranslations('Marketing.serviceDetail');
   const tService = await getTranslations('Marketing');
 
-const service = getServiceFromT(tService, slug);
-if (!service) notFound();
+  const service = getServiceFromT(tService, slug);
+  if (!service) notFound();
 
   const locale = await getLocale();
 

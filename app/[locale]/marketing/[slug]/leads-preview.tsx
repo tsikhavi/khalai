@@ -1,9 +1,9 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import {useTranslations} from 'next-intl';
 
-type DailyPoint = { day: string; count: number };
-type CategoryPoint = { key: string; count: number };
+type DailyPoint = {day: string; count: number};
+type CategoryPoint = {key: string; count: number};
 
 type SampleRow = {
   name: string;
@@ -41,8 +41,8 @@ export default function LeadsPreview() {
       {/* Stat strip */}
       <div className="grid gap-4 sm:grid-cols-4">
         {[
-          { label: t('stats.total'), value: String(total) },
-          { label: t('stats.open'), value: String(openCount) },
+          {label: t('stats.total'), value: String(total)},
+          {label: t('stats.open'), value: String(openCount)},
           {
             label: t('stats.topService'),
             value: t(`sample.services.${topService}`),
@@ -54,8 +54,7 @@ export default function LeadsPreview() {
         ].map((s) => (
           <div
             key={s.label}
-            className="rounded-xl border border-foreground/10 p-4"
-          >
+            className="rounded-xl border border-foreground/10 p-4">
             <p className="text-[10px] uppercase tracking-wider text-foreground/50">
               {s.label}
             </p>
@@ -77,7 +76,9 @@ export default function LeadsPreview() {
             labelFn={(key) => t(`sample.services.${key}`)}
           />
         </ChartCard>
-        <ChartCard title={t('charts.bySource')} className="lg:col-span-2">
+        <ChartCard
+          title={t('charts.bySource')}
+          className="lg:col-span-2">
           <HorizontalBars
             data={bySource}
             labelFn={(key) => t(`sample.sources.${key}`)}
@@ -100,7 +101,9 @@ export default function LeadsPreview() {
           </thead>
           <tbody>
             {rows.map((r) => (
-              <tr key={r.email} className="border-t border-foreground/5">
+              <tr
+                key={r.email}
+                className="border-t border-foreground/5">
                 <td className="px-4 py-3 text-xs text-foreground/50">
                   {new Date(r.when).toLocaleDateString(undefined, {
                     month: 'short',
@@ -126,8 +129,7 @@ export default function LeadsPreview() {
                       r.status === 'open'
                         ? 'border-blue-200 bg-blue-50 text-blue-700 dark:border-blue-500/30 dark:bg-blue-500/10 dark:text-blue-400'
                         : 'border-green-200 bg-green-50 text-green-700 dark:border-green-500/30 dark:bg-green-500/10 dark:text-green-400'
-                    }`}
-                  >
+                    }`}>
                     {t(`statuses.${r.status}`)}
                   </span>
                 </td>
@@ -157,8 +159,7 @@ function ChartCard({
 }) {
   return (
     <section
-      className={`rounded-xl border border-foreground/10 p-5 ${className ?? ''}`}
-    >
+      className={`rounded-xl border border-foreground/10 p-5 ${className ?? ''}`}>
       <h3 className="text-[10px] font-semibold uppercase tracking-wider text-foreground/50">
         {title}
       </h3>
@@ -167,15 +168,17 @@ function ChartCard({
   );
 }
 
-function DailyBars({ data }: { data: DailyPoint[] }) {
+function DailyBars({data}: {data: DailyPoint[]}) {
   const max = Math.max(...data.map((d) => d.count), 1);
   return (
     <div className="flex h-32 items-end gap-1">
       {data.map((d) => (
-        <div key={d.day} className="flex flex-1 flex-col items-center gap-1">
+        <div
+          key={d.day}
+          className="flex flex-1 flex-col items-center gap-1">
           <div
             className="w-full rounded-t bg-laurel-500/80"
-            style={{ height: `${(d.count / max) * 100}%`, minHeight: 2 }}
+            style={{height: `${(d.count / max) * 100}%`, minHeight: 2}}
           />
           <span className="text-[8px] text-foreground/40">
             {new Date(d.day).toLocaleDateString(undefined, {
@@ -211,7 +214,7 @@ function HorizontalBars({
           <div className="mt-1 h-1 overflow-hidden rounded-full bg-foreground/10">
             <div
               className="h-full rounded-full bg-laurel-500"
-              style={{ width: `${(d.count / max) * 100}%` }}
+              style={{width: `${(d.count / max) * 100}%`}}
             />
           </div>
         </li>
